@@ -12,10 +12,10 @@ Coleoptera (AloeVera),Lamiales (AloeVera),2
 Coleoptera (AloeVera),Malvales (AloeVera),158
 Coleoptera (Anafi),Asterales (Anafi),1
 Coleoptera (Aznalcazar),Malvales (Aznalcazar),2
-Coleoptera (BÃ­lÃ¡ Hora),Fabales (BÃ­lÃ¡ Hora),2
-Coleoptera (BÃ­lÃ¡ Hora),Ranunculales (BÃ­lÃ¡ Hora),14
-Coleoptera (BÄstvina),Asterales (BÄstvina),23
-Coleoptera (BÄstvina),Dipsacales (BÄstvina),3
+Coleoptera (Bílá Hora),Fabales (Bílá Hora),2
+Coleoptera (Bílá Hora),Ranunculales (Bílá Hora),14
+Coleoptera (Běstvina),Asterales (Běstvina),23
+Coleoptera (Běstvina),Dipsacales (Běstvina),3
 Coleoptera (CanRefila),Asparagales (CanRefila),38
 Coleoptera (CanRefila),Asterales (CanRefila),1
 Coleoptera (CanRefila),Malvales (CanRefila),243
@@ -47,7 +47,7 @@ Coleoptera (Chios),Lamiales (Chios),524
 Coleoptera (Chios),Malpighiales (Chios),9
 Coleoptera (Chios),Malvales (Chios),596
 Coleoptera (Chios),Saxifragales (Chios),17
-Coleoptera (CikÃ¡nka),Saxifragales (CikÃ¡nka),1
+Coleoptera (Cikánka),Saxifragales (Cikánka),1
 Coleoptera (Coimbra),Cornales (Coimbra),8
 Coleoptera (Coimbra),Dipsacales (Coimbra),2
 Coleoptera (Coimbra),Ericales (Coimbra),3
@@ -55,12 +55,12 @@ Coleoptera (Coimbra),Fabales (Coimbra),3
 Coleoptera (Coimbra),Myrtales (Coimbra),3
 Coleoptera (Coimbra),Rosales (Coimbra),48
 Coleoptera (Convento_de_la_luz),Malvales (Convento_de_la_luz),9
-Coleoptera (CÃ´te d'or),Apiales (CÃ´te d'or),1
-Coleoptera (CÃ´te d'or),Brassicales (CÃ´te d'or),3
-Coleoptera (CÃ´te d'or),Dipsacales (CÃ´te d'or),1
-Coleoptera (CÃ´te d'or),Fabales (CÃ´te d'or),1
-Coleoptera (CÃ´te d'or),Ranunculales (CÃ´te d'or),22
-Coleoptera (CÃ´te d'or),Rosales (CÃ´te d'or),4
+Coleoptera (Côte d'or),Apiales (Côte d'or),1
+Coleoptera (Côte d'or),Brassicales (Côte d'or),3
+Coleoptera (Côte d'or),Dipsacales (Côte d'or),1
+Coleoptera (Côte d'or),Fabales (Côte d'or),1
+Coleoptera (Côte d'or),Ranunculales (Côte d'or),22
+Coleoptera (Côte d'or),Rosales (Côte d'or),4
 Coleoptera (El_pinar),Malvales (El_pinar),3
 Coleoptera (El_pozo),Malvales (El_pozo),3
 Coleoptera (Erlenbachova bouda),Asterales (Erlenbachova bouda),3
@@ -88,17 +88,17 @@ Coleoptera (Esporles),Dipsacales (Esporles),4
 Coleoptera (Esporles),Fabales (Esporles),2
 Coleoptera (Esporles),Lamiales (Esporles),1
 Coleoptera (Esporles),Malvales (Esporles),253
-Coleoptera (FajtÅ¯v kopec),Apiales (FajtÅ¯v kopec),2
-Coleoptera (FajtÅ¯v kopec),Asterales (FajtÅ¯v kopec),811
+Coleoptera (Fajtův kopec),Apiales (Fajtův kopec),2
+Coleoptera (Fajtův kopec),Asterales (Fajtův kopec),811
 Coleoptera (Folegandros),Asterales (Folegandros),6
-Coleoptera (HavranickÃ© vÅesoviÅ¡tÄ),Asterales (HavranickÃ© vÅesoviÅ¡tÄ),25
-Coleoptera (HavranickÃ© vÅesoviÅ¡tÄ),Malpighiales (HavranickÃ© vÅesoviÅ¡tÄ),2
+Coleoptera (Havranické vřesoviště),Asterales (Havranické vřesoviště),25
+Coleoptera (Havranické vřesoviště),Malpighiales (Havranické vřesoviště),2
 Coleoptera (Horbylunde_2005),Asterales (Horbylunde_2005),2
 Coleoptera (Horbylunde_2005),Ericales (Horbylunde_2005),23
 Coleoptera (Horbylunde_2005),Gentianales (Horbylunde_2005),24
 Coleoptera (Horbylunde_2005),Malpighiales (Horbylunde_2005),1
-Coleoptera (HornÃ­ BeÄva),Apiales (HornÃ­ BeÄva),3
-Coleoptera (HornÃ­ BeÄva),Asterales (HornÃ­ BeÄva),10
+Coleoptera (Horní Bečva),Apiales (Horní Bečva),3
+Coleoptera (Horní Bečva),Asterales (Horní Bečva),10
 Coleoptera (Isen_Bjerg_2004),Asterales (Isen_Bjerg_2004),5
 Coleoptera (Isen_Bjerg_2004),Ericales (Isen_Bjerg_2004),7
 Coleoptera (Isen_Bjerg_2004),Gentianales (Isen_Bjerg_2004),4
@@ -109,21 +109,21 @@ Coleoptera (Isen_Bjerg_2005),Ericales (Isen_Bjerg_2005),18
 Coleoptera (Isen_Bjerg_2005),Gentianales (Isen_Bjerg_2005),5
 Coleoptera (Isen_Bjerg_2005),Malpighiales (Isen_Bjerg_2005),3
 Coleoptera (Isen_Bjerg_2005),Rosales (Isen_Bjerg_2005),7
-Coleoptera (JanskÃ© LÃ¡znÄ),Ranunculales (JanskÃ© LÃ¡znÄ),3
+Coleoptera (Janské Lázně),Ranunculales (Janské Lázně),3
 Coleoptera (K Handrkovu),Dipsacales (K Handrkovu),1
 Coleoptera (Kea),Apiales (Kea),23
 Coleoptera (Kea),Asterales (Kea),112
 Coleoptera (Kea),Lamiales (Kea),11
-Coleoptera (KonÄprusy),Dipsacales (KonÄprusy),1
+Coleoptera (Koněprusy),Dipsacales (Koněprusy),1
 Coleoptera (Kythnos),Apiales (Kythnos),1
 Coleoptera (Kythnos),Asparagales (Kythnos),3
 Coleoptera (Kythnos),Asterales (Kythnos),216
 Coleoptera (Kythnos),Brassicales (Kythnos),8
 Coleoptera (Kythnos),Lamiales (Kythnos),15
 Coleoptera (Kythnos),Ranunculales (Kythnos),1
-Coleoptera (KÅiÅ¾anov),Asterales (KÅiÅ¾anov),76
-Coleoptera (KÅiÅ¾anov),Dipsacales (KÅiÅ¾anov),2
-Coleoptera (KÅiÅ¾anov),Ranunculales (KÅiÅ¾anov),12
+Coleoptera (Křižanov),Asterales (Křižanov),76
+Coleoptera (Křižanov),Dipsacales (Křižanov),2
+Coleoptera (Křižanov),Ranunculales (Křižanov),12
 Coleoptera (La_cunya),Malvales (La_cunya),2
 Coleoptera (Las_mulas),Malvales (Las_mulas),4
 Coleoptera (Lesvos),Asterales (Lesvos),358
@@ -131,10 +131,10 @@ Coleoptera (Lesvos),Brassicales (Lesvos),25
 Coleoptera (Lesvos),Fabales (Lesvos),3
 Coleoptera (Lesvos),Lamiales (Lesvos),6
 Coleoptera (Lesvos),Ranunculales (Lesvos),3
-Coleoptera (Louka pod Å obesem),Asterales (Louka pod Å obesem),471
-Coleoptera (Louka pod Å obesem),Dipsacales (Louka pod Å obesem),6
-Coleoptera (Louka pod Å obesem),Fabales (Louka pod Å obesem),4
-Coleoptera (Louka pod Å obesem),Malpighiales (Louka pod Å obesem),12
+Coleoptera (Louka pod Šobesem),Asterales (Louka pod Šobesem),471
+Coleoptera (Louka pod Šobesem),Dipsacales (Louka pod Šobesem),6
+Coleoptera (Louka pod Šobesem),Fabales (Louka pod Šobesem),4
+Coleoptera (Louka pod Šobesem),Malpighiales (Louka pod Šobesem),12
 Coleoptera (Menorca),Apiales (Menorca),112
 Coleoptera (Menorca),Asparagales (Menorca),15
 Coleoptera (Menorca),Asterales (Menorca),646
@@ -150,8 +150,8 @@ Coleoptera (Menorca),Malvales (Menorca),17
 Coleoptera (Menorca),Ranunculales (Menorca),10
 Coleoptera (Menorca),Rosales (Menorca),98
 Coleoptera (Menorca),Solanales (Menorca),15
-Coleoptera (MilovickÃ¡ strÃ¡Å),Gentianales (MilovickÃ¡ strÃ¡Å),1
-Coleoptera (MilÃ­kov),Ranunculales (MilÃ­kov),2
+Coleoptera (Milovická stráň),Gentianales (Milovická stráň),1
+Coleoptera (Milíkov),Ranunculales (Milíkov),2
 Coleoptera (MontiSion),Asparagales (MontiSion),49
 Coleoptera (MontiSion),Asterales (MontiSion),2
 Coleoptera (MontiSion),Gentianales (MontiSion),1
@@ -167,21 +167,21 @@ Coleoptera (Muro),Dipsacales (Muro),33
 Coleoptera (Muro),Fabales (Muro),8
 Coleoptera (Muro),Lamiales (Muro),8
 Coleoptera (Muro),Malpighiales (Muro),10
-Coleoptera (NekoÅ),Fabales (NekoÅ),2
-Coleoptera (NesmÄÅ),Apiales (NesmÄÅ),2
+Coleoptera (Nekoř),Fabales (Nekoř),2
+Coleoptera (Nesměř),Apiales (Nesměř),2
 Coleoptera (Niebla),Asterales (Niebla),2
 Coleoptera (Niebla),Lamiales (Niebla),3
 Coleoptera (Niebla),Malvales (Niebla),3
 Coleoptera (Orozko),Apiales (Orozko),1
 Coleoptera (Orozko),Lamiales (Orozko),1
-Coleoptera (Ostrov nad OhÅÃ­),Ranunculales (Ostrov nad OhÅÃ­),1
+Coleoptera (Ostrov nad Ohří),Ranunculales (Ostrov nad Ohří),1
 Coleoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Asterales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),2
 Coleoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Rosales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),1
-Coleoptera (PetÅÃ­n),Apiales (PetÅÃ­n),2
-Coleoptera (PetÅÃ­n),Asterales (PetÅÃ­n),2
+Coleoptera (Petřín),Apiales (Petřín),2
+Coleoptera (Petřín),Asterales (Petřín),2
 Coleoptera (Pinares_de_hinojos),Malvales (Pinares_de_hinojos),4
-Coleoptera (Popova Å apka),Ranunculales (Popova Å apka),2
-Coleoptera (PouzdÅany),Apiales (PouzdÅany),1
+Coleoptera (Popova Šapka),Ranunculales (Popova Šapka),2
+Coleoptera (Pouzdřany),Apiales (Pouzdřany),1
 Coleoptera (Puntiro),Apiales (Puntiro),32
 Coleoptera (Puntiro),Asparagales (Puntiro),39
 Coleoptera (Puntiro),Asterales (Puntiro),57
@@ -312,12 +312,12 @@ Coleoptera (sHeretat),Ranunculales (sHeretat),1
 Coleoptera (sHeretat),Rosales (sHeretat),1
 Coleoptera (sHeretat),Solanales (sHeretat),22
 Coleoptera (step u Antonivka),Apiales (step u Antonivka),1
-Coleoptera (Ãbarok),Asterales (Ãbarok),1
-Coleoptera (Å obes),Asterales (Å obes),12
-Coleoptera (Å obes),Caryophyllales (Å obes),1
-Coleoptera (Å obes),Fabales (Å obes),1
-Coleoptera (Å obes),Rosales (Å obes),4
-Diptera (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),Asterales (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),5
+Coleoptera (Óbarok),Asterales (Óbarok),1
+Coleoptera (Šobes),Asterales (Šobes),12
+Coleoptera (Šobes),Caryophyllales (Šobes),1
+Coleoptera (Šobes),Fabales (Šobes),1
+Coleoptera (Šobes),Rosales (Šobes),4
+Diptera (Alešovské písky (Olešské písky)),Asterales (Alešovské písky (Olešské písky)),5
 Diptera (Allika),Apiales (Allika),10
 Diptera (Allika),Asterales (Allika),33
 Diptera (Allika),Caryophyllales (Allika),2
@@ -488,11 +488,11 @@ Diptera (Burren region (Ireland)),Lamiales (Burren region (Ireland)),26
 Diptera (Burren region (Ireland)),Poales (Burren region (Ireland)),3
 Diptera (Burren region (Ireland)),Ranunculales (Burren region (Ireland)),51
 Diptera (Burren region (Ireland)),Rosales (Burren region (Ireland)),6
-Diptera (BÃ­lÃ¡ Hora),Ranunculales (BÃ­lÃ¡ Hora),3
-Diptera (BÄstvina),Asterales (BÄstvina),8
-Diptera (BÄstvina),Caryophyllales (BÄstvina),2
-Diptera (BÄstvina),Dipsacales (BÄstvina),3
-Diptera (BÄstvina),Lamiales (BÄstvina),25
+Diptera (Bílá Hora),Ranunculales (Bílá Hora),3
+Diptera (Běstvina),Asterales (Běstvina),8
+Diptera (Běstvina),Caryophyllales (Běstvina),2
+Diptera (Běstvina),Dipsacales (Běstvina),3
+Diptera (Běstvina),Lamiales (Běstvina),25
 Diptera (Cabrera),Asparagales (Cabrera),21
 Diptera (Cabrera),Brassicales (Cabrera),3
 Diptera (Cabrera),Fabales (Cabrera),5
@@ -667,19 +667,19 @@ Diptera (Costabissara),Malvales (Costabissara),1
 Diptera (Costabissara),Oxalidales (Costabissara),4
 Diptera (Costabissara),Rosales (Costabissara),11
 Diptera (Cotito_de_santa_teresa),Lamiales (Cotito_de_santa_teresa),4
-Diptera (CÃ´te d'or),Apiales (CÃ´te d'or),69
-Diptera (CÃ´te d'or),Asterales (CÃ´te d'or),88
-Diptera (CÃ´te d'or),Boraginales (CÃ´te d'or),6
-Diptera (CÃ´te d'or),Brassicales (CÃ´te d'or),31
-Diptera (CÃ´te d'or),Caryophyllales (CÃ´te d'or),56
-Diptera (CÃ´te d'or),Dipsacales (CÃ´te d'or),1
-Diptera (CÃ´te d'or),Fabales (CÃ´te d'or),14
-Diptera (CÃ´te d'or),Geraniales (CÃ´te d'or),3
-Diptera (CÃ´te d'or),Lamiales (CÃ´te d'or),46
-Diptera (CÃ´te d'or),Malpighiales (CÃ´te d'or),6
-Diptera (CÃ´te d'or),Ranunculales (CÃ´te d'or),40
-Diptera (CÃ´te d'or),Rosales (CÃ´te d'or),4
-Diptera (CÃ´te d'or),Solanales (CÃ´te d'or),9
+Diptera (Côte d'or),Apiales (Côte d'or),69
+Diptera (Côte d'or),Asterales (Côte d'or),88
+Diptera (Côte d'or),Boraginales (Côte d'or),6
+Diptera (Côte d'or),Brassicales (Côte d'or),31
+Diptera (Côte d'or),Caryophyllales (Côte d'or),56
+Diptera (Côte d'or),Dipsacales (Côte d'or),1
+Diptera (Côte d'or),Fabales (Côte d'or),14
+Diptera (Côte d'or),Geraniales (Côte d'or),3
+Diptera (Côte d'or),Lamiales (Côte d'or),46
+Diptera (Côte d'or),Malpighiales (Côte d'or),6
+Diptera (Côte d'or),Ranunculales (Côte d'or),40
+Diptera (Côte d'or),Rosales (Côte d'or),4
+Diptera (Côte d'or),Solanales (Côte d'or),9
 Diptera (Dubrovytsya),Apiales (Dubrovytsya),1
 Diptera (Dubrovytsya),Asterales (Dubrovytsya),9
 Diptera (Dubrovytsya),Ranunculales (Dubrovytsya),1
@@ -738,7 +738,7 @@ Diptera (Esporles),Asterales (Esporles),29
 Diptera (Esporles),Lamiales (Esporles),1
 Diptera (Esporles),Malpighiales (Esporles),1
 Diptera (Esporles),Malvales (Esporles),1
-Diptera (FajtÅ¯v kopec),Asterales (FajtÅ¯v kopec),18
+Diptera (Fajtův kopec),Asterales (Fajtův kopec),18
 Diptera (Falcade),Apiales (Falcade),4
 Diptera (Falcade),Asterales (Falcade),131
 Diptera (Falcade),Geraniales (Falcade),1
@@ -895,8 +895,8 @@ Diptera (Harzgerode),Lamiales (Harzgerode),4
 Diptera (Harzgerode),Malpighiales (Harzgerode),3
 Diptera (Harzgerode),Ranunculales (Harzgerode),3
 Diptera (Harzgerode),Rosales (Harzgerode),1
-Diptera (HavranickÃ© vÅesoviÅ¡tÄ),Malpighiales (HavranickÃ© vÅesoviÅ¡tÄ),2
-Diptera (HavranickÃ© vÅesoviÅ¡tÄ),Saxifragales (HavranickÃ© vÅesoviÅ¡tÄ),2
+Diptera (Havranické vřesoviště),Malpighiales (Havranické vřesoviště),2
+Diptera (Havranické vřesoviště),Saxifragales (Havranické vřesoviště),2
 Diptera (Hermanovice),Apiales (Hermanovice),8
 Diptera (Hermanovice),Asterales (Hermanovice),16
 Diptera (Hermanovice),Caryophyllales (Hermanovice),9
@@ -917,7 +917,7 @@ Diptera (Horni Grunt),Caryophyllales (Horni Grunt),1
 Diptera (Horni Grunt),Dipsacales (Horni Grunt),1
 Diptera (Horni Grunt),Malpighiales (Horni Grunt),8
 Diptera (Horni Grunt),Ranunculales (Horni Grunt),2
-Diptera (HornÃ­ BeÄva),Malpighiales (HornÃ­ BeÄva),2
+Diptera (Horní Bečva),Malpighiales (Horní Bečva),2
 Diptera (Hruba_Vrbka),Asterales (Hruba_Vrbka),22
 Diptera (Hruba_Vrbka),Fabales (Hruba_Vrbka),10
 Diptera (Hruba_Vrbka),Lamiales (Hruba_Vrbka),12
@@ -954,7 +954,7 @@ Diptera (Isola Vicentina),Fabales (Isola Vicentina),20
 Diptera (Isola Vicentina),Gentianales (Isola Vicentina),15
 Diptera (Isola Vicentina),Lamiales (Isola Vicentina),14
 Diptera (Isola Vicentina),Solanales (Isola Vicentina),13
-Diptera (JanskÃ© LÃ¡znÄ),Ranunculales (JanskÃ© LÃ¡znÄ),8
+Diptera (Janské Lázně),Ranunculales (Janské Lázně),8
 Diptera (Jarnoltowek),Apiales (Jarnoltowek),12
 Diptera (Jarnoltowek),Caryophyllales (Jarnoltowek),10
 Diptera (Jarnoltowek),Fabales (Jarnoltowek),10
@@ -968,16 +968,16 @@ Diptera (Kea),Brassicales (Kea),1
 Diptera (Kea),Fabales (Kea),2
 Diptera (Kea),Lamiales (Kea),17
 Diptera (Kea),Solanales (Kea),1
-Diptera (KittilÂ),Apiales (KittilÂ),30
-Diptera (KittilÂ),Asterales (KittilÂ),19
-Diptera (KittilÂ),Caryophyllales (KittilÂ),19
-Diptera (KittilÂ),Dipsacales (KittilÂ),3
-Diptera (KittilÂ),Fabales (KittilÂ),2
-Diptera (KittilÂ),Geraniales (KittilÂ),21
-Diptera (KittilÂ),Lamiales (KittilÂ),7
-Diptera (KittilÂ),Myrtales (KittilÂ),6
-Diptera (KittilÂ),Ranunculales (KittilÂ),38
-Diptera (KittilÂ),Rosales (KittilÂ),1
+Diptera (Kittil),Apiales (Kittil),30
+Diptera (Kittil),Asterales (Kittil),19
+Diptera (Kittil),Caryophyllales (Kittil),19
+Diptera (Kittil),Dipsacales (Kittil),3
+Diptera (Kittil),Fabales (Kittil),2
+Diptera (Kittil),Geraniales (Kittil),21
+Diptera (Kittil),Lamiales (Kittil),7
+Diptera (Kittil),Myrtales (Kittil),6
+Diptera (Kittil),Ranunculales (Kittil),38
+Diptera (Kittil),Rosales (Kittil),1
 Diptera (Klobikau),Apiales (Klobikau),1
 Diptera (Klobikau),Asterales (Klobikau),3
 Diptera (Klobikau),Dipsacales (Klobikau),1
@@ -990,7 +990,7 @@ Diptera (Kythnos),Asterales (Kythnos),30
 Diptera (Kythnos),Boraginales (Kythnos),1
 Diptera (Kythnos),Brassicales (Kythnos),3
 Diptera (Kythnos),Lamiales (Kythnos),14
-Diptera (KÅiÅ¾anov),Lamiales (KÅiÅ¾anov),10
+Diptera (Křižanov),Lamiales (Křižanov),10
 Diptera (La_rocina),Lamiales (La_rocina),18
 Diptera (Laelatu),Apiales (Laelatu),12
 Diptera (Laelatu),Asparagales (Laelatu),2
@@ -1032,8 +1032,8 @@ Diptera (Livinallongo del Col di Lana),Dipsacales (Livinallongo del Col di Lana)
 Diptera (Livinallongo del Col di Lana),Fabales (Livinallongo del Col di Lana),4
 Diptera (Livinallongo del Col di Lana),Lamiales (Livinallongo del Col di Lana),1
 Diptera (Livinallongo del Col di Lana),Malvales (Livinallongo del Col di Lana),1
-Diptera (Louka pod Å obesem),Asterales (Louka pod Å obesem),1
-Diptera (Louka pod Å obesem),Dipsacales (Louka pod Å obesem),1
+Diptera (Louka pod Šobesem),Asterales (Louka pod Šobesem),1
+Diptera (Louka pod Šobesem),Dipsacales (Louka pod Šobesem),1
 Diptera (Lumea Pierduta),Apiales (Lumea Pierduta),92
 Diptera (Lumea Pierduta),Asterales (Lumea Pierduta),32
 Diptera (Lumea Pierduta),Caryophyllales (Lumea Pierduta),4
@@ -1091,10 +1091,10 @@ Diptera (Miladka),Fabales (Miladka),2
 Diptera (Miladka),Gentianales (Miladka),32
 Diptera (Miladka),Geraniales (Miladka),22
 Diptera (Miladka),Malpighiales (Miladka),2
-Diptera (MilovickÃ¡ strÃ¡Å),Gentianales (MilovickÃ¡ strÃ¡Å),1
-Diptera (MilovickÃ¡ strÃ¡Å),Lamiales (MilovickÃ¡ strÃ¡Å),1
-Diptera (MilÃ­kov),Brassicales (MilÃ­kov),6
-Diptera (MilÃ­kov),Ranunculales (MilÃ­kov),16
+Diptera (Milovická stráň),Gentianales (Milovická stráň),1
+Diptera (Milovická stráň),Lamiales (Milovická stráň),1
+Diptera (Milíkov),Brassicales (Milíkov),6
+Diptera (Milíkov),Ranunculales (Milíkov),16
 Diptera (Mnichov),Apiales (Mnichov),10
 Diptera (Mnichov),Asterales (Mnichov),4
 Diptera (Mnichov),Caryophyllales (Mnichov),22
@@ -1119,30 +1119,30 @@ Diptera (Muro),Apiales (Muro),23
 Diptera (Muro),Asparagales (Muro),16
 Diptera (Muro),Asterales (Muro),16
 Diptera (Muro),Lamiales (Muro),1
-Diptera (NekoÅ),Apiales (NekoÅ),3
-Diptera (NekoÅ),Ranunculales (NekoÅ),6
-Diptera (NekoÅ),Rosales (NekoÅ),10
+Diptera (Nekoř),Apiales (Nekoř),3
+Diptera (Nekoř),Ranunculales (Nekoř),6
+Diptera (Nekoř),Rosales (Nekoř),10
 Diptera (Nervesa della Battaglia),Apiales (Nervesa della Battaglia),5
 Diptera (Nervesa della Battaglia),Asterales (Nervesa della Battaglia),5
 Diptera (Nervesa della Battaglia),Boraginales (Nervesa della Battaglia),1
 Diptera (Nervesa della Battaglia),Dipsacales (Nervesa della Battaglia),2
 Diptera (Nervesa della Battaglia),Gentianales (Nervesa della Battaglia),1
-Diptera (NesmÄÅ),Asterales (NesmÄÅ),3
-Diptera (NesmÄÅ),Geraniales (NesmÄÅ),1
+Diptera (Nesměř),Asterales (Nesměř),3
+Diptera (Nesměř),Geraniales (Nesměř),1
 Diptera (Niebla),Asparagales (Niebla),2
 Diptera (Niebla),Asterales (Niebla),2
 Diptera (Niebla),Malpighiales (Niebla),2
 Diptera (Niebla),Solanales (Niebla),4
-Diptera (Noeux-lÃ¨s-Auxi),Apiales (Noeux-lÃ¨s-Auxi),23
-Diptera (Noeux-lÃ¨s-Auxi),Asterales (Noeux-lÃ¨s-Auxi),91
-Diptera (Noeux-lÃ¨s-Auxi),Dipsacales (Noeux-lÃ¨s-Auxi),9
-Diptera (Noeux-lÃ¨s-Auxi),Fabales (Noeux-lÃ¨s-Auxi),25
-Diptera (Noeux-lÃ¨s-Auxi),Gentianales (Noeux-lÃ¨s-Auxi),72
-Diptera (Noeux-lÃ¨s-Auxi),Lamiales (Noeux-lÃ¨s-Auxi),26
-Diptera (Noeux-lÃ¨s-Auxi),Malpighiales (Noeux-lÃ¨s-Auxi),12
-Diptera (Noeux-lÃ¨s-Auxi),Pinales (Noeux-lÃ¨s-Auxi),2
-Diptera (Noeux-lÃ¨s-Auxi),Ranunculales (Noeux-lÃ¨s-Auxi),3
-Diptera (Noeux-lÃ¨s-Auxi),Rosales (Noeux-lÃ¨s-Auxi),2
+Diptera (Noeux-lès-Auxi),Apiales (Noeux-lès-Auxi),23
+Diptera (Noeux-lès-Auxi),Asterales (Noeux-lès-Auxi),91
+Diptera (Noeux-lès-Auxi),Dipsacales (Noeux-lès-Auxi),9
+Diptera (Noeux-lès-Auxi),Fabales (Noeux-lès-Auxi),25
+Diptera (Noeux-lès-Auxi),Gentianales (Noeux-lès-Auxi),72
+Diptera (Noeux-lès-Auxi),Lamiales (Noeux-lès-Auxi),26
+Diptera (Noeux-lès-Auxi),Malpighiales (Noeux-lès-Auxi),12
+Diptera (Noeux-lès-Auxi),Pinales (Noeux-lès-Auxi),2
+Diptera (Noeux-lès-Auxi),Ranunculales (Noeux-lès-Auxi),3
+Diptera (Noeux-lès-Auxi),Rosales (Noeux-lès-Auxi),2
 Diptera (Ocoale),Apiales (Ocoale),13
 Diptera (Ocoale),Asterales (Ocoale),128
 Diptera (Ocoale),Caryophyllales (Ocoale),8
@@ -1169,10 +1169,10 @@ Diptera (Oschersleben),Lamiales (Oschersleben),2
 Diptera (Oschersleben),Ranunculales (Oschersleben),3
 Diptera (Oschersleben),Rosales (Oschersleben),1
 Diptera (Oschersleben),Solanales (Oschersleben),15
-Diptera (Ostrov nad OhÅÃ­),Ranunculales (Ostrov nad OhÅÃ­),13
-Diptera (OstÅihom),Apiales (OstÅihom),2
-Diptera (OstÅihom),Asterales (OstÅihom),6
-Diptera (OstÅihom),Dipsacales (OstÅihom),4
+Diptera (Ostrov nad Ohří),Ranunculales (Ostrov nad Ohří),13
+Diptera (Ostřihom),Apiales (Ostřihom),2
+Diptera (Ostřihom),Asterales (Ostřihom),6
+Diptera (Ostřihom),Dipsacales (Ostřihom),4
 Diptera (Pergine Valsugana),Apiales (Pergine Valsugana),21
 Diptera (Pergine Valsugana),Asterales (Pergine Valsugana),78
 Diptera (Pergine Valsugana),Boraginales (Pergine Valsugana),3
@@ -1197,9 +1197,9 @@ Diptera (Petre_tii de Jos),Ericales (Petre_tii de Jos),1
 Diptera (Petre_tii de Jos),Fabales (Petre_tii de Jos),2
 Diptera (Petre_tii de Jos),Ranunculales (Petre_tii de Jos),4
 Diptera (Petre_tii de Jos),Rosales (Petre_tii de Jos),4
-Diptera (PetÅÃ­n),Asterales (PetÅÃ­n),3
-Diptera (PetÅÃ­n),Geraniales (PetÅÃ­n),3
-Diptera (PetÅÃ­n),Lamiales (PetÅÃ­n),7
+Diptera (Petřín),Asterales (Petřín),3
+Diptera (Petřín),Geraniales (Petřín),3
+Diptera (Petřín),Lamiales (Petřín),7
 Diptera (Piazzola sul Brenta),Apiales (Piazzola sul Brenta),47
 Diptera (Piazzola sul Brenta),Asterales (Piazzola sul Brenta),372
 Diptera (Piazzola sul Brenta),Brassicales (Piazzola sul Brenta),70
@@ -1215,15 +1215,15 @@ Diptera (Piazzola sul Brenta),Ranunculales (Piazzola sul Brenta),11
 Diptera (Piazzola sul Brenta),Rosales (Piazzola sul Brenta),72
 Diptera (Piazzola sul Brenta),Solanales (Piazzola sul Brenta),162
 Diptera (Pino_del_cuervo),Malvales (Pino_del_cuervo),2
-Diptera (PlakÃ¡nek),Caryophyllales (PlakÃ¡nek),4
-Diptera (PlakÃ¡nek),Geraniales (PlakÃ¡nek),2
-Diptera (PlakÃ¡nek),Rosales (PlakÃ¡nek),1
-Diptera (Popova Å apka),Lamiales (Popova Å apka),1
-Diptera (Popova Å apka),Ranunculales (Popova Å apka),10
-Diptera (PouzdÅany),Apiales (PouzdÅany),1
-Diptera (PouzdÅany),Asterales (PouzdÅany),3
-Diptera (PouzdÅany),Fabales (PouzdÅany),3
-Diptera (PouzdÅany),Lamiales (PouzdÅany),1
+Diptera (Plakánek),Caryophyllales (Plakánek),4
+Diptera (Plakánek),Geraniales (Plakánek),2
+Diptera (Plakánek),Rosales (Plakánek),1
+Diptera (Popova Šapka),Lamiales (Popova Šapka),1
+Diptera (Popova Šapka),Ranunculales (Popova Šapka),10
+Diptera (Pouzdřany),Apiales (Pouzdřany),1
+Diptera (Pouzdřany),Asterales (Pouzdřany),3
+Diptera (Pouzdřany),Fabales (Pouzdřany),3
+Diptera (Pouzdřany),Lamiales (Pouzdřany),1
 Diptera (Pove del Grappa),Apiales (Pove del Grappa),6
 Diptera (Pove del Grappa),Caryophyllales (Pove del Grappa),3
 Diptera (Pove del Grappa),Fabales (Pove del Grappa),5
@@ -1240,14 +1240,14 @@ Diptera (Pretzien),Malvales (Pretzien),1
 Diptera (Pretzien),Ranunculales (Pretzien),1
 Diptera (Pretzien),Rosales (Pretzien),5
 Diptera (Pretzien),Solanales (Pretzien),7
-Diptera (PudasjÂrvi),Apiales (PudasjÂrvi),5
-Diptera (PudasjÂrvi),Asterales (PudasjÂrvi),14
-Diptera (PudasjÂrvi),Caryophyllales (PudasjÂrvi),6
-Diptera (PudasjÂrvi),Gentianales (PudasjÂrvi),3
-Diptera (PudasjÂrvi),Lamiales (PudasjÂrvi),5
-Diptera (PudasjÂrvi),Myrtales (PudasjÂrvi),3
-Diptera (PudasjÂrvi),Ranunculales (PudasjÂrvi),15
-Diptera (PudasjÂrvi),Rosales (PudasjÂrvi),7
+Diptera (Pudasjrvi),Apiales (Pudasjrvi),5
+Diptera (Pudasjrvi),Asterales (Pudasjrvi),14
+Diptera (Pudasjrvi),Caryophyllales (Pudasjrvi),6
+Diptera (Pudasjrvi),Gentianales (Pudasjrvi),3
+Diptera (Pudasjrvi),Lamiales (Pudasjrvi),5
+Diptera (Pudasjrvi),Myrtales (Pudasjrvi),3
+Diptera (Pudasjrvi),Ranunculales (Pudasjrvi),15
+Diptera (Pudasjrvi),Rosales (Pudasjrvi),7
 Diptera (Puntiro),Apiales (Puntiro),9
 Diptera (Puntiro),Asparagales (Puntiro),21
 Diptera (Puntiro),Asterales (Puntiro),1
@@ -1544,9 +1544,9 @@ Diptera (Valli del Pasubio),Fabales (Valli del Pasubio),1
 Diptera (Valli del Pasubio),Gentianales (Valli del Pasubio),4
 Diptera (Valli del Pasubio),Malvales (Valli del Pasubio),2
 Diptera (Valli del Pasubio),Ranunculales (Valli del Pasubio),3
-Diptera (VelkÃ© Pavlovice),Apiales (VelkÃ© Pavlovice),6
-Diptera (VelkÃ© Pavlovice),Asterales (VelkÃ© Pavlovice),1
-Diptera (VelkÃ© Pavlovice),Fabales (VelkÃ© Pavlovice),2
+Diptera (Velké Pavlovice),Apiales (Velké Pavlovice),6
+Diptera (Velké Pavlovice),Asterales (Velké Pavlovice),1
+Diptera (Velké Pavlovice),Fabales (Velké Pavlovice),2
 Diptera (Viita),Apiales (Viita),1
 Diptera (Viita),Asterales (Viita),74
 Diptera (Viita),Gentianales (Viita),1
@@ -1555,8 +1555,8 @@ Diptera (Villamanrique_este),Malvales (Villamanrique_este),6
 Diptera (Villamanrique_sur),Malvales (Villamanrique_sur),10
 Diptera (Volpago del Montello),Asterales (Volpago del Montello),2
 Diptera (Volpago del Montello),Rosales (Volpago del Montello),2
-Diptera (VoznesensÂ´k),Fabales (VoznesensÂ´k),1
-Diptera (VoznesensÂ´k),Solanales (VoznesensÂ´k),1
+Diptera (Voznesens´k),Fabales (Voznesens´k),1
+Diptera (Voznesens´k),Solanales (Voznesens´k),1
 Diptera (Wallhausen),Apiales (Wallhausen),3
 Diptera (Wallhausen),Asterales (Wallhausen),6
 Diptera (Wallhausen),Brassicales (Wallhausen),2
@@ -1594,13 +1594,13 @@ Diptera (Zoldo Alto),Lamiales (Zoldo Alto),14
 Diptera (Zoldo Alto),Malpighiales (Zoldo Alto),6
 Diptera (Zoldo Alto),Myrtales (Zoldo Alto),4
 Diptera (Zoldo Alto),Ranunculales (Zoldo Alto),7
-Diptera (jezÃ­rko u Vesele),Apiales (jezÃ­rko u Vesele),1
+Diptera (jezírko u Vesele),Apiales (jezírko u Vesele),1
 Diptera (kemp),Asterales (kemp),1
 Diptera (kemp),Caryophyllales (kemp),1
 Diptera (kopec nad Myhiya),Apiales (kopec nad Myhiya),1
 Diptera (kopec u Cheremysivka),Asterales (kopec u Cheremysivka),2
-Diptera (motÃ½lÃ­ rezervace),Caryophyllales (motÃ½lÃ­ rezervace),1
-Diptera (motÃ½lÃ­ rezervace),Ranunculales (motÃ½lÃ­ rezervace),2
+Diptera (motýlí rezervace),Caryophyllales (motýlí rezervace),1
+Diptera (motýlí rezervace),Ranunculales (motýlí rezervace),2
 Diptera (sHeretat),Apiales (sHeretat),45
 Diptera (sHeretat),Asparagales (sHeretat),20
 Diptera (sHeretat),Asterales (sHeretat),22
@@ -1611,8 +1611,8 @@ Diptera (sad u Velyka Derazhnya),Apiales (sad u Velyka Derazhnya),1
 Diptera (sad u Velyka Derazhnya),Asterales (sad u Velyka Derazhnya),3
 Diptera (sad u Velyka Derazhnya),Fabales (sad u Velyka Derazhnya),1
 Diptera (step u Antonivka),Asterales (step u Antonivka),2
-Diptera (Å obes),Fabales (Å obes),1
-Diptera (Å obes),Saxifragales (Å obes),1
+Diptera (Šobes),Fabales (Šobes),1
+Diptera (Šobes),Saxifragales (Šobes),1
 Hemiptera (AloeVera),Apiales (AloeVera),5
 Hemiptera (AloeVera),Asterales (AloeVera),5
 Hemiptera (AloeVera),Malvales (AloeVera),3
@@ -1629,8 +1629,8 @@ Hemiptera (EsCabanells),Asparagales (EsCabanells),1
 Hemiptera (EsCabanells),Malvales (EsCabanells),1
 Hemiptera (EsCapdella),Apiales (EsCapdella),3
 Hemiptera (EsCapdella),Fabales (EsCapdella),1
-Hemiptera (HavranickÃ© vÅesoviÅ¡tÄ),Asterales (HavranickÃ© vÅesoviÅ¡tÄ),1
-Hemiptera (JanskÃ© LÃ¡znÄ),Ranunculales (JanskÃ© LÃ¡znÄ),1
+Hemiptera (Havranické vřesoviště),Asterales (Havranické vřesoviště),1
+Hemiptera (Janské Lázně),Ranunculales (Janské Lázně),1
 Hemiptera (Menorca),Apiales (Menorca),1
 Hemiptera (Menorca),Asparagales (Menorca),4
 Hemiptera (Menorca),Asterales (Menorca),40
@@ -1642,7 +1642,7 @@ Hemiptera (Menorca),Lamiales (Menorca),1
 Hemiptera (Menorca),Malpighiales (Menorca),3
 Hemiptera (Menorca),Malvales (Menorca),1
 Hemiptera (Menorca),Rosales (Menorca),2
-Hemiptera (MilovickÃ¡ strÃ¡Å),Lamiales (MilovickÃ¡ strÃ¡Å),4
+Hemiptera (Milovická stráň),Lamiales (Milovická stráň),4
 Hemiptera (MontiSion),Malvales (MontiSion),1
 Hemiptera (Muro),Apiales (Muro),3
 Hemiptera (Muro),Asterales (Muro),13
@@ -1674,7 +1674,7 @@ Hemiptera (UIB),Asterales (UIB),1
 Hemiptera (UIB),Malpighiales (UIB),1
 Hemiptera (sHeretat),Asterales (sHeretat),6
 Hemiptera (sHeretat),Dipsacales (sHeretat),7
-Hymenoptera (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),Lamiales (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),2
+Hymenoptera (Alešovské písky (Olešské písky)),Lamiales (Alešovské písky (Olešské písky)),2
 Hymenoptera (Allersdorf),Asterales (Allersdorf),4
 Hymenoptera (Allersdorf),Dipsacales (Allersdorf),1
 Hymenoptera (Allersdorf),Fabales (Allersdorf),3
@@ -1939,11 +1939,11 @@ Hymenoptera (Burren region (Ireland)),Lamiales (Burren region (Ireland)),28
 Hymenoptera (Burren region (Ireland)),Malpighiales (Burren region (Ireland)),2
 Hymenoptera (Burren region (Ireland)),Ranunculales (Burren region (Ireland)),19
 Hymenoptera (Burren region (Ireland)),Rosales (Burren region (Ireland)),4
-Hymenoptera (BÃ­lÃ¡ Hora),Fabales (BÃ­lÃ¡ Hora),4
-Hymenoptera (BÄstvina),Asterales (BÄstvina),3
-Hymenoptera (BÄstvina),Caryophyllales (BÄstvina),1
-Hymenoptera (BÄstvina),Dipsacales (BÄstvina),1
-Hymenoptera (BÄstvina),Fabales (BÄstvina),4
+Hymenoptera (Bílá Hora),Fabales (Bílá Hora),4
+Hymenoptera (Běstvina),Asterales (Běstvina),3
+Hymenoptera (Běstvina),Caryophyllales (Běstvina),1
+Hymenoptera (Běstvina),Dipsacales (Běstvina),1
+Hymenoptera (Běstvina),Fabales (Běstvina),4
 Hymenoptera (Cabrera),Boraginales (Cabrera),1
 Hymenoptera (Cabrera),Solanales (Cabrera),3
 Hymenoptera (Calamento),Asterales (Calamento),88
@@ -2077,10 +2077,10 @@ Hymenoptera (Chize),Malvales (Chize),206
 Hymenoptera (Chize),Ranunculales (Chize),50
 Hymenoptera (Chize),Rosales (Chize),1
 Hymenoptera (Chize),Solanales (Chize),296
-Hymenoptera (ChÃ¢telet),Asterales (ChÃ¢telet),10
-Hymenoptera (ChÃ¢telet),Boraginales (ChÃ¢telet),20
-Hymenoptera (CikÃ¡nka),Fabales (CikÃ¡nka),1
-Hymenoptera (CikÃ¡nka),Saxifragales (CikÃ¡nka),1
+Hymenoptera (Châtelet),Asterales (Châtelet),10
+Hymenoptera (Châtelet),Boraginales (Châtelet),20
+Hymenoptera (Cikánka),Fabales (Cikánka),1
+Hymenoptera (Cikánka),Saxifragales (Cikánka),1
 Hymenoptera (Ciply),Apiales (Ciply),27
 Hymenoptera (Ciply),Asterales (Ciply),13
 Hymenoptera (Ciply),Solanales (Ciply),2
@@ -2174,28 +2174,28 @@ Hymenoptera (Courcelles),Brassicales (Courcelles),3
 Hymenoptera (Courcelles),Caryophyllales (Courcelles),3
 Hymenoptera (Courcelles),Fabales (Courcelles),9
 Hymenoptera (Courcelles),Rosales (Courcelles),4
-Hymenoptera (CÃ´te d'or),Apiales (CÃ´te d'or),20
-Hymenoptera (CÃ´te d'or),Asparagales (CÃ´te d'or),7
-Hymenoptera (CÃ´te d'or),Asterales (CÃ´te d'or),491
-Hymenoptera (CÃ´te d'or),Boraginales (CÃ´te d'or),20
-Hymenoptera (CÃ´te d'or),Brassicales (CÃ´te d'or),260
-Hymenoptera (CÃ´te d'or),Caryophyllales (CÃ´te d'or),14
-Hymenoptera (CÃ´te d'or),Cornales (CÃ´te d'or),11
-Hymenoptera (CÃ´te d'or),Cucurbitales (CÃ´te d'or),1
-Hymenoptera (CÃ´te d'or),Dipsacales (CÃ´te d'or),24
-Hymenoptera (CÃ´te d'or),Ericales (CÃ´te d'or),5
-Hymenoptera (CÃ´te d'or),Fabales (CÃ´te d'or),475
-Hymenoptera (CÃ´te d'or),Gentianales (CÃ´te d'or),4
-Hymenoptera (CÃ´te d'or),Geraniales (CÃ´te d'or),9
-Hymenoptera (CÃ´te d'or),Lamiales (CÃ´te d'or),121
-Hymenoptera (CÃ´te d'or),Malpighiales (CÃ´te d'or),43
-Hymenoptera (CÃ´te d'or),Malvales (CÃ´te d'or),2
-Hymenoptera (CÃ´te d'or),Myrtales (CÃ´te d'or),15
-Hymenoptera (CÃ´te d'or),Ranunculales (CÃ´te d'or),82
-Hymenoptera (CÃ´te d'or),Rosales (CÃ´te d'or),47
-Hymenoptera (CÃ´te d'or),Sapindales (CÃ´te d'or),2
-Hymenoptera (CÃ´te d'or),Saxifragales (CÃ´te d'or),2
-Hymenoptera (CÃ´te d'or),Solanales (CÃ´te d'or),10
+Hymenoptera (Côte d'or),Apiales (Côte d'or),20
+Hymenoptera (Côte d'or),Asparagales (Côte d'or),7
+Hymenoptera (Côte d'or),Asterales (Côte d'or),491
+Hymenoptera (Côte d'or),Boraginales (Côte d'or),20
+Hymenoptera (Côte d'or),Brassicales (Côte d'or),260
+Hymenoptera (Côte d'or),Caryophyllales (Côte d'or),14
+Hymenoptera (Côte d'or),Cornales (Côte d'or),11
+Hymenoptera (Côte d'or),Cucurbitales (Côte d'or),1
+Hymenoptera (Côte d'or),Dipsacales (Côte d'or),24
+Hymenoptera (Côte d'or),Ericales (Côte d'or),5
+Hymenoptera (Côte d'or),Fabales (Côte d'or),475
+Hymenoptera (Côte d'or),Gentianales (Côte d'or),4
+Hymenoptera (Côte d'or),Geraniales (Côte d'or),9
+Hymenoptera (Côte d'or),Lamiales (Côte d'or),121
+Hymenoptera (Côte d'or),Malpighiales (Côte d'or),43
+Hymenoptera (Côte d'or),Malvales (Côte d'or),2
+Hymenoptera (Côte d'or),Myrtales (Côte d'or),15
+Hymenoptera (Côte d'or),Ranunculales (Côte d'or),82
+Hymenoptera (Côte d'or),Rosales (Côte d'or),47
+Hymenoptera (Côte d'or),Sapindales (Côte d'or),2
+Hymenoptera (Côte d'or),Saxifragales (Côte d'or),2
+Hymenoptera (Côte d'or),Solanales (Côte d'or),10
 Hymenoptera (Dour),Apiales (Dour),1
 Hymenoptera (Dour),Asterales (Dour),36
 Hymenoptera (Dour),Boraginales (Dour),24
@@ -2275,8 +2275,8 @@ Hymenoptera (Esporles),Fabales (Esporles),1
 Hymenoptera (Esporles),Gentianales (Esporles),1
 Hymenoptera (Esporles),Lamiales (Esporles),54
 Hymenoptera (Esporles),Malvales (Esporles),5
-Hymenoptera (FajtÅ¯v kopec),Asterales (FajtÅ¯v kopec),1
-Hymenoptera (FajtÅ¯v kopec),Fabales (FajtÅ¯v kopec),3
+Hymenoptera (Fajtův kopec),Asterales (Fajtův kopec),1
+Hymenoptera (Fajtův kopec),Fabales (Fajtův kopec),3
 Hymenoptera (Falcade),Apiales (Falcade),9
 Hymenoptera (Falcade),Asterales (Falcade),26
 Hymenoptera (Falcade),Fabales (Falcade),17
@@ -2464,11 +2464,11 @@ Hymenoptera (Grouches Luchuel),Pinales (Grouches Luchuel),2
 Hymenoptera (Grouches Luchuel),Poales (Grouches Luchuel),2
 Hymenoptera (Grouches Luchuel),Ranunculales (Grouches Luchuel),26
 Hymenoptera (Grouches Luchuel),Rosales (Grouches Luchuel),9
-Hymenoptera (GroÃenohe),Asterales (GroÃenohe),13
-Hymenoptera (GroÃenohe),Brassicales (GroÃenohe),1
-Hymenoptera (GroÃenohe),Fabales (GroÃenohe),5
-Hymenoptera (GroÃenohe),Lamiales (GroÃenohe),7
-Hymenoptera (GroÃenohe),Malvales (GroÃenohe),1
+Hymenoptera (Großenohe),Asterales (Großenohe),13
+Hymenoptera (Großenohe),Brassicales (Großenohe),1
+Hymenoptera (Großenohe),Fabales (Großenohe),5
+Hymenoptera (Großenohe),Lamiales (Großenohe),7
+Hymenoptera (Großenohe),Malvales (Großenohe),1
 Hymenoptera (Halle),Apiales (Halle),10
 Hymenoptera (Halle),Asparagales (Halle),3
 Hymenoptera (Halle),Asterales (Halle),88
@@ -2516,20 +2516,20 @@ Hymenoptera (Haselbrunn),Fabales (Haselbrunn),3
 Hymenoptera (Haselbrunn),Lamiales (Haselbrunn),10
 Hymenoptera (Haselbrunn),Ranunculales (Haselbrunn),1
 Hymenoptera (Haselbrunn),Saxifragales (Haselbrunn),2
-Hymenoptera (HavranickÃ© vÅesoviÅ¡tÄ),Fabales (HavranickÃ© vÅesoviÅ¡tÄ),1
-Hymenoptera (HavranickÃ© vÅesoviÅ¡tÄ),Lamiales (HavranickÃ© vÅesoviÅ¡tÄ),3
-Hymenoptera (HavranickÃ© vÅesoviÅ¡tÄ),Malpighiales (HavranickÃ© vÅesoviÅ¡tÄ),11
-Hymenoptera (HavranickÃ© vÅesoviÅ¡tÄ),Saxifragales (HavranickÃ© vÅesoviÅ¡tÄ),11
-Hymenoptera (HavrÃ©),Apiales (HavrÃ©),12
-Hymenoptera (HavrÃ©),Asterales (HavrÃ©),61
-Hymenoptera (HavrÃ©),Boraginales (HavrÃ©),19
-Hymenoptera (HavrÃ©),Caryophyllales (HavrÃ©),1
-Hymenoptera (HavrÃ©),Dipsacales (HavrÃ©),1
-Hymenoptera (HavrÃ©),Fabales (HavrÃ©),19
-Hymenoptera (HavrÃ©),Geraniales (HavrÃ©),1
-Hymenoptera (HavrÃ©),Lamiales (HavrÃ©),16
-Hymenoptera (HavrÃ©),Myrtales (HavrÃ©),15
-Hymenoptera (HavrÃ©),Rosales (HavrÃ©),3
+Hymenoptera (Havranické vřesoviště),Fabales (Havranické vřesoviště),1
+Hymenoptera (Havranické vřesoviště),Lamiales (Havranické vřesoviště),3
+Hymenoptera (Havranické vřesoviště),Malpighiales (Havranické vřesoviště),11
+Hymenoptera (Havranické vřesoviště),Saxifragales (Havranické vřesoviště),11
+Hymenoptera (Havré),Apiales (Havré),12
+Hymenoptera (Havré),Asterales (Havré),61
+Hymenoptera (Havré),Boraginales (Havré),19
+Hymenoptera (Havré),Caryophyllales (Havré),1
+Hymenoptera (Havré),Dipsacales (Havré),1
+Hymenoptera (Havré),Fabales (Havré),19
+Hymenoptera (Havré),Geraniales (Havré),1
+Hymenoptera (Havré),Lamiales (Havré),16
+Hymenoptera (Havré),Myrtales (Havré),15
+Hymenoptera (Havré),Rosales (Havré),3
 Hymenoptera (Hensies),Asterales (Hensies),15
 Hymenoptera (Hensies),Boraginales (Hensies),2
 Hymenoptera (Hensies),Cornales (Hensies),1
@@ -2555,9 +2555,9 @@ Hymenoptera (Horbylunde_2005),Myrtales (Horbylunde_2005),2
 Hymenoptera (Horni Grunt),Asterales (Horni Grunt),8
 Hymenoptera (Horni Grunt),Fabales (Horni Grunt),7
 Hymenoptera (Horni Grunt),Malpighiales (Horni Grunt),4
-Hymenoptera (HornÃ­ BeÄva),Apiales (HornÃ­ BeÄva),2
-Hymenoptera (HornÃ­ BeÄva),Asterales (HornÃ­ BeÄva),7
-Hymenoptera (HornÃ­ BeÄva),Malpighiales (HornÃ­ BeÄva),13
+Hymenoptera (Horní Bečva),Apiales (Horní Bečva),2
+Hymenoptera (Horní Bečva),Asterales (Horní Bečva),7
+Hymenoptera (Horní Bečva),Malpighiales (Horní Bečva),13
 Hymenoptera (Hruba_Vrbka),Asterales (Hruba_Vrbka),16
 Hymenoptera (Hruba_Vrbka),Fabales (Hruba_Vrbka),52
 Hymenoptera (Hruba_Vrbka),Lamiales (Hruba_Vrbka),48
@@ -2603,9 +2603,9 @@ Hymenoptera (Isola Vicentina),Fabales (Isola Vicentina),88
 Hymenoptera (Isola Vicentina),Geraniales (Isola Vicentina),1
 Hymenoptera (Isola Vicentina),Lamiales (Isola Vicentina),28
 Hymenoptera (Isola Vicentina),Solanales (Isola Vicentina),2
-Hymenoptera (JanskÃ© LÃ¡znÄ),Geraniales (JanskÃ© LÃ¡znÄ),5
-Hymenoptera (JanskÃ© LÃ¡znÄ),Lamiales (JanskÃ© LÃ¡znÄ),1
-Hymenoptera (JanskÃ© LÃ¡znÄ),Ranunculales (JanskÃ© LÃ¡znÄ),4
+Hymenoptera (Janské Lázně),Geraniales (Janské Lázně),5
+Hymenoptera (Janské Lázně),Lamiales (Janské Lázně),1
+Hymenoptera (Janské Lázně),Ranunculales (Janské Lázně),4
 Hymenoptera (Jarnoltowek),Apiales (Jarnoltowek),2
 Hymenoptera (Jarnoltowek),Boraginales (Jarnoltowek),2
 Hymenoptera (Jarnoltowek),Fabales (Jarnoltowek),32
@@ -2636,16 +2636,16 @@ Hymenoptera (Kea),Fabales (Kea),35
 Hymenoptera (Kea),Lamiales (Kea),1060
 Hymenoptera (Kea),Malpighiales (Kea),5
 Hymenoptera (Kea),Ranunculales (Kea),7
-Hymenoptera (KittilÂ),Apiales (KittilÂ),8
-Hymenoptera (KittilÂ),Asterales (KittilÂ),16
-Hymenoptera (KittilÂ),Caryophyllales (KittilÂ),7
-Hymenoptera (KittilÂ),Dipsacales (KittilÂ),2
-Hymenoptera (KittilÂ),Fabales (KittilÂ),48
-Hymenoptera (KittilÂ),Geraniales (KittilÂ),14
-Hymenoptera (KittilÂ),Lamiales (KittilÂ),1
-Hymenoptera (KittilÂ),Myrtales (KittilÂ),14
-Hymenoptera (KittilÂ),Ranunculales (KittilÂ),6
-Hymenoptera (KittilÂ),Rosales (KittilÂ),3
+Hymenoptera (Kittil),Apiales (Kittil),8
+Hymenoptera (Kittil),Asterales (Kittil),16
+Hymenoptera (Kittil),Caryophyllales (Kittil),7
+Hymenoptera (Kittil),Dipsacales (Kittil),2
+Hymenoptera (Kittil),Fabales (Kittil),48
+Hymenoptera (Kittil),Geraniales (Kittil),14
+Hymenoptera (Kittil),Lamiales (Kittil),1
+Hymenoptera (Kittil),Myrtales (Kittil),14
+Hymenoptera (Kittil),Ranunculales (Kittil),6
+Hymenoptera (Kittil),Rosales (Kittil),3
 Hymenoptera (Kleinziegenfeld),Apiales (Kleinziegenfeld),3
 Hymenoptera (Kleinziegenfeld),Asterales (Kleinziegenfeld),9
 Hymenoptera (Kleinziegenfeld),Boraginales (Kleinziegenfeld),4
@@ -2669,7 +2669,7 @@ Hymenoptera (Klobikau),Ranunculales (Klobikau),2
 Hymenoptera (Klobikau),Rosales (Klobikau),26
 Hymenoptera (Klobikau),Sapindales (Klobikau),4
 Hymenoptera (Klobikau),Solanales (Klobikau),1
-Hymenoptera (KonÄprusy),Lamiales (KonÄprusy),4
+Hymenoptera (Koněprusy),Lamiales (Koněprusy),4
 Hymenoptera (Kythnos),Asparagales (Kythnos),1
 Hymenoptera (Kythnos),Asterales (Kythnos),67
 Hymenoptera (Kythnos),Boraginales (Kythnos),5
@@ -2680,24 +2680,24 @@ Hymenoptera (Kythnos),Lamiales (Kythnos),1627
 Hymenoptera (Kythnos),Malpighiales (Kythnos),3
 Hymenoptera (Kythnos),Oxalidales (Kythnos),9
 Hymenoptera (Kythnos),Ranunculales (Kythnos),13
-Hymenoptera (KÃ¶ttel),Asterales (KÃ¶ttel),13
-Hymenoptera (KÃ¶ttel),Boraginales (KÃ¶ttel),3
-Hymenoptera (KÃ¶ttel),Caryophyllales (KÃ¶ttel),2
-Hymenoptera (KÃ¶ttel),Fabales (KÃ¶ttel),9
-Hymenoptera (KÃ¶ttel),Lamiales (KÃ¶ttel),6
-Hymenoptera (KÃ¶ttel),Saxifragales (KÃ¶ttel),1
-Hymenoptera (KÅiÅ¾anov),Ranunculales (KÅiÅ¾anov),1
-Hymenoptera (KÅiÅ¾anov),Rosales (KÅiÅ¾anov),1
-Hymenoptera (La LouviÃ¨re),Apiales (La LouviÃ¨re),6
-Hymenoptera (La LouviÃ¨re),Asterales (La LouviÃ¨re),25
-Hymenoptera (La LouviÃ¨re),Boraginales (La LouviÃ¨re),18
-Hymenoptera (La LouviÃ¨re),Lamiales (La LouviÃ¨re),2
-Hymenoptera (La LouviÃ¨re),Malpighiales (La LouviÃ¨re),3
-Hymenoptera (La LouviÃ¨re),Malvales (La LouviÃ¨re),1
-Hymenoptera (La LouviÃ¨re),Myrtales (La LouviÃ¨re),4
-Hymenoptera (La LouviÃ¨re),Ranunculales (La LouviÃ¨re),2
-Hymenoptera (La LouviÃ¨re),Rosales (La LouviÃ¨re),9
-Hymenoptera (La LouviÃ¨re),Solanales (La LouviÃ¨re),1
+Hymenoptera (Köttel),Asterales (Köttel),13
+Hymenoptera (Köttel),Boraginales (Köttel),3
+Hymenoptera (Köttel),Caryophyllales (Köttel),2
+Hymenoptera (Köttel),Fabales (Köttel),9
+Hymenoptera (Köttel),Lamiales (Köttel),6
+Hymenoptera (Köttel),Saxifragales (Köttel),1
+Hymenoptera (Křižanov),Ranunculales (Křižanov),1
+Hymenoptera (Křižanov),Rosales (Křižanov),1
+Hymenoptera (La Louvière),Apiales (La Louvière),6
+Hymenoptera (La Louvière),Asterales (La Louvière),25
+Hymenoptera (La Louvière),Boraginales (La Louvière),18
+Hymenoptera (La Louvière),Lamiales (La Louvière),2
+Hymenoptera (La Louvière),Malpighiales (La Louvière),3
+Hymenoptera (La Louvière),Malvales (La Louvière),1
+Hymenoptera (La Louvière),Myrtales (La Louvière),4
+Hymenoptera (La Louvière),Ranunculales (La Louvière),2
+Hymenoptera (La Louvière),Rosales (La Louvière),9
+Hymenoptera (La Louvière),Solanales (La Louvière),1
 Hymenoptera (La_cunya),Asterales (La_cunya),5
 Hymenoptera (La_cunya),Boraginales (La_cunya),3
 Hymenoptera (La_cunya),Ericales (La_cunya),2
@@ -2774,8 +2774,8 @@ Hymenoptera (Livinallongo del Col di Lana),Fabales (Livinallongo del Col di Lana
 Hymenoptera (Livinallongo del Col di Lana),Geraniales (Livinallongo del Col di Lana),3
 Hymenoptera (Livinallongo del Col di Lana),Lamiales (Livinallongo del Col di Lana),64
 Hymenoptera (Livinallongo del Col di Lana),Ranunculales (Livinallongo del Col di Lana),2
-Hymenoptera (Louka pod Å obesem),Dipsacales (Louka pod Å obesem),1
-Hymenoptera (Louka pod Å obesem),Fabales (Louka pod Å obesem),4
+Hymenoptera (Louka pod Šobesem),Dipsacales (Louka pod Šobesem),1
+Hymenoptera (Louka pod Šobesem),Fabales (Louka pod Šobesem),4
 Hymenoptera (Lumea Pierduta),Apiales (Lumea Pierduta),23
 Hymenoptera (Lumea Pierduta),Asterales (Lumea Pierduta),94
 Hymenoptera (Lumea Pierduta),Celastrales (Lumea Pierduta),1
@@ -2817,16 +2817,16 @@ Hymenoptera (Magdeburg),Rosales (Magdeburg),16
 Hymenoptera (Magdeburg),Sapindales (Magdeburg),3
 Hymenoptera (Magdeburg),Saxifragales (Magdeburg),21
 Hymenoptera (Magdeburg),Solanales (Magdeburg),3
-Hymenoptera (MaisiÃ¨res),Asterales (MaisiÃ¨res),62
-Hymenoptera (MaisiÃ¨res),Boraginales (MaisiÃ¨res),13
-Hymenoptera (MaisiÃ¨res),Brassicales (MaisiÃ¨res),12
-Hymenoptera (MaisiÃ¨res),Caryophyllales (MaisiÃ¨res),1
-Hymenoptera (MaisiÃ¨res),Fabales (MaisiÃ¨res),2
-Hymenoptera (MaisiÃ¨res),Lamiales (MaisiÃ¨res),1
-Hymenoptera (MaisiÃ¨res),Malpighiales (MaisiÃ¨res),4
-Hymenoptera (MaisiÃ¨res),Malvales (MaisiÃ¨res),5
-Hymenoptera (MaisiÃ¨res),Myrtales (MaisiÃ¨res),1
-Hymenoptera (MaisiÃ¨res),Rosales (MaisiÃ¨res),1
+Hymenoptera (Maisières),Asterales (Maisières),62
+Hymenoptera (Maisières),Boraginales (Maisières),13
+Hymenoptera (Maisières),Brassicales (Maisières),12
+Hymenoptera (Maisières),Caryophyllales (Maisières),1
+Hymenoptera (Maisières),Fabales (Maisières),2
+Hymenoptera (Maisières),Lamiales (Maisières),1
+Hymenoptera (Maisières),Malpighiales (Maisières),4
+Hymenoptera (Maisières),Malvales (Maisières),5
+Hymenoptera (Maisières),Myrtales (Maisières),1
+Hymenoptera (Maisières),Rosales (Maisières),1
 Hymenoptera (Menorca),Apiales (Menorca),87
 Hymenoptera (Menorca),Asparagales (Menorca),33
 Hymenoptera (Menorca),Asterales (Menorca),278
@@ -2861,10 +2861,10 @@ Hymenoptera (Miladka),Fabales (Miladka),14
 Hymenoptera (Miladka),Gentianales (Miladka),2
 Hymenoptera (Miladka),Geraniales (Miladka),94
 Hymenoptera (Miladka),Lamiales (Miladka),6
-Hymenoptera (MilovickÃ¡ strÃ¡Å),Fabales (MilovickÃ¡ strÃ¡Å),2
-Hymenoptera (MilovickÃ¡ strÃ¡Å),Lamiales (MilovickÃ¡ strÃ¡Å),5
-Hymenoptera (MilovickÃ¡ strÃ¡Å),Sapindales (MilovickÃ¡ strÃ¡Å),1
-Hymenoptera (MilÃ­kov),Brassicales (MilÃ­kov),1
+Hymenoptera (Milovická stráň),Fabales (Milovická stráň),2
+Hymenoptera (Milovická stráň),Lamiales (Milovická stráň),5
+Hymenoptera (Milovická stráň),Sapindales (Milovická stráň),1
+Hymenoptera (Milíkov),Brassicales (Milíkov),1
 Hymenoptera (Mnichov),Asterales (Mnichov),1
 Hymenoptera (Mnichov),Caryophyllales (Mnichov),9
 Hymenoptera (Mnichov),Dipsacales (Mnichov),6
@@ -2916,8 +2916,8 @@ Hymenoptera (Muro),Ericales (Muro),2
 Hymenoptera (Muro),Fabales (Muro),34
 Hymenoptera (Muro),Gentianales (Muro),1
 Hymenoptera (Muro),Malpighiales (Muro),1
-Hymenoptera (NekoÅ),Fabales (NekoÅ),2
-Hymenoptera (NekoÅ),Geraniales (NekoÅ),1
+Hymenoptera (Nekoř),Fabales (Nekoř),2
+Hymenoptera (Nekoř),Geraniales (Nekoř),1
 Hymenoptera (Nervesa della Battaglia),Apiales (Nervesa della Battaglia),12
 Hymenoptera (Nervesa della Battaglia),Asterales (Nervesa della Battaglia),28
 Hymenoptera (Nervesa della Battaglia),Boraginales (Nervesa della Battaglia),2
@@ -2925,17 +2925,17 @@ Hymenoptera (Nervesa della Battaglia),Dipsacales (Nervesa della Battaglia),10
 Hymenoptera (Nervesa della Battaglia),Fabales (Nervesa della Battaglia),18
 Hymenoptera (Nervesa della Battaglia),Geraniales (Nervesa della Battaglia),1
 Hymenoptera (Nervesa della Battaglia),Lamiales (Nervesa della Battaglia),5
-Hymenoptera (NesmÄÅ),Apiales (NesmÄÅ),3
-Hymenoptera (NesmÄÅ),Fabales (NesmÄÅ),7
-Hymenoptera (NesmÄÅ),Geraniales (NesmÄÅ),16
-Hymenoptera (NeubÃ¼rg),Asterales (NeubÃ¼rg),21
-Hymenoptera (NeubÃ¼rg),Brassicales (NeubÃ¼rg),6
-Hymenoptera (NeubÃ¼rg),Dipsacales (NeubÃ¼rg),2
-Hymenoptera (NeubÃ¼rg),Fabales (NeubÃ¼rg),5
-Hymenoptera (NeubÃ¼rg),Gentianales (NeubÃ¼rg),1
-Hymenoptera (NeubÃ¼rg),Lamiales (NeubÃ¼rg),3
-Hymenoptera (NeubÃ¼rg),Malpighiales (NeubÃ¼rg),1
-Hymenoptera (NeubÃ¼rg),Saxifragales (NeubÃ¼rg),2
+Hymenoptera (Nesměř),Apiales (Nesměř),3
+Hymenoptera (Nesměř),Fabales (Nesměř),7
+Hymenoptera (Nesměř),Geraniales (Nesměř),16
+Hymenoptera (Neubürg),Asterales (Neubürg),21
+Hymenoptera (Neubürg),Brassicales (Neubürg),6
+Hymenoptera (Neubürg),Dipsacales (Neubürg),2
+Hymenoptera (Neubürg),Fabales (Neubürg),5
+Hymenoptera (Neubürg),Gentianales (Neubürg),1
+Hymenoptera (Neubürg),Lamiales (Neubürg),3
+Hymenoptera (Neubürg),Malpighiales (Neubürg),1
+Hymenoptera (Neubürg),Saxifragales (Neubürg),2
 Hymenoptera (Niebla),Apiales (Niebla),16
 Hymenoptera (Niebla),Asparagales (Niebla),19
 Hymenoptera (Niebla),Asterales (Niebla),8
@@ -2944,17 +2944,17 @@ Hymenoptera (Niebla),Lamiales (Niebla),40
 Hymenoptera (Niebla),Malpighiales (Niebla),2
 Hymenoptera (Niebla),Malvales (Niebla),10
 Hymenoptera (Niebla),Solanales (Niebla),11
-Hymenoptera (Noeux-lÃ¨s-Auxi),Apiales (Noeux-lÃ¨s-Auxi),12
-Hymenoptera (Noeux-lÃ¨s-Auxi),Asparagales (Noeux-lÃ¨s-Auxi),2
-Hymenoptera (Noeux-lÃ¨s-Auxi),Asterales (Noeux-lÃ¨s-Auxi),97
-Hymenoptera (Noeux-lÃ¨s-Auxi),Dipsacales (Noeux-lÃ¨s-Auxi),38
-Hymenoptera (Noeux-lÃ¨s-Auxi),Ericales (Noeux-lÃ¨s-Auxi),2
-Hymenoptera (Noeux-lÃ¨s-Auxi),Fabales (Noeux-lÃ¨s-Auxi),204
-Hymenoptera (Noeux-lÃ¨s-Auxi),Gentianales (Noeux-lÃ¨s-Auxi),19
-Hymenoptera (Noeux-lÃ¨s-Auxi),Lamiales (Noeux-lÃ¨s-Auxi),61
-Hymenoptera (Noeux-lÃ¨s-Auxi),Pinales (Noeux-lÃ¨s-Auxi),1
-Hymenoptera (Noeux-lÃ¨s-Auxi),Ranunculales (Noeux-lÃ¨s-Auxi),43
-Hymenoptera (Noeux-lÃ¨s-Auxi),Rosales (Noeux-lÃ¨s-Auxi),1
+Hymenoptera (Noeux-lès-Auxi),Apiales (Noeux-lès-Auxi),12
+Hymenoptera (Noeux-lès-Auxi),Asparagales (Noeux-lès-Auxi),2
+Hymenoptera (Noeux-lès-Auxi),Asterales (Noeux-lès-Auxi),97
+Hymenoptera (Noeux-lès-Auxi),Dipsacales (Noeux-lès-Auxi),38
+Hymenoptera (Noeux-lès-Auxi),Ericales (Noeux-lès-Auxi),2
+Hymenoptera (Noeux-lès-Auxi),Fabales (Noeux-lès-Auxi),204
+Hymenoptera (Noeux-lès-Auxi),Gentianales (Noeux-lès-Auxi),19
+Hymenoptera (Noeux-lès-Auxi),Lamiales (Noeux-lès-Auxi),61
+Hymenoptera (Noeux-lès-Auxi),Pinales (Noeux-lès-Auxi),1
+Hymenoptera (Noeux-lès-Auxi),Ranunculales (Noeux-lès-Auxi),43
+Hymenoptera (Noeux-lès-Auxi),Rosales (Noeux-lès-Auxi),1
 Hymenoptera (North_Central_Estonia),Apiales (North_Central_Estonia),66
 Hymenoptera (North_Central_Estonia),Asterales (North_Central_Estonia),3373
 Hymenoptera (North_Central_Estonia),Boraginales (North_Central_Estonia),639
@@ -3027,10 +3027,10 @@ Hymenoptera (Oschersleben),Malvales (Oschersleben),11
 Hymenoptera (Oschersleben),Ranunculales (Oschersleben),11
 Hymenoptera (Oschersleben),Rosales (Oschersleben),5
 Hymenoptera (Oschersleben),Solanales (Oschersleben),17
-Hymenoptera (Ostrov nad OhÅÃ­),Asterales (Ostrov nad OhÅÃ­),1
-Hymenoptera (Ostrov nad OhÅÃ­),Fabales (Ostrov nad OhÅÃ­),2
-Hymenoptera (Ostrov nad OhÅÃ­),Ranunculales (Ostrov nad OhÅÃ­),5
-Hymenoptera (OstÅihom),Asterales (OstÅihom),2
+Hymenoptera (Ostrov nad Ohří),Asterales (Ostrov nad Ohří),1
+Hymenoptera (Ostrov nad Ohří),Fabales (Ostrov nad Ohří),2
+Hymenoptera (Ostrov nad Ohří),Ranunculales (Ostrov nad Ohří),5
+Hymenoptera (Ostřihom),Asterales (Ostřihom),2
 Hymenoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Apiales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),13
 Hymenoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Asparagales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),1
 Hymenoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Asterales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),41
@@ -3067,12 +3067,12 @@ Hymenoptera (Petre_tii de Jos),Lamiales (Petre_tii de Jos),4
 Hymenoptera (Petre_tii de Jos),Myrtales (Petre_tii de Jos),1
 Hymenoptera (Petre_tii de Jos),Ranunculales (Petre_tii de Jos),3
 Hymenoptera (Petre_tii de Jos),Rosales (Petre_tii de Jos),3
-Hymenoptera (PetÅÃ­n),Apiales (PetÅÃ­n),2
-Hymenoptera (PetÅÃ­n),Asterales (PetÅÃ­n),11
-Hymenoptera (PetÅÃ­n),Fabales (PetÅÃ­n),3
-Hymenoptera (PetÅÃ­n),Geraniales (PetÅÃ­n),12
-Hymenoptera (PetÅÃ­n),Lamiales (PetÅÃ­n),6
-Hymenoptera (PetÅÃ­n),Ranunculales (PetÅÃ­n),1
+Hymenoptera (Petřín),Apiales (Petřín),2
+Hymenoptera (Petřín),Asterales (Petřín),11
+Hymenoptera (Petřín),Fabales (Petřín),3
+Hymenoptera (Petřín),Geraniales (Petřín),12
+Hymenoptera (Petřín),Lamiales (Petřín),6
+Hymenoptera (Petřín),Ranunculales (Petřín),1
 Hymenoptera (Piazzola sul Brenta),Apiales (Piazzola sul Brenta),42
 Hymenoptera (Piazzola sul Brenta),Asterales (Piazzola sul Brenta),117621
 Hymenoptera (Piazzola sul Brenta),Brassicales (Piazzola sul Brenta),337
@@ -3096,17 +3096,17 @@ Hymenoptera (Pino_del_cuervo),Asparagales (Pino_del_cuervo),1
 Hymenoptera (Pino_del_cuervo),Fabales (Pino_del_cuervo),18
 Hymenoptera (Pino_del_cuervo),Lamiales (Pino_del_cuervo),258
 Hymenoptera (Pino_del_cuervo),Malvales (Pino_del_cuervo),33
-Hymenoptera (PlakÃ¡nek),Apiales (PlakÃ¡nek),1
-Hymenoptera (PlakÃ¡nek),Caryophyllales (PlakÃ¡nek),4
-Hymenoptera (PlakÃ¡nek),Geraniales (PlakÃ¡nek),44
-Hymenoptera (Popova Å apka),Fabales (Popova Å apka),3
-Hymenoptera (Popova Å apka),Malpighiales (Popova Å apka),1
-Hymenoptera (Popova Å apka),Ranunculales (Popova Å apka),15
+Hymenoptera (Plakánek),Apiales (Plakánek),1
+Hymenoptera (Plakánek),Caryophyllales (Plakánek),4
+Hymenoptera (Plakánek),Geraniales (Plakánek),44
+Hymenoptera (Popova Šapka),Fabales (Popova Šapka),3
+Hymenoptera (Popova Šapka),Malpighiales (Popova Šapka),1
+Hymenoptera (Popova Šapka),Ranunculales (Popova Šapka),15
 Hymenoptera (Pottenstein),Asterales (Pottenstein),11
 Hymenoptera (Pottenstein),Dipsacales (Pottenstein),1
 Hymenoptera (Pottenstein),Fabales (Pottenstein),9
 Hymenoptera (Pottenstein),Lamiales (Pottenstein),6
-Hymenoptera (PouzdÅany),Asterales (PouzdÅany),1
+Hymenoptera (Pouzdřany),Asterales (Pouzdřany),1
 Hymenoptera (Pove del Grappa),Apiales (Pove del Grappa),1
 Hymenoptera (Pove del Grappa),Caryophyllales (Pove del Grappa),2
 Hymenoptera (Pove del Grappa),Fabales (Pove del Grappa),1
@@ -3130,14 +3130,14 @@ Hymenoptera (Pretzien),Malvales (Pretzien),8
 Hymenoptera (Pretzien),Ranunculales (Pretzien),14
 Hymenoptera (Pretzien),Rosales (Pretzien),10
 Hymenoptera (Pretzien),Solanales (Pretzien),28
-Hymenoptera (PudasjÂrvi),Apiales (PudasjÂrvi),3
-Hymenoptera (PudasjÂrvi),Asterales (PudasjÂrvi),23
-Hymenoptera (PudasjÂrvi),Caryophyllales (PudasjÂrvi),2
-Hymenoptera (PudasjÂrvi),Fabales (PudasjÂrvi),63
-Hymenoptera (PudasjÂrvi),Lamiales (PudasjÂrvi),159
-Hymenoptera (PudasjÂrvi),Myrtales (PudasjÂrvi),39
-Hymenoptera (PudasjÂrvi),Ranunculales (PudasjÂrvi),6
-Hymenoptera (PudasjÂrvi),Rosales (PudasjÂrvi),3
+Hymenoptera (Pudasjrvi),Apiales (Pudasjrvi),3
+Hymenoptera (Pudasjrvi),Asterales (Pudasjrvi),23
+Hymenoptera (Pudasjrvi),Caryophyllales (Pudasjrvi),2
+Hymenoptera (Pudasjrvi),Fabales (Pudasjrvi),63
+Hymenoptera (Pudasjrvi),Lamiales (Pudasjrvi),159
+Hymenoptera (Pudasjrvi),Myrtales (Pudasjrvi),39
+Hymenoptera (Pudasjrvi),Ranunculales (Pudasjrvi),6
+Hymenoptera (Pudasjrvi),Rosales (Pudasjrvi),3
 Hymenoptera (Puntiro),Apiales (Puntiro),27
 Hymenoptera (Puntiro),Asparagales (Puntiro),7
 Hymenoptera (Puntiro),Asterales (Puntiro),23
@@ -3145,11 +3145,11 @@ Hymenoptera (Puntiro),Gentianales (Puntiro),2
 Hymenoptera (Puntiro),Lamiales (Puntiro),27
 Hymenoptera (Puntiro),Liliales (Puntiro),6
 Hymenoptera (Puntiro),Malvales (Puntiro),4
-Hymenoptera (PÃ©ruwelz),Asterales (PÃ©ruwelz),14
-Hymenoptera (PÃ©ruwelz),Brassicales (PÃ©ruwelz),1
-Hymenoptera (PÃ©ruwelz),Fabales (PÃ©ruwelz),1
-Hymenoptera (PÃ©ruwelz),Geraniales (PÃ©ruwelz),1
-Hymenoptera (PÃ©ruwelz),Ranunculales (PÃ©ruwelz),10
+Hymenoptera (Péruwelz),Asterales (Péruwelz),14
+Hymenoptera (Péruwelz),Brassicales (Péruwelz),1
+Hymenoptera (Péruwelz),Fabales (Péruwelz),1
+Hymenoptera (Péruwelz),Geraniales (Péruwelz),1
+Hymenoptera (Péruwelz),Ranunculales (Péruwelz),10
 Hymenoptera (Quaregnon),Asterales (Quaregnon),12
 Hymenoptera (Quaregnon),Boraginales (Quaregnon),9
 Hymenoptera (Quaregnon),Brassicales (Quaregnon),9
@@ -3187,7 +3187,7 @@ Hymenoptera (Rasca),Gentianales (Rasca),1
 Hymenoptera (Rasca),Lamiales (Rasca),62
 Hymenoptera (Rasca),Malpighiales (Rasca),2
 Hymenoptera (Rasca),Malvales (Rasca),12
-Hymenoptera (RejvÃ­z),Lamiales (RejvÃ­z),1
+Hymenoptera (Rejvíz),Lamiales (Rejvíz),1
 Hymenoptera (Retzbach),Asterales (Retzbach),13
 Hymenoptera (Retzbach),Boraginales (Retzbach),2
 Hymenoptera (Retzbach),Brassicales (Retzbach),15
@@ -3348,12 +3348,12 @@ Hymenoptera (Schupfart),Gentianales (Schupfart),1
 Hymenoptera (Schupfart),Lamiales (Schupfart),8
 Hymenoptera (Schupfart),Ranunculales (Schupfart),1
 Hymenoptera (Schupfart),Rosales (Schupfart),3
-Hymenoptera (SchÃ¼tzengrÃ¤ben),Asterales (SchÃ¼tzengrÃ¤ben),7
-Hymenoptera (SchÃ¼tzengrÃ¤ben),Fabales (SchÃ¼tzengrÃ¤ben),30
-Hymenoptera (SchÃ¼tzengrÃ¤ben),Lamiales (SchÃ¼tzengrÃ¤ben),4
-Hymenoptera (SchÃ¼tzengrÃ¤ben),Malvales (SchÃ¼tzengrÃ¤ben),1
-Hymenoptera (SchÃ¼tzengrÃ¤ben),Ranunculales (SchÃ¼tzengrÃ¤ben),3
-Hymenoptera (SchÃ¼tzengrÃ¤ben),Solanales (SchÃ¼tzengrÃ¤ben),1
+Hymenoptera (Schützengräben),Asterales (Schützengräben),7
+Hymenoptera (Schützengräben),Fabales (Schützengräben),30
+Hymenoptera (Schützengräben),Lamiales (Schützengräben),4
+Hymenoptera (Schützengräben),Malvales (Schützengräben),1
+Hymenoptera (Schützengräben),Ranunculales (Schützengräben),3
+Hymenoptera (Schützengräben),Solanales (Schützengräben),1
 Hymenoptera (Scurelle),Apiales (Scurelle),9
 Hymenoptera (Scurelle),Asterales (Scurelle),708
 Hymenoptera (Scurelle),Boraginales (Scurelle),3
@@ -3617,8 +3617,8 @@ Hymenoptera (Volpago del Montello),Asterales (Volpago del Montello),50
 Hymenoptera (Volpago del Montello),Boraginales (Volpago del Montello),7
 Hymenoptera (Volpago del Montello),Fabales (Volpago del Montello),22
 Hymenoptera (Volpago del Montello),Lamiales (Volpago del Montello),21
-Hymenoptera (VoznesensÂ´k),Asterales (VoznesensÂ´k),2
-Hymenoptera (VoznesensÂ´k),Boraginales (VoznesensÂ´k),1
+Hymenoptera (Voznesens´k),Asterales (Voznesens´k),2
+Hymenoptera (Voznesens´k),Boraginales (Voznesens´k),1
 Hymenoptera (Wallersberg),Asterales (Wallersberg),8
 Hymenoptera (Wallersberg),Fabales (Wallersberg),3
 Hymenoptera (Wallersberg),Lamiales (Wallersberg),3
@@ -3712,12 +3712,12 @@ Hymenoptera (Zoldo Alto),Ranunculales (Zoldo Alto),1
 Hymenoptera (Zoldo Alto),Rosales (Zoldo Alto),1
 Hymenoptera (hory nad Pryvitne),Asterales (hory nad Pryvitne),3
 Hymenoptera (hory nad Pryvitne),Lamiales (hory nad Pryvitne),1
-Hymenoptera (jezÃ­rko u Vesele),Lamiales (jezÃ­rko u Vesele),2
+Hymenoptera (jezírko u Vesele),Lamiales (jezírko u Vesele),2
 Hymenoptera (kemp),Asterales (kemp),1
 Hymenoptera (kemp),Fabales (kemp),3
 Hymenoptera (kopec u Cheremysivka),Asterales (kopec u Cheremysivka),6
-Hymenoptera (motÃ½lÃ­ rezervace),Caryophyllales (motÃ½lÃ­ rezervace),2
-Hymenoptera (motÃ½lÃ­ rezervace),Lamiales (motÃ½lÃ­ rezervace),1
+Hymenoptera (motýlí rezervace),Caryophyllales (motýlí rezervace),2
+Hymenoptera (motýlí rezervace),Lamiales (motýlí rezervace),1
 Hymenoptera (sHeretat),Apiales (sHeretat),17
 Hymenoptera (sHeretat),Asparagales (sHeretat),35
 Hymenoptera (sHeretat),Asterales (sHeretat),54
@@ -3730,14 +3730,14 @@ Hymenoptera (sHeretat),Oxalidales (sHeretat),7
 Hymenoptera (sHeretat),Ranunculales (sHeretat),3
 Hymenoptera (step u Antonivka),Apiales (step u Antonivka),1
 Hymenoptera (step u Antonivka),Asterales (step u Antonivka),1
-Hymenoptera (ÅÃ­Äany),Lamiales (ÅÃ­Äany),5
-Hymenoptera (Å obes),Caryophyllales (Å obes),1
-Hymenoptera (Å obes),Fabales (Å obes),8
-Hymenoptera (Å obes),Lamiales (Å obes),1
-Hymenoptera (Å obes),Malpighiales (Å obes),6
-Hymenoptera (Å obes),Saxifragales (Å obes),3
-Lepidoptera (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),Asterales (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),3
-Lepidoptera (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),Lamiales (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),1
+Hymenoptera (Říčany),Lamiales (Říčany),5
+Hymenoptera (Šobes),Caryophyllales (Šobes),1
+Hymenoptera (Šobes),Fabales (Šobes),8
+Hymenoptera (Šobes),Lamiales (Šobes),1
+Hymenoptera (Šobes),Malpighiales (Šobes),6
+Hymenoptera (Šobes),Saxifragales (Šobes),3
+Lepidoptera (Alešovské písky (Olešské písky)),Asterales (Alešovské písky (Olešské písky)),3
+Lepidoptera (Alešovské písky (Olešské písky)),Lamiales (Alešovské písky (Olešské písky)),1
 Lepidoptera (Allika),Apiales (Allika),3
 Lepidoptera (Allika),Asparagales (Allika),3
 Lepidoptera (Allika),Asterales (Allika),59
@@ -3805,8 +3805,8 @@ Lepidoptera (Borsa-Catun),Lamiales (Borsa-Catun),1
 Lepidoptera (Bosco Chiesanuova),Asterales (Bosco Chiesanuova),6
 Lepidoptera (Bosco Chiesanuova),Boraginales (Bosco Chiesanuova),1
 Lepidoptera (Bosco Chiesanuova),Dipsacales (Bosco Chiesanuova),3
-Lepidoptera (BÄstvina),Caryophyllales (BÄstvina),1
-Lepidoptera (BÄstvina),Fabales (BÄstvina),1
+Lepidoptera (Běstvina),Caryophyllales (Běstvina),1
+Lepidoptera (Běstvina),Fabales (Běstvina),1
 Lepidoptera (Cabrera),Asparagales (Cabrera),7
 Lepidoptera (Cabrera),Boraginales (Cabrera),5
 Lepidoptera (Cabrera),Brassicales (Cabrera),1
@@ -3881,13 +3881,13 @@ Lepidoptera (Costabissara),Fabales (Costabissara),7
 Lepidoptera (Costabissara),Geraniales (Costabissara),1
 Lepidoptera (Costabissara),Lamiales (Costabissara),45
 Lepidoptera (Cotito_de_santa_teresa),Fabales (Cotito_de_santa_teresa),9
-Lepidoptera (CÃ´te d'or),Asterales (CÃ´te d'or),5
-Lepidoptera (CÃ´te d'or),Brassicales (CÃ´te d'or),2
-Lepidoptera (CÃ´te d'or),Caryophyllales (CÃ´te d'or),27
-Lepidoptera (CÃ´te d'or),Fabales (CÃ´te d'or),6
-Lepidoptera (CÃ´te d'or),Ranunculales (CÃ´te d'or),2
-Lepidoptera (CÃ´te d'or),Rosales (CÃ´te d'or),1
-Lepidoptera (CÃ´te d'or),Solanales (CÃ´te d'or),1
+Lepidoptera (Côte d'or),Asterales (Côte d'or),5
+Lepidoptera (Côte d'or),Brassicales (Côte d'or),2
+Lepidoptera (Côte d'or),Caryophyllales (Côte d'or),27
+Lepidoptera (Côte d'or),Fabales (Côte d'or),6
+Lepidoptera (Côte d'or),Ranunculales (Côte d'or),2
+Lepidoptera (Côte d'or),Rosales (Côte d'or),1
+Lepidoptera (Côte d'or),Solanales (Côte d'or),1
 Lepidoptera (Dzier_ys_aw),Apiales (Dzier_ys_aw),1
 Lepidoptera (Dzier_ys_aw),Asterales (Dzier_ys_aw),219
 Lepidoptera (Dzier_ys_aw),Caryophyllales (Dzier_ys_aw),2
@@ -3948,8 +3948,8 @@ Lepidoptera (Grigno),Ericales (Grigno),1
 Lepidoptera (Grigno),Lamiales (Grigno),3
 Lepidoptera (Hanila),Dipsacales (Hanila),1
 Lepidoptera (Hanila),Fabales (Hanila),3
-Lepidoptera (HavranickÃ© vÅesoviÅ¡tÄ),Fabales (HavranickÃ© vÅesoviÅ¡tÄ),1
-Lepidoptera (HavranickÃ© vÅesoviÅ¡tÄ),Lamiales (HavranickÃ© vÅesoviÅ¡tÄ),2
+Lepidoptera (Havranické vřesoviště),Fabales (Havranické vřesoviště),1
+Lepidoptera (Havranické vřesoviště),Lamiales (Havranické vřesoviště),2
 Lepidoptera (Hermanovice),Asterales (Hermanovice),1
 Lepidoptera (Hermanovice),Caryophyllales (Hermanovice),1
 Lepidoptera (Hermanovice),Dipsacales (Hermanovice),4
@@ -3966,7 +3966,7 @@ Lepidoptera (Horni Grunt),Dipsacales (Horni Grunt),14
 Lepidoptera (Horni Grunt),Fabales (Horni Grunt),8
 Lepidoptera (Horni Grunt),Malpighiales (Horni Grunt),4
 Lepidoptera (Horni Grunt),Ranunculales (Horni Grunt),1
-Lepidoptera (HornÃ­ BeÄva),Asterales (HornÃ­ BeÄva),10
+Lepidoptera (Horní Bečva),Asterales (Horní Bečva),10
 Lepidoptera (Hruba_Vrbka),Asparagales (Hruba_Vrbka),2
 Lepidoptera (Hruba_Vrbka),Asterales (Hruba_Vrbka),82
 Lepidoptera (Hruba_Vrbka),Boraginales (Hruba_Vrbka),2
@@ -4002,9 +4002,9 @@ Lepidoptera (Kea),Asterales (Kea),12
 Lepidoptera (Kea),Caryophyllales (Kea),1
 Lepidoptera (Kea),Fabales (Kea),1
 Lepidoptera (Kea),Lamiales (Kea),75
-Lepidoptera (KittilÂ),Geraniales (KittilÂ),2
-Lepidoptera (KonÄprusy),Fabales (KonÄprusy),1
-Lepidoptera (KonÄprusy),Lamiales (KonÄprusy),1
+Lepidoptera (Kittil),Geraniales (Kittil),2
+Lepidoptera (Koněprusy),Fabales (Koněprusy),1
+Lepidoptera (Koněprusy),Lamiales (Koněprusy),1
 Lepidoptera (Kythnos),Lamiales (Kythnos),28
 Lepidoptera (La_cunya),Lamiales (La_cunya),1
 Lepidoptera (La_cunya),Malvales (La_cunya),3
@@ -4028,8 +4028,8 @@ Lepidoptera (Lesvos),Caryophyllales (Lesvos),1
 Lepidoptera (Lesvos),Lamiales (Lesvos),12
 Lepidoptera (Livinallongo del Col di Lana),Asterales (Livinallongo del Col di Lana),19
 Lepidoptera (Livinallongo del Col di Lana),Rosales (Livinallongo del Col di Lana),3
-Lepidoptera (Louka pod Å obesem),Caryophyllales (Louka pod Å obesem),1
-Lepidoptera (Louka pod Å obesem),Fabales (Louka pod Å obesem),1
+Lepidoptera (Louka pod Šobesem),Caryophyllales (Louka pod Šobesem),1
+Lepidoptera (Louka pod Šobesem),Fabales (Louka pod Šobesem),1
 Lepidoptera (Lumea Pierduta),Dipsacales (Lumea Pierduta),4
 Lepidoptera (Luna de Jos),Asterales (Luna de Jos),2
 Lepidoptera (Luna de Jos),Caryophyllales (Luna de Jos),2
@@ -4063,7 +4063,7 @@ Lepidoptera (Miladka),Fabales (Miladka),2
 Lepidoptera (Miladka),Gentianales (Miladka),2
 Lepidoptera (Miladka),Geraniales (Miladka),6
 Lepidoptera (Miladka),Lamiales (Miladka),6
-Lepidoptera (MilÃ­kov),Ranunculales (MilÃ­kov),1
+Lepidoptera (Milíkov),Ranunculales (Milíkov),1
 Lepidoptera (Mnichov),Asterales (Mnichov),6
 Lepidoptera (Mnichov),Caryophyllales (Mnichov),62
 Lepidoptera (Mnichov),Dipsacales (Mnichov),72
@@ -4084,11 +4084,11 @@ Lepidoptera (Muro),Asparagales (Muro),3
 Lepidoptera (Muro),Asterales (Muro),3
 Lepidoptera (Muro),Fabales (Muro),2
 Lepidoptera (Muro),Lamiales (Muro),1
-Lepidoptera (NekoÅ),Fabales (NekoÅ),1
+Lepidoptera (Nekoř),Fabales (Nekoř),1
 Lepidoptera (Nervesa della Battaglia),Dipsacales (Nervesa della Battaglia),5
 Lepidoptera (Nervesa della Battaglia),Fabales (Nervesa della Battaglia),1
-Lepidoptera (NesmÄÅ),Asterales (NesmÄÅ),1
-Lepidoptera (NesmÄÅ),Fabales (NesmÄÅ),1
+Lepidoptera (Nesměř),Asterales (Nesměř),1
+Lepidoptera (Nesměř),Fabales (Nesměř),1
 Lepidoptera (Ocoale),Asterales (Ocoale),7
 Lepidoptera (Ocoale),Dipsacales (Ocoale),1
 Lepidoptera (Orozko),Asterales (Orozko),3
@@ -4098,7 +4098,7 @@ Lepidoptera (Orozko),Fabales (Orozko),4
 Lepidoptera (Orozko),Gentianales (Orozko),1
 Lepidoptera (Orozko),Geraniales (Orozko),2
 Lepidoptera (Orozko),Lamiales (Orozko),5
-Lepidoptera (Ostrov nad OhÅÃ­),Fabales (Ostrov nad OhÅÃ­),1
+Lepidoptera (Ostrov nad Ohří),Fabales (Ostrov nad Ohří),1
 Lepidoptera (Pergine Valsugana),Apiales (Pergine Valsugana),1
 Lepidoptera (Pergine Valsugana),Asterales (Pergine Valsugana),13
 Lepidoptera (Pergine Valsugana),Boraginales (Pergine Valsugana),2
@@ -4113,17 +4113,17 @@ Lepidoptera (Petre_tii de Jos),Asterales (Petre_tii de Jos),26
 Lepidoptera (Petre_tii de Jos),Ericales (Petre_tii de Jos),1
 Lepidoptera (Petre_tii de Jos),Fabales (Petre_tii de Jos),6
 Lepidoptera (Petre_tii de Jos),Ranunculales (Petre_tii de Jos),1
-Lepidoptera (PetÅÃ­n),Asterales (PetÅÃ­n),6
-Lepidoptera (PlakÃ¡nek),Apiales (PlakÃ¡nek),3
-Lepidoptera (PlakÃ¡nek),Geraniales (PlakÃ¡nek),2
-Lepidoptera (PlakÃ¡nek),Rosales (PlakÃ¡nek),1
-Lepidoptera (PouzdÅany),Fabales (PouzdÅany),1
+Lepidoptera (Petřín),Asterales (Petřín),6
+Lepidoptera (Plakánek),Apiales (Plakánek),3
+Lepidoptera (Plakánek),Geraniales (Plakánek),2
+Lepidoptera (Plakánek),Rosales (Plakánek),1
+Lepidoptera (Pouzdřany),Fabales (Pouzdřany),1
 Lepidoptera (Pove del Grappa),Dipsacales (Pove del Grappa),1
 Lepidoptera (Pove del Grappa),Fabales (Pove del Grappa),5
 Lepidoptera (Pove del Grappa),Geraniales (Pove del Grappa),1
-Lepidoptera (PudasjÂrvi),Asterales (PudasjÂrvi),6
-Lepidoptera (PudasjÂrvi),Lamiales (PudasjÂrvi),6
-Lepidoptera (PudasjÂrvi),Ranunculales (PudasjÂrvi),1
+Lepidoptera (Pudasjrvi),Asterales (Pudasjrvi),6
+Lepidoptera (Pudasjrvi),Lamiales (Pudasjrvi),6
+Lepidoptera (Pudasjrvi),Ranunculales (Pudasjrvi),1
 Lepidoptera (Puntiro),Asparagales (Puntiro),1
 Lepidoptera (Puntiro),Lamiales (Puntiro),1
 Lepidoptera (Puntiro),Liliales (Puntiro),1
@@ -4251,7 +4251,7 @@ Lepidoptera (Volpago del Montello),Asterales (Volpago del Montello),1
 Lepidoptera (Volpago del Montello),Dipsacales (Volpago del Montello),3
 Lepidoptera (Volpago del Montello),Fabales (Volpago del Montello),1
 Lepidoptera (Volpago del Montello),Ranunculales (Volpago del Montello),2
-Lepidoptera (VoznesensÂ´k),Lamiales (VoznesensÂ´k),1
+Lepidoptera (Voznesens´k),Lamiales (Voznesens´k),1
 Lepidoptera (Zoldo Alto),Asparagales (Zoldo Alto),1
 Lepidoptera (Zoldo Alto),Asterales (Zoldo Alto),25
 Lepidoptera (Zoldo Alto),Dipsacales (Zoldo Alto),1
@@ -4259,17 +4259,17 @@ Lepidoptera (Zoldo Alto),Fabales (Zoldo Alto),1
 Lepidoptera (Zoldo Alto),Gentianales (Zoldo Alto),1
 Lepidoptera (Zoldo Alto),Myrtales (Zoldo Alto),2
 Lepidoptera (hory nad Pryvitne),Asterales (hory nad Pryvitne),1
-Lepidoptera (jezÃ­rko u Vesele),Lamiales (jezÃ­rko u Vesele),2
+Lepidoptera (jezírko u Vesele),Lamiales (jezírko u Vesele),2
 Lepidoptera (sHeretat),Asterales (sHeretat),4
 Lepidoptera (sHeretat),Dipsacales (sHeretat),3
 Lepidoptera (sHeretat),Oxalidales (sHeretat),1
 Lepidoptera (sad u Velyka Derazhnya),Asterales (sad u Velyka Derazhnya),1
-Lepidoptera (Ãbarok),Asterales (Ãbarok),1
-Lepidoptera (Ãbarok),Fabales (Ãbarok),1
-Lepidoptera (Å obes),Caryophyllales (Å obes),11
-Lepidoptera (Å obes),Saxifragales (Å obes),2
-Neuroptera (CÃ´te d'or),Apiales (CÃ´te d'or),2
-Neuroptera (CÃ´te d'or),Asterales (CÃ´te d'or),5
+Lepidoptera (Óbarok),Asterales (Óbarok),1
+Lepidoptera (Óbarok),Fabales (Óbarok),1
+Lepidoptera (Šobes),Caryophyllales (Šobes),11
+Lepidoptera (Šobes),Saxifragales (Šobes),2
+Neuroptera (Côte d'or),Apiales (Côte d'or),2
+Neuroptera (Côte d'or),Asterales (Côte d'or),5
 Neuroptera (Lesvos),Lamiales (Lesvos),2
 Odonata (Menorca),Ephedrales (Menorca),4
 Orthoptera (Coimbra),Rosales (Coimbra),4
@@ -4294,10 +4294,10 @@ Lamiales (AloeVera),Coleoptera (AloeVera),2
 Malvales (AloeVera),Coleoptera (AloeVera),158
 Asterales (Anafi),Coleoptera (Anafi),1
 Malvales (Aznalcazar),Coleoptera (Aznalcazar),2
-Fabales (BÃ­lÃ¡ Hora),Coleoptera (BÃ­lÃ¡ Hora),2
-Ranunculales (BÃ­lÃ¡ Hora),Coleoptera (BÃ­lÃ¡ Hora),14
-Asterales (BÄstvina),Coleoptera (BÄstvina),23
-Dipsacales (BÄstvina),Coleoptera (BÄstvina),3
+Fabales (Bílá Hora),Coleoptera (Bílá Hora),2
+Ranunculales (Bílá Hora),Coleoptera (Bílá Hora),14
+Asterales (Běstvina),Coleoptera (Běstvina),23
+Dipsacales (Běstvina),Coleoptera (Běstvina),3
 Asparagales (CanRefila),Coleoptera (CanRefila),38
 Asterales (CanRefila),Coleoptera (CanRefila),1
 Malvales (CanRefila),Coleoptera (CanRefila),243
@@ -4329,7 +4329,7 @@ Lamiales (Chios),Coleoptera (Chios),524
 Malpighiales (Chios),Coleoptera (Chios),9
 Malvales (Chios),Coleoptera (Chios),596
 Saxifragales (Chios),Coleoptera (Chios),17
-Saxifragales (CikÃ¡nka),Coleoptera (CikÃ¡nka),1
+Saxifragales (Cikánka),Coleoptera (Cikánka),1
 Cornales (Coimbra),Coleoptera (Coimbra),8
 Dipsacales (Coimbra),Coleoptera (Coimbra),2
 Ericales (Coimbra),Coleoptera (Coimbra),3
@@ -4337,12 +4337,12 @@ Fabales (Coimbra),Coleoptera (Coimbra),3
 Myrtales (Coimbra),Coleoptera (Coimbra),3
 Rosales (Coimbra),Coleoptera (Coimbra),48
 Malvales (Convento_de_la_luz),Coleoptera (Convento_de_la_luz),9
-Apiales (CÃ´te d'or),Coleoptera (CÃ´te d'or),1
-Brassicales (CÃ´te d'or),Coleoptera (CÃ´te d'or),3
-Dipsacales (CÃ´te d'or),Coleoptera (CÃ´te d'or),1
-Fabales (CÃ´te d'or),Coleoptera (CÃ´te d'or),1
-Ranunculales (CÃ´te d'or),Coleoptera (CÃ´te d'or),22
-Rosales (CÃ´te d'or),Coleoptera (CÃ´te d'or),4
+Apiales (Côte d'or),Coleoptera (Côte d'or),1
+Brassicales (Côte d'or),Coleoptera (Côte d'or),3
+Dipsacales (Côte d'or),Coleoptera (Côte d'or),1
+Fabales (Côte d'or),Coleoptera (Côte d'or),1
+Ranunculales (Côte d'or),Coleoptera (Côte d'or),22
+Rosales (Côte d'or),Coleoptera (Côte d'or),4
 Malvales (El_pinar),Coleoptera (El_pinar),3
 Malvales (El_pozo),Coleoptera (El_pozo),3
 Asterales (Erlenbachova bouda),Coleoptera (Erlenbachova bouda),3
@@ -4370,17 +4370,17 @@ Dipsacales (Esporles),Coleoptera (Esporles),4
 Fabales (Esporles),Coleoptera (Esporles),2
 Lamiales (Esporles),Coleoptera (Esporles),1
 Malvales (Esporles),Coleoptera (Esporles),253
-Apiales (FajtÅ¯v kopec),Coleoptera (FajtÅ¯v kopec),2
-Asterales (FajtÅ¯v kopec),Coleoptera (FajtÅ¯v kopec),811
+Apiales (Fajtův kopec),Coleoptera (Fajtův kopec),2
+Asterales (Fajtův kopec),Coleoptera (Fajtův kopec),811
 Asterales (Folegandros),Coleoptera (Folegandros),6
-Asterales (HavranickÃ© vÅesoviÅ¡tÄ),Coleoptera (HavranickÃ© vÅesoviÅ¡tÄ),25
-Malpighiales (HavranickÃ© vÅesoviÅ¡tÄ),Coleoptera (HavranickÃ© vÅesoviÅ¡tÄ),2
+Asterales (Havranické vřesoviště),Coleoptera (Havranické vřesoviště),25
+Malpighiales (Havranické vřesoviště),Coleoptera (Havranické vřesoviště),2
 Asterales (Horbylunde_2005),Coleoptera (Horbylunde_2005),2
 Ericales (Horbylunde_2005),Coleoptera (Horbylunde_2005),23
 Gentianales (Horbylunde_2005),Coleoptera (Horbylunde_2005),24
 Malpighiales (Horbylunde_2005),Coleoptera (Horbylunde_2005),1
-Apiales (HornÃ­ BeÄva),Coleoptera (HornÃ­ BeÄva),3
-Asterales (HornÃ­ BeÄva),Coleoptera (HornÃ­ BeÄva),10
+Apiales (Horní Bečva),Coleoptera (Horní Bečva),3
+Asterales (Horní Bečva),Coleoptera (Horní Bečva),10
 Asterales (Isen_Bjerg_2004),Coleoptera (Isen_Bjerg_2004),5
 Ericales (Isen_Bjerg_2004),Coleoptera (Isen_Bjerg_2004),7
 Gentianales (Isen_Bjerg_2004),Coleoptera (Isen_Bjerg_2004),4
@@ -4391,21 +4391,21 @@ Ericales (Isen_Bjerg_2005),Coleoptera (Isen_Bjerg_2005),18
 Gentianales (Isen_Bjerg_2005),Coleoptera (Isen_Bjerg_2005),5
 Malpighiales (Isen_Bjerg_2005),Coleoptera (Isen_Bjerg_2005),3
 Rosales (Isen_Bjerg_2005),Coleoptera (Isen_Bjerg_2005),7
-Ranunculales (JanskÃ© LÃ¡znÄ),Coleoptera (JanskÃ© LÃ¡znÄ),3
+Ranunculales (Janské Lázně),Coleoptera (Janské Lázně),3
 Dipsacales (K Handrkovu),Coleoptera (K Handrkovu),1
 Apiales (Kea),Coleoptera (Kea),23
 Asterales (Kea),Coleoptera (Kea),112
 Lamiales (Kea),Coleoptera (Kea),11
-Dipsacales (KonÄprusy),Coleoptera (KonÄprusy),1
+Dipsacales (Koněprusy),Coleoptera (Koněprusy),1
 Apiales (Kythnos),Coleoptera (Kythnos),1
 Asparagales (Kythnos),Coleoptera (Kythnos),3
 Asterales (Kythnos),Coleoptera (Kythnos),216
 Brassicales (Kythnos),Coleoptera (Kythnos),8
 Lamiales (Kythnos),Coleoptera (Kythnos),15
 Ranunculales (Kythnos),Coleoptera (Kythnos),1
-Asterales (KÅiÅ¾anov),Coleoptera (KÅiÅ¾anov),76
-Dipsacales (KÅiÅ¾anov),Coleoptera (KÅiÅ¾anov),2
-Ranunculales (KÅiÅ¾anov),Coleoptera (KÅiÅ¾anov),12
+Asterales (Křižanov),Coleoptera (Křižanov),76
+Dipsacales (Křižanov),Coleoptera (Křižanov),2
+Ranunculales (Křižanov),Coleoptera (Křižanov),12
 Malvales (La_cunya),Coleoptera (La_cunya),2
 Malvales (Las_mulas),Coleoptera (Las_mulas),4
 Asterales (Lesvos),Coleoptera (Lesvos),358
@@ -4413,10 +4413,10 @@ Brassicales (Lesvos),Coleoptera (Lesvos),25
 Fabales (Lesvos),Coleoptera (Lesvos),3
 Lamiales (Lesvos),Coleoptera (Lesvos),6
 Ranunculales (Lesvos),Coleoptera (Lesvos),3
-Asterales (Louka pod Å obesem),Coleoptera (Louka pod Å obesem),471
-Dipsacales (Louka pod Å obesem),Coleoptera (Louka pod Å obesem),6
-Fabales (Louka pod Å obesem),Coleoptera (Louka pod Å obesem),4
-Malpighiales (Louka pod Å obesem),Coleoptera (Louka pod Å obesem),12
+Asterales (Louka pod Šobesem),Coleoptera (Louka pod Šobesem),471
+Dipsacales (Louka pod Šobesem),Coleoptera (Louka pod Šobesem),6
+Fabales (Louka pod Šobesem),Coleoptera (Louka pod Šobesem),4
+Malpighiales (Louka pod Šobesem),Coleoptera (Louka pod Šobesem),12
 Apiales (Menorca),Coleoptera (Menorca),112
 Asparagales (Menorca),Coleoptera (Menorca),15
 Asterales (Menorca),Coleoptera (Menorca),646
@@ -4432,8 +4432,8 @@ Malvales (Menorca),Coleoptera (Menorca),17
 Ranunculales (Menorca),Coleoptera (Menorca),10
 Rosales (Menorca),Coleoptera (Menorca),98
 Solanales (Menorca),Coleoptera (Menorca),15
-Gentianales (MilovickÃ¡ strÃ¡Å),Coleoptera (MilovickÃ¡ strÃ¡Å),1
-Ranunculales (MilÃ­kov),Coleoptera (MilÃ­kov),2
+Gentianales (Milovická stráň),Coleoptera (Milovická stráň),1
+Ranunculales (Milíkov),Coleoptera (Milíkov),2
 Asparagales (MontiSion),Coleoptera (MontiSion),49
 Asterales (MontiSion),Coleoptera (MontiSion),2
 Gentianales (MontiSion),Coleoptera (MontiSion),1
@@ -4449,21 +4449,21 @@ Dipsacales (Muro),Coleoptera (Muro),33
 Fabales (Muro),Coleoptera (Muro),8
 Lamiales (Muro),Coleoptera (Muro),8
 Malpighiales (Muro),Coleoptera (Muro),10
-Fabales (NekoÅ),Coleoptera (NekoÅ),2
-Apiales (NesmÄÅ),Coleoptera (NesmÄÅ),2
+Fabales (Nekoř),Coleoptera (Nekoř),2
+Apiales (Nesměř),Coleoptera (Nesměř),2
 Asterales (Niebla),Coleoptera (Niebla),2
 Lamiales (Niebla),Coleoptera (Niebla),3
 Malvales (Niebla),Coleoptera (Niebla),3
 Apiales (Orozko),Coleoptera (Orozko),1
 Lamiales (Orozko),Coleoptera (Orozko),1
-Ranunculales (Ostrov nad OhÅÃ­),Coleoptera (Ostrov nad OhÅÃ­),1
+Ranunculales (Ostrov nad Ohří),Coleoptera (Ostrov nad Ohří),1
 Asterales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Coleoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),2
 Rosales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Coleoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),1
-Apiales (PetÅÃ­n),Coleoptera (PetÅÃ­n),2
-Asterales (PetÅÃ­n),Coleoptera (PetÅÃ­n),2
+Apiales (Petřín),Coleoptera (Petřín),2
+Asterales (Petřín),Coleoptera (Petřín),2
 Malvales (Pinares_de_hinojos),Coleoptera (Pinares_de_hinojos),4
-Ranunculales (Popova Å apka),Coleoptera (Popova Å apka),2
-Apiales (PouzdÅany),Coleoptera (PouzdÅany),1
+Ranunculales (Popova Šapka),Coleoptera (Popova Šapka),2
+Apiales (Pouzdřany),Coleoptera (Pouzdřany),1
 Apiales (Puntiro),Coleoptera (Puntiro),32
 Asparagales (Puntiro),Coleoptera (Puntiro),39
 Asterales (Puntiro),Coleoptera (Puntiro),57
@@ -4594,12 +4594,12 @@ Ranunculales (sHeretat),Coleoptera (sHeretat),1
 Rosales (sHeretat),Coleoptera (sHeretat),1
 Solanales (sHeretat),Coleoptera (sHeretat),22
 Apiales (step u Antonivka),Coleoptera (step u Antonivka),1
-Asterales (Ãbarok),Coleoptera (Ãbarok),1
-Asterales (Å obes),Coleoptera (Å obes),12
-Caryophyllales (Å obes),Coleoptera (Å obes),1
-Fabales (Å obes),Coleoptera (Å obes),1
-Rosales (Å obes),Coleoptera (Å obes),4
-Asterales (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),Diptera (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),5
+Asterales (Óbarok),Coleoptera (Óbarok),1
+Asterales (Šobes),Coleoptera (Šobes),12
+Caryophyllales (Šobes),Coleoptera (Šobes),1
+Fabales (Šobes),Coleoptera (Šobes),1
+Rosales (Šobes),Coleoptera (Šobes),4
+Asterales (Alešovské písky (Olešské písky)),Diptera (Alešovské písky (Olešské písky)),5
 Apiales (Allika),Diptera (Allika),10
 Asterales (Allika),Diptera (Allika),33
 Caryophyllales (Allika),Diptera (Allika),2
@@ -4770,11 +4770,11 @@ Lamiales (Burren region (Ireland)),Diptera (Burren region (Ireland)),26
 Poales (Burren region (Ireland)),Diptera (Burren region (Ireland)),3
 Ranunculales (Burren region (Ireland)),Diptera (Burren region (Ireland)),51
 Rosales (Burren region (Ireland)),Diptera (Burren region (Ireland)),6
-Ranunculales (BÃ­lÃ¡ Hora),Diptera (BÃ­lÃ¡ Hora),3
-Asterales (BÄstvina),Diptera (BÄstvina),8
-Caryophyllales (BÄstvina),Diptera (BÄstvina),2
-Dipsacales (BÄstvina),Diptera (BÄstvina),3
-Lamiales (BÄstvina),Diptera (BÄstvina),25
+Ranunculales (Bílá Hora),Diptera (Bílá Hora),3
+Asterales (Běstvina),Diptera (Běstvina),8
+Caryophyllales (Běstvina),Diptera (Běstvina),2
+Dipsacales (Běstvina),Diptera (Běstvina),3
+Lamiales (Běstvina),Diptera (Běstvina),25
 Asparagales (Cabrera),Diptera (Cabrera),21
 Brassicales (Cabrera),Diptera (Cabrera),3
 Fabales (Cabrera),Diptera (Cabrera),5
@@ -4949,19 +4949,19 @@ Malvales (Costabissara),Diptera (Costabissara),1
 Oxalidales (Costabissara),Diptera (Costabissara),4
 Rosales (Costabissara),Diptera (Costabissara),11
 Lamiales (Cotito_de_santa_teresa),Diptera (Cotito_de_santa_teresa),4
-Apiales (CÃ´te d'or),Diptera (CÃ´te d'or),69
-Asterales (CÃ´te d'or),Diptera (CÃ´te d'or),88
-Boraginales (CÃ´te d'or),Diptera (CÃ´te d'or),6
-Brassicales (CÃ´te d'or),Diptera (CÃ´te d'or),31
-Caryophyllales (CÃ´te d'or),Diptera (CÃ´te d'or),56
-Dipsacales (CÃ´te d'or),Diptera (CÃ´te d'or),1
-Fabales (CÃ´te d'or),Diptera (CÃ´te d'or),14
-Geraniales (CÃ´te d'or),Diptera (CÃ´te d'or),3
-Lamiales (CÃ´te d'or),Diptera (CÃ´te d'or),46
-Malpighiales (CÃ´te d'or),Diptera (CÃ´te d'or),6
-Ranunculales (CÃ´te d'or),Diptera (CÃ´te d'or),40
-Rosales (CÃ´te d'or),Diptera (CÃ´te d'or),4
-Solanales (CÃ´te d'or),Diptera (CÃ´te d'or),9
+Apiales (Côte d'or),Diptera (Côte d'or),69
+Asterales (Côte d'or),Diptera (Côte d'or),88
+Boraginales (Côte d'or),Diptera (Côte d'or),6
+Brassicales (Côte d'or),Diptera (Côte d'or),31
+Caryophyllales (Côte d'or),Diptera (Côte d'or),56
+Dipsacales (Côte d'or),Diptera (Côte d'or),1
+Fabales (Côte d'or),Diptera (Côte d'or),14
+Geraniales (Côte d'or),Diptera (Côte d'or),3
+Lamiales (Côte d'or),Diptera (Côte d'or),46
+Malpighiales (Côte d'or),Diptera (Côte d'or),6
+Ranunculales (Côte d'or),Diptera (Côte d'or),40
+Rosales (Côte d'or),Diptera (Côte d'or),4
+Solanales (Côte d'or),Diptera (Côte d'or),9
 Apiales (Dubrovytsya),Diptera (Dubrovytsya),1
 Asterales (Dubrovytsya),Diptera (Dubrovytsya),9
 Ranunculales (Dubrovytsya),Diptera (Dubrovytsya),1
@@ -5020,7 +5020,7 @@ Asterales (Esporles),Diptera (Esporles),29
 Lamiales (Esporles),Diptera (Esporles),1
 Malpighiales (Esporles),Diptera (Esporles),1
 Malvales (Esporles),Diptera (Esporles),1
-Asterales (FajtÅ¯v kopec),Diptera (FajtÅ¯v kopec),18
+Asterales (Fajtův kopec),Diptera (Fajtův kopec),18
 Apiales (Falcade),Diptera (Falcade),4
 Asterales (Falcade),Diptera (Falcade),131
 Geraniales (Falcade),Diptera (Falcade),1
@@ -5177,8 +5177,8 @@ Lamiales (Harzgerode),Diptera (Harzgerode),4
 Malpighiales (Harzgerode),Diptera (Harzgerode),3
 Ranunculales (Harzgerode),Diptera (Harzgerode),3
 Rosales (Harzgerode),Diptera (Harzgerode),1
-Malpighiales (HavranickÃ© vÅesoviÅ¡tÄ),Diptera (HavranickÃ© vÅesoviÅ¡tÄ),2
-Saxifragales (HavranickÃ© vÅesoviÅ¡tÄ),Diptera (HavranickÃ© vÅesoviÅ¡tÄ),2
+Malpighiales (Havranické vřesoviště),Diptera (Havranické vřesoviště),2
+Saxifragales (Havranické vřesoviště),Diptera (Havranické vřesoviště),2
 Apiales (Hermanovice),Diptera (Hermanovice),8
 Asterales (Hermanovice),Diptera (Hermanovice),16
 Caryophyllales (Hermanovice),Diptera (Hermanovice),9
@@ -5199,7 +5199,7 @@ Caryophyllales (Horni Grunt),Diptera (Horni Grunt),1
 Dipsacales (Horni Grunt),Diptera (Horni Grunt),1
 Malpighiales (Horni Grunt),Diptera (Horni Grunt),8
 Ranunculales (Horni Grunt),Diptera (Horni Grunt),2
-Malpighiales (HornÃ­ BeÄva),Diptera (HornÃ­ BeÄva),2
+Malpighiales (Horní Bečva),Diptera (Horní Bečva),2
 Asterales (Hruba_Vrbka),Diptera (Hruba_Vrbka),22
 Fabales (Hruba_Vrbka),Diptera (Hruba_Vrbka),10
 Lamiales (Hruba_Vrbka),Diptera (Hruba_Vrbka),12
@@ -5236,7 +5236,7 @@ Fabales (Isola Vicentina),Diptera (Isola Vicentina),20
 Gentianales (Isola Vicentina),Diptera (Isola Vicentina),15
 Lamiales (Isola Vicentina),Diptera (Isola Vicentina),14
 Solanales (Isola Vicentina),Diptera (Isola Vicentina),13
-Ranunculales (JanskÃ© LÃ¡znÄ),Diptera (JanskÃ© LÃ¡znÄ),8
+Ranunculales (Janské Lázně),Diptera (Janské Lázně),8
 Apiales (Jarnoltowek),Diptera (Jarnoltowek),12
 Caryophyllales (Jarnoltowek),Diptera (Jarnoltowek),10
 Fabales (Jarnoltowek),Diptera (Jarnoltowek),10
@@ -5250,16 +5250,16 @@ Brassicales (Kea),Diptera (Kea),1
 Fabales (Kea),Diptera (Kea),2
 Lamiales (Kea),Diptera (Kea),17
 Solanales (Kea),Diptera (Kea),1
-Apiales (KittilÂ),Diptera (KittilÂ),30
-Asterales (KittilÂ),Diptera (KittilÂ),19
-Caryophyllales (KittilÂ),Diptera (KittilÂ),19
-Dipsacales (KittilÂ),Diptera (KittilÂ),3
-Fabales (KittilÂ),Diptera (KittilÂ),2
-Geraniales (KittilÂ),Diptera (KittilÂ),21
-Lamiales (KittilÂ),Diptera (KittilÂ),7
-Myrtales (KittilÂ),Diptera (KittilÂ),6
-Ranunculales (KittilÂ),Diptera (KittilÂ),38
-Rosales (KittilÂ),Diptera (KittilÂ),1
+Apiales (Kittil),Diptera (Kittil),30
+Asterales (Kittil),Diptera (Kittil),19
+Caryophyllales (Kittil),Diptera (Kittil),19
+Dipsacales (Kittil),Diptera (Kittil),3
+Fabales (Kittil),Diptera (Kittil),2
+Geraniales (Kittil),Diptera (Kittil),21
+Lamiales (Kittil),Diptera (Kittil),7
+Myrtales (Kittil),Diptera (Kittil),6
+Ranunculales (Kittil),Diptera (Kittil),38
+Rosales (Kittil),Diptera (Kittil),1
 Apiales (Klobikau),Diptera (Klobikau),1
 Asterales (Klobikau),Diptera (Klobikau),3
 Dipsacales (Klobikau),Diptera (Klobikau),1
@@ -5272,7 +5272,7 @@ Asterales (Kythnos),Diptera (Kythnos),30
 Boraginales (Kythnos),Diptera (Kythnos),1
 Brassicales (Kythnos),Diptera (Kythnos),3
 Lamiales (Kythnos),Diptera (Kythnos),14
-Lamiales (KÅiÅ¾anov),Diptera (KÅiÅ¾anov),10
+Lamiales (Křižanov),Diptera (Křižanov),10
 Lamiales (La_rocina),Diptera (La_rocina),18
 Apiales (Laelatu),Diptera (Laelatu),12
 Asparagales (Laelatu),Diptera (Laelatu),2
@@ -5314,8 +5314,8 @@ Dipsacales (Livinallongo del Col di Lana),Diptera (Livinallongo del Col di Lana)
 Fabales (Livinallongo del Col di Lana),Diptera (Livinallongo del Col di Lana),4
 Lamiales (Livinallongo del Col di Lana),Diptera (Livinallongo del Col di Lana),1
 Malvales (Livinallongo del Col di Lana),Diptera (Livinallongo del Col di Lana),1
-Asterales (Louka pod Å obesem),Diptera (Louka pod Å obesem),1
-Dipsacales (Louka pod Å obesem),Diptera (Louka pod Å obesem),1
+Asterales (Louka pod Šobesem),Diptera (Louka pod Šobesem),1
+Dipsacales (Louka pod Šobesem),Diptera (Louka pod Šobesem),1
 Apiales (Lumea Pierduta),Diptera (Lumea Pierduta),92
 Asterales (Lumea Pierduta),Diptera (Lumea Pierduta),32
 Caryophyllales (Lumea Pierduta),Diptera (Lumea Pierduta),4
@@ -5373,10 +5373,10 @@ Fabales (Miladka),Diptera (Miladka),2
 Gentianales (Miladka),Diptera (Miladka),32
 Geraniales (Miladka),Diptera (Miladka),22
 Malpighiales (Miladka),Diptera (Miladka),2
-Gentianales (MilovickÃ¡ strÃ¡Å),Diptera (MilovickÃ¡ strÃ¡Å),1
-Lamiales (MilovickÃ¡ strÃ¡Å),Diptera (MilovickÃ¡ strÃ¡Å),1
-Brassicales (MilÃ­kov),Diptera (MilÃ­kov),6
-Ranunculales (MilÃ­kov),Diptera (MilÃ­kov),16
+Gentianales (Milovická stráň),Diptera (Milovická stráň),1
+Lamiales (Milovická stráň),Diptera (Milovická stráň),1
+Brassicales (Milíkov),Diptera (Milíkov),6
+Ranunculales (Milíkov),Diptera (Milíkov),16
 Apiales (Mnichov),Diptera (Mnichov),10
 Asterales (Mnichov),Diptera (Mnichov),4
 Caryophyllales (Mnichov),Diptera (Mnichov),22
@@ -5401,30 +5401,30 @@ Apiales (Muro),Diptera (Muro),23
 Asparagales (Muro),Diptera (Muro),16
 Asterales (Muro),Diptera (Muro),16
 Lamiales (Muro),Diptera (Muro),1
-Apiales (NekoÅ),Diptera (NekoÅ),3
-Ranunculales (NekoÅ),Diptera (NekoÅ),6
-Rosales (NekoÅ),Diptera (NekoÅ),10
+Apiales (Nekoř),Diptera (Nekoř),3
+Ranunculales (Nekoř),Diptera (Nekoř),6
+Rosales (Nekoř),Diptera (Nekoř),10
 Apiales (Nervesa della Battaglia),Diptera (Nervesa della Battaglia),5
 Asterales (Nervesa della Battaglia),Diptera (Nervesa della Battaglia),5
 Boraginales (Nervesa della Battaglia),Diptera (Nervesa della Battaglia),1
 Dipsacales (Nervesa della Battaglia),Diptera (Nervesa della Battaglia),2
 Gentianales (Nervesa della Battaglia),Diptera (Nervesa della Battaglia),1
-Asterales (NesmÄÅ),Diptera (NesmÄÅ),3
-Geraniales (NesmÄÅ),Diptera (NesmÄÅ),1
+Asterales (Nesměř),Diptera (Nesměř),3
+Geraniales (Nesměř),Diptera (Nesměř),1
 Asparagales (Niebla),Diptera (Niebla),2
 Asterales (Niebla),Diptera (Niebla),2
 Malpighiales (Niebla),Diptera (Niebla),2
 Solanales (Niebla),Diptera (Niebla),4
-Apiales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),23
-Asterales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),91
-Dipsacales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),9
-Fabales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),25
-Gentianales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),72
-Lamiales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),26
-Malpighiales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),12
-Pinales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),2
-Ranunculales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),3
-Rosales (Noeux-lÃ¨s-Auxi),Diptera (Noeux-lÃ¨s-Auxi),2
+Apiales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),23
+Asterales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),91
+Dipsacales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),9
+Fabales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),25
+Gentianales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),72
+Lamiales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),26
+Malpighiales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),12
+Pinales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),2
+Ranunculales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),3
+Rosales (Noeux-lès-Auxi),Diptera (Noeux-lès-Auxi),2
 Apiales (Ocoale),Diptera (Ocoale),13
 Asterales (Ocoale),Diptera (Ocoale),128
 Caryophyllales (Ocoale),Diptera (Ocoale),8
@@ -5451,10 +5451,10 @@ Lamiales (Oschersleben),Diptera (Oschersleben),2
 Ranunculales (Oschersleben),Diptera (Oschersleben),3
 Rosales (Oschersleben),Diptera (Oschersleben),1
 Solanales (Oschersleben),Diptera (Oschersleben),15
-Ranunculales (Ostrov nad OhÅÃ­),Diptera (Ostrov nad OhÅÃ­),13
-Apiales (OstÅihom),Diptera (OstÅihom),2
-Asterales (OstÅihom),Diptera (OstÅihom),6
-Dipsacales (OstÅihom),Diptera (OstÅihom),4
+Ranunculales (Ostrov nad Ohří),Diptera (Ostrov nad Ohří),13
+Apiales (Ostřihom),Diptera (Ostřihom),2
+Asterales (Ostřihom),Diptera (Ostřihom),6
+Dipsacales (Ostřihom),Diptera (Ostřihom),4
 Apiales (Pergine Valsugana),Diptera (Pergine Valsugana),21
 Asterales (Pergine Valsugana),Diptera (Pergine Valsugana),78
 Boraginales (Pergine Valsugana),Diptera (Pergine Valsugana),3
@@ -5479,9 +5479,9 @@ Ericales (Petre_tii de Jos),Diptera (Petre_tii de Jos),1
 Fabales (Petre_tii de Jos),Diptera (Petre_tii de Jos),2
 Ranunculales (Petre_tii de Jos),Diptera (Petre_tii de Jos),4
 Rosales (Petre_tii de Jos),Diptera (Petre_tii de Jos),4
-Asterales (PetÅÃ­n),Diptera (PetÅÃ­n),3
-Geraniales (PetÅÃ­n),Diptera (PetÅÃ­n),3
-Lamiales (PetÅÃ­n),Diptera (PetÅÃ­n),7
+Asterales (Petřín),Diptera (Petřín),3
+Geraniales (Petřín),Diptera (Petřín),3
+Lamiales (Petřín),Diptera (Petřín),7
 Apiales (Piazzola sul Brenta),Diptera (Piazzola sul Brenta),47
 Asterales (Piazzola sul Brenta),Diptera (Piazzola sul Brenta),372
 Brassicales (Piazzola sul Brenta),Diptera (Piazzola sul Brenta),70
@@ -5497,15 +5497,15 @@ Ranunculales (Piazzola sul Brenta),Diptera (Piazzola sul Brenta),11
 Rosales (Piazzola sul Brenta),Diptera (Piazzola sul Brenta),72
 Solanales (Piazzola sul Brenta),Diptera (Piazzola sul Brenta),162
 Malvales (Pino_del_cuervo),Diptera (Pino_del_cuervo),2
-Caryophyllales (PlakÃ¡nek),Diptera (PlakÃ¡nek),4
-Geraniales (PlakÃ¡nek),Diptera (PlakÃ¡nek),2
-Rosales (PlakÃ¡nek),Diptera (PlakÃ¡nek),1
-Lamiales (Popova Å apka),Diptera (Popova Å apka),1
-Ranunculales (Popova Å apka),Diptera (Popova Å apka),10
-Apiales (PouzdÅany),Diptera (PouzdÅany),1
-Asterales (PouzdÅany),Diptera (PouzdÅany),3
-Fabales (PouzdÅany),Diptera (PouzdÅany),3
-Lamiales (PouzdÅany),Diptera (PouzdÅany),1
+Caryophyllales (Plakánek),Diptera (Plakánek),4
+Geraniales (Plakánek),Diptera (Plakánek),2
+Rosales (Plakánek),Diptera (Plakánek),1
+Lamiales (Popova Šapka),Diptera (Popova Šapka),1
+Ranunculales (Popova Šapka),Diptera (Popova Šapka),10
+Apiales (Pouzdřany),Diptera (Pouzdřany),1
+Asterales (Pouzdřany),Diptera (Pouzdřany),3
+Fabales (Pouzdřany),Diptera (Pouzdřany),3
+Lamiales (Pouzdřany),Diptera (Pouzdřany),1
 Apiales (Pove del Grappa),Diptera (Pove del Grappa),6
 Caryophyllales (Pove del Grappa),Diptera (Pove del Grappa),3
 Fabales (Pove del Grappa),Diptera (Pove del Grappa),5
@@ -5522,14 +5522,14 @@ Malvales (Pretzien),Diptera (Pretzien),1
 Ranunculales (Pretzien),Diptera (Pretzien),1
 Rosales (Pretzien),Diptera (Pretzien),5
 Solanales (Pretzien),Diptera (Pretzien),7
-Apiales (PudasjÂrvi),Diptera (PudasjÂrvi),5
-Asterales (PudasjÂrvi),Diptera (PudasjÂrvi),14
-Caryophyllales (PudasjÂrvi),Diptera (PudasjÂrvi),6
-Gentianales (PudasjÂrvi),Diptera (PudasjÂrvi),3
-Lamiales (PudasjÂrvi),Diptera (PudasjÂrvi),5
-Myrtales (PudasjÂrvi),Diptera (PudasjÂrvi),3
-Ranunculales (PudasjÂrvi),Diptera (PudasjÂrvi),15
-Rosales (PudasjÂrvi),Diptera (PudasjÂrvi),7
+Apiales (Pudasjrvi),Diptera (Pudasjrvi),5
+Asterales (Pudasjrvi),Diptera (Pudasjrvi),14
+Caryophyllales (Pudasjrvi),Diptera (Pudasjrvi),6
+Gentianales (Pudasjrvi),Diptera (Pudasjrvi),3
+Lamiales (Pudasjrvi),Diptera (Pudasjrvi),5
+Myrtales (Pudasjrvi),Diptera (Pudasjrvi),3
+Ranunculales (Pudasjrvi),Diptera (Pudasjrvi),15
+Rosales (Pudasjrvi),Diptera (Pudasjrvi),7
 Apiales (Puntiro),Diptera (Puntiro),9
 Asparagales (Puntiro),Diptera (Puntiro),21
 Asterales (Puntiro),Diptera (Puntiro),1
@@ -5826,9 +5826,9 @@ Fabales (Valli del Pasubio),Diptera (Valli del Pasubio),1
 Gentianales (Valli del Pasubio),Diptera (Valli del Pasubio),4
 Malvales (Valli del Pasubio),Diptera (Valli del Pasubio),2
 Ranunculales (Valli del Pasubio),Diptera (Valli del Pasubio),3
-Apiales (VelkÃ© Pavlovice),Diptera (VelkÃ© Pavlovice),6
-Asterales (VelkÃ© Pavlovice),Diptera (VelkÃ© Pavlovice),1
-Fabales (VelkÃ© Pavlovice),Diptera (VelkÃ© Pavlovice),2
+Apiales (Velké Pavlovice),Diptera (Velké Pavlovice),6
+Asterales (Velké Pavlovice),Diptera (Velké Pavlovice),1
+Fabales (Velké Pavlovice),Diptera (Velké Pavlovice),2
 Apiales (Viita),Diptera (Viita),1
 Asterales (Viita),Diptera (Viita),74
 Gentianales (Viita),Diptera (Viita),1
@@ -5837,8 +5837,8 @@ Malvales (Villamanrique_este),Diptera (Villamanrique_este),6
 Malvales (Villamanrique_sur),Diptera (Villamanrique_sur),10
 Asterales (Volpago del Montello),Diptera (Volpago del Montello),2
 Rosales (Volpago del Montello),Diptera (Volpago del Montello),2
-Fabales (VoznesensÂ´k),Diptera (VoznesensÂ´k),1
-Solanales (VoznesensÂ´k),Diptera (VoznesensÂ´k),1
+Fabales (Voznesens´k),Diptera (Voznesens´k),1
+Solanales (Voznesens´k),Diptera (Voznesens´k),1
 Apiales (Wallhausen),Diptera (Wallhausen),3
 Asterales (Wallhausen),Diptera (Wallhausen),6
 Brassicales (Wallhausen),Diptera (Wallhausen),2
@@ -5876,13 +5876,13 @@ Lamiales (Zoldo Alto),Diptera (Zoldo Alto),14
 Malpighiales (Zoldo Alto),Diptera (Zoldo Alto),6
 Myrtales (Zoldo Alto),Diptera (Zoldo Alto),4
 Ranunculales (Zoldo Alto),Diptera (Zoldo Alto),7
-Apiales (jezÃ­rko u Vesele),Diptera (jezÃ­rko u Vesele),1
+Apiales (jezírko u Vesele),Diptera (jezírko u Vesele),1
 Asterales (kemp),Diptera (kemp),1
 Caryophyllales (kemp),Diptera (kemp),1
 Apiales (kopec nad Myhiya),Diptera (kopec nad Myhiya),1
 Asterales (kopec u Cheremysivka),Diptera (kopec u Cheremysivka),2
-Caryophyllales (motÃ½lÃ­ rezervace),Diptera (motÃ½lÃ­ rezervace),1
-Ranunculales (motÃ½lÃ­ rezervace),Diptera (motÃ½lÃ­ rezervace),2
+Caryophyllales (motýlí rezervace),Diptera (motýlí rezervace),1
+Ranunculales (motýlí rezervace),Diptera (motýlí rezervace),2
 Apiales (sHeretat),Diptera (sHeretat),45
 Asparagales (sHeretat),Diptera (sHeretat),20
 Asterales (sHeretat),Diptera (sHeretat),22
@@ -5893,8 +5893,8 @@ Apiales (sad u Velyka Derazhnya),Diptera (sad u Velyka Derazhnya),1
 Asterales (sad u Velyka Derazhnya),Diptera (sad u Velyka Derazhnya),3
 Fabales (sad u Velyka Derazhnya),Diptera (sad u Velyka Derazhnya),1
 Asterales (step u Antonivka),Diptera (step u Antonivka),2
-Fabales (Å obes),Diptera (Å obes),1
-Saxifragales (Å obes),Diptera (Å obes),1
+Fabales (Šobes),Diptera (Šobes),1
+Saxifragales (Šobes),Diptera (Šobes),1
 Apiales (AloeVera),Hemiptera (AloeVera),5
 Asterales (AloeVera),Hemiptera (AloeVera),5
 Malvales (AloeVera),Hemiptera (AloeVera),3
@@ -5911,8 +5911,8 @@ Asparagales (EsCabanells),Hemiptera (EsCabanells),1
 Malvales (EsCabanells),Hemiptera (EsCabanells),1
 Apiales (EsCapdella),Hemiptera (EsCapdella),3
 Fabales (EsCapdella),Hemiptera (EsCapdella),1
-Asterales (HavranickÃ© vÅesoviÅ¡tÄ),Hemiptera (HavranickÃ© vÅesoviÅ¡tÄ),1
-Ranunculales (JanskÃ© LÃ¡znÄ),Hemiptera (JanskÃ© LÃ¡znÄ),1
+Asterales (Havranické vřesoviště),Hemiptera (Havranické vřesoviště),1
+Ranunculales (Janské Lázně),Hemiptera (Janské Lázně),1
 Apiales (Menorca),Hemiptera (Menorca),1
 Asparagales (Menorca),Hemiptera (Menorca),4
 Asterales (Menorca),Hemiptera (Menorca),40
@@ -5924,7 +5924,7 @@ Lamiales (Menorca),Hemiptera (Menorca),1
 Malpighiales (Menorca),Hemiptera (Menorca),3
 Malvales (Menorca),Hemiptera (Menorca),1
 Rosales (Menorca),Hemiptera (Menorca),2
-Lamiales (MilovickÃ¡ strÃ¡Å),Hemiptera (MilovickÃ¡ strÃ¡Å),4
+Lamiales (Milovická stráň),Hemiptera (Milovická stráň),4
 Malvales (MontiSion),Hemiptera (MontiSion),1
 Apiales (Muro),Hemiptera (Muro),3
 Asterales (Muro),Hemiptera (Muro),13
@@ -5956,7 +5956,7 @@ Asterales (UIB),Hemiptera (UIB),1
 Malpighiales (UIB),Hemiptera (UIB),1
 Asterales (sHeretat),Hemiptera (sHeretat),6
 Dipsacales (sHeretat),Hemiptera (sHeretat),7
-Lamiales (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),Hymenoptera (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),2
+Lamiales (Alešovské písky (Olešské písky)),Hymenoptera (Alešovské písky (Olešské písky)),2
 Asterales (Allersdorf),Hymenoptera (Allersdorf),4
 Dipsacales (Allersdorf),Hymenoptera (Allersdorf),1
 Fabales (Allersdorf),Hymenoptera (Allersdorf),3
@@ -6221,11 +6221,11 @@ Lamiales (Burren region (Ireland)),Hymenoptera (Burren region (Ireland)),28
 Malpighiales (Burren region (Ireland)),Hymenoptera (Burren region (Ireland)),2
 Ranunculales (Burren region (Ireland)),Hymenoptera (Burren region (Ireland)),19
 Rosales (Burren region (Ireland)),Hymenoptera (Burren region (Ireland)),4
-Fabales (BÃ­lÃ¡ Hora),Hymenoptera (BÃ­lÃ¡ Hora),4
-Asterales (BÄstvina),Hymenoptera (BÄstvina),3
-Caryophyllales (BÄstvina),Hymenoptera (BÄstvina),1
-Dipsacales (BÄstvina),Hymenoptera (BÄstvina),1
-Fabales (BÄstvina),Hymenoptera (BÄstvina),4
+Fabales (Bílá Hora),Hymenoptera (Bílá Hora),4
+Asterales (Běstvina),Hymenoptera (Běstvina),3
+Caryophyllales (Běstvina),Hymenoptera (Běstvina),1
+Dipsacales (Běstvina),Hymenoptera (Běstvina),1
+Fabales (Běstvina),Hymenoptera (Běstvina),4
 Boraginales (Cabrera),Hymenoptera (Cabrera),1
 Solanales (Cabrera),Hymenoptera (Cabrera),3
 Asterales (Calamento),Hymenoptera (Calamento),88
@@ -6359,10 +6359,10 @@ Malvales (Chize),Hymenoptera (Chize),206
 Ranunculales (Chize),Hymenoptera (Chize),50
 Rosales (Chize),Hymenoptera (Chize),1
 Solanales (Chize),Hymenoptera (Chize),296
-Asterales (ChÃ¢telet),Hymenoptera (ChÃ¢telet),10
-Boraginales (ChÃ¢telet),Hymenoptera (ChÃ¢telet),20
-Fabales (CikÃ¡nka),Hymenoptera (CikÃ¡nka),1
-Saxifragales (CikÃ¡nka),Hymenoptera (CikÃ¡nka),1
+Asterales (Châtelet),Hymenoptera (Châtelet),10
+Boraginales (Châtelet),Hymenoptera (Châtelet),20
+Fabales (Cikánka),Hymenoptera (Cikánka),1
+Saxifragales (Cikánka),Hymenoptera (Cikánka),1
 Apiales (Ciply),Hymenoptera (Ciply),27
 Asterales (Ciply),Hymenoptera (Ciply),13
 Solanales (Ciply),Hymenoptera (Ciply),2
@@ -6456,28 +6456,28 @@ Brassicales (Courcelles),Hymenoptera (Courcelles),3
 Caryophyllales (Courcelles),Hymenoptera (Courcelles),3
 Fabales (Courcelles),Hymenoptera (Courcelles),9
 Rosales (Courcelles),Hymenoptera (Courcelles),4
-Apiales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),20
-Asparagales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),7
-Asterales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),491
-Boraginales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),20
-Brassicales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),260
-Caryophyllales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),14
-Cornales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),11
-Cucurbitales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),1
-Dipsacales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),24
-Ericales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),5
-Fabales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),475
-Gentianales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),4
-Geraniales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),9
-Lamiales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),121
-Malpighiales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),43
-Malvales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),2
-Myrtales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),15
-Ranunculales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),82
-Rosales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),47
-Sapindales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),2
-Saxifragales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),2
-Solanales (CÃ´te d'or),Hymenoptera (CÃ´te d'or),10
+Apiales (Côte d'or),Hymenoptera (Côte d'or),20
+Asparagales (Côte d'or),Hymenoptera (Côte d'or),7
+Asterales (Côte d'or),Hymenoptera (Côte d'or),491
+Boraginales (Côte d'or),Hymenoptera (Côte d'or),20
+Brassicales (Côte d'or),Hymenoptera (Côte d'or),260
+Caryophyllales (Côte d'or),Hymenoptera (Côte d'or),14
+Cornales (Côte d'or),Hymenoptera (Côte d'or),11
+Cucurbitales (Côte d'or),Hymenoptera (Côte d'or),1
+Dipsacales (Côte d'or),Hymenoptera (Côte d'or),24
+Ericales (Côte d'or),Hymenoptera (Côte d'or),5
+Fabales (Côte d'or),Hymenoptera (Côte d'or),475
+Gentianales (Côte d'or),Hymenoptera (Côte d'or),4
+Geraniales (Côte d'or),Hymenoptera (Côte d'or),9
+Lamiales (Côte d'or),Hymenoptera (Côte d'or),121
+Malpighiales (Côte d'or),Hymenoptera (Côte d'or),43
+Malvales (Côte d'or),Hymenoptera (Côte d'or),2
+Myrtales (Côte d'or),Hymenoptera (Côte d'or),15
+Ranunculales (Côte d'or),Hymenoptera (Côte d'or),82
+Rosales (Côte d'or),Hymenoptera (Côte d'or),47
+Sapindales (Côte d'or),Hymenoptera (Côte d'or),2
+Saxifragales (Côte d'or),Hymenoptera (Côte d'or),2
+Solanales (Côte d'or),Hymenoptera (Côte d'or),10
 Apiales (Dour),Hymenoptera (Dour),1
 Asterales (Dour),Hymenoptera (Dour),36
 Boraginales (Dour),Hymenoptera (Dour),24
@@ -6557,8 +6557,8 @@ Fabales (Esporles),Hymenoptera (Esporles),1
 Gentianales (Esporles),Hymenoptera (Esporles),1
 Lamiales (Esporles),Hymenoptera (Esporles),54
 Malvales (Esporles),Hymenoptera (Esporles),5
-Asterales (FajtÅ¯v kopec),Hymenoptera (FajtÅ¯v kopec),1
-Fabales (FajtÅ¯v kopec),Hymenoptera (FajtÅ¯v kopec),3
+Asterales (Fajtův kopec),Hymenoptera (Fajtův kopec),1
+Fabales (Fajtův kopec),Hymenoptera (Fajtův kopec),3
 Apiales (Falcade),Hymenoptera (Falcade),9
 Asterales (Falcade),Hymenoptera (Falcade),26
 Fabales (Falcade),Hymenoptera (Falcade),17
@@ -6746,11 +6746,11 @@ Pinales (Grouches Luchuel),Hymenoptera (Grouches Luchuel),2
 Poales (Grouches Luchuel),Hymenoptera (Grouches Luchuel),2
 Ranunculales (Grouches Luchuel),Hymenoptera (Grouches Luchuel),26
 Rosales (Grouches Luchuel),Hymenoptera (Grouches Luchuel),9
-Asterales (GroÃenohe),Hymenoptera (GroÃenohe),13
-Brassicales (GroÃenohe),Hymenoptera (GroÃenohe),1
-Fabales (GroÃenohe),Hymenoptera (GroÃenohe),5
-Lamiales (GroÃenohe),Hymenoptera (GroÃenohe),7
-Malvales (GroÃenohe),Hymenoptera (GroÃenohe),1
+Asterales (Großenohe),Hymenoptera (Großenohe),13
+Brassicales (Großenohe),Hymenoptera (Großenohe),1
+Fabales (Großenohe),Hymenoptera (Großenohe),5
+Lamiales (Großenohe),Hymenoptera (Großenohe),7
+Malvales (Großenohe),Hymenoptera (Großenohe),1
 Apiales (Halle),Hymenoptera (Halle),10
 Asparagales (Halle),Hymenoptera (Halle),3
 Asterales (Halle),Hymenoptera (Halle),88
@@ -6798,20 +6798,20 @@ Fabales (Haselbrunn),Hymenoptera (Haselbrunn),3
 Lamiales (Haselbrunn),Hymenoptera (Haselbrunn),10
 Ranunculales (Haselbrunn),Hymenoptera (Haselbrunn),1
 Saxifragales (Haselbrunn),Hymenoptera (Haselbrunn),2
-Fabales (HavranickÃ© vÅesoviÅ¡tÄ),Hymenoptera (HavranickÃ© vÅesoviÅ¡tÄ),1
-Lamiales (HavranickÃ© vÅesoviÅ¡tÄ),Hymenoptera (HavranickÃ© vÅesoviÅ¡tÄ),3
-Malpighiales (HavranickÃ© vÅesoviÅ¡tÄ),Hymenoptera (HavranickÃ© vÅesoviÅ¡tÄ),11
-Saxifragales (HavranickÃ© vÅesoviÅ¡tÄ),Hymenoptera (HavranickÃ© vÅesoviÅ¡tÄ),11
-Apiales (HavrÃ©),Hymenoptera (HavrÃ©),12
-Asterales (HavrÃ©),Hymenoptera (HavrÃ©),61
-Boraginales (HavrÃ©),Hymenoptera (HavrÃ©),19
-Caryophyllales (HavrÃ©),Hymenoptera (HavrÃ©),1
-Dipsacales (HavrÃ©),Hymenoptera (HavrÃ©),1
-Fabales (HavrÃ©),Hymenoptera (HavrÃ©),19
-Geraniales (HavrÃ©),Hymenoptera (HavrÃ©),1
-Lamiales (HavrÃ©),Hymenoptera (HavrÃ©),16
-Myrtales (HavrÃ©),Hymenoptera (HavrÃ©),15
-Rosales (HavrÃ©),Hymenoptera (HavrÃ©),3
+Fabales (Havranické vřesoviště),Hymenoptera (Havranické vřesoviště),1
+Lamiales (Havranické vřesoviště),Hymenoptera (Havranické vřesoviště),3
+Malpighiales (Havranické vřesoviště),Hymenoptera (Havranické vřesoviště),11
+Saxifragales (Havranické vřesoviště),Hymenoptera (Havranické vřesoviště),11
+Apiales (Havré),Hymenoptera (Havré),12
+Asterales (Havré),Hymenoptera (Havré),61
+Boraginales (Havré),Hymenoptera (Havré),19
+Caryophyllales (Havré),Hymenoptera (Havré),1
+Dipsacales (Havré),Hymenoptera (Havré),1
+Fabales (Havré),Hymenoptera (Havré),19
+Geraniales (Havré),Hymenoptera (Havré),1
+Lamiales (Havré),Hymenoptera (Havré),16
+Myrtales (Havré),Hymenoptera (Havré),15
+Rosales (Havré),Hymenoptera (Havré),3
 Asterales (Hensies),Hymenoptera (Hensies),15
 Boraginales (Hensies),Hymenoptera (Hensies),2
 Cornales (Hensies),Hymenoptera (Hensies),1
@@ -6837,9 +6837,9 @@ Myrtales (Horbylunde_2005),Hymenoptera (Horbylunde_2005),2
 Asterales (Horni Grunt),Hymenoptera (Horni Grunt),8
 Fabales (Horni Grunt),Hymenoptera (Horni Grunt),7
 Malpighiales (Horni Grunt),Hymenoptera (Horni Grunt),4
-Apiales (HornÃ­ BeÄva),Hymenoptera (HornÃ­ BeÄva),2
-Asterales (HornÃ­ BeÄva),Hymenoptera (HornÃ­ BeÄva),7
-Malpighiales (HornÃ­ BeÄva),Hymenoptera (HornÃ­ BeÄva),13
+Apiales (Horní Bečva),Hymenoptera (Horní Bečva),2
+Asterales (Horní Bečva),Hymenoptera (Horní Bečva),7
+Malpighiales (Horní Bečva),Hymenoptera (Horní Bečva),13
 Asterales (Hruba_Vrbka),Hymenoptera (Hruba_Vrbka),16
 Fabales (Hruba_Vrbka),Hymenoptera (Hruba_Vrbka),52
 Lamiales (Hruba_Vrbka),Hymenoptera (Hruba_Vrbka),48
@@ -6885,9 +6885,9 @@ Fabales (Isola Vicentina),Hymenoptera (Isola Vicentina),88
 Geraniales (Isola Vicentina),Hymenoptera (Isola Vicentina),1
 Lamiales (Isola Vicentina),Hymenoptera (Isola Vicentina),28
 Solanales (Isola Vicentina),Hymenoptera (Isola Vicentina),2
-Geraniales (JanskÃ© LÃ¡znÄ),Hymenoptera (JanskÃ© LÃ¡znÄ),5
-Lamiales (JanskÃ© LÃ¡znÄ),Hymenoptera (JanskÃ© LÃ¡znÄ),1
-Ranunculales (JanskÃ© LÃ¡znÄ),Hymenoptera (JanskÃ© LÃ¡znÄ),4
+Geraniales (Janské Lázně),Hymenoptera (Janské Lázně),5
+Lamiales (Janské Lázně),Hymenoptera (Janské Lázně),1
+Ranunculales (Janské Lázně),Hymenoptera (Janské Lázně),4
 Apiales (Jarnoltowek),Hymenoptera (Jarnoltowek),2
 Boraginales (Jarnoltowek),Hymenoptera (Jarnoltowek),2
 Fabales (Jarnoltowek),Hymenoptera (Jarnoltowek),32
@@ -6918,16 +6918,16 @@ Fabales (Kea),Hymenoptera (Kea),35
 Lamiales (Kea),Hymenoptera (Kea),1060
 Malpighiales (Kea),Hymenoptera (Kea),5
 Ranunculales (Kea),Hymenoptera (Kea),7
-Apiales (KittilÂ),Hymenoptera (KittilÂ),8
-Asterales (KittilÂ),Hymenoptera (KittilÂ),16
-Caryophyllales (KittilÂ),Hymenoptera (KittilÂ),7
-Dipsacales (KittilÂ),Hymenoptera (KittilÂ),2
-Fabales (KittilÂ),Hymenoptera (KittilÂ),48
-Geraniales (KittilÂ),Hymenoptera (KittilÂ),14
-Lamiales (KittilÂ),Hymenoptera (KittilÂ),1
-Myrtales (KittilÂ),Hymenoptera (KittilÂ),14
-Ranunculales (KittilÂ),Hymenoptera (KittilÂ),6
-Rosales (KittilÂ),Hymenoptera (KittilÂ),3
+Apiales (Kittil),Hymenoptera (Kittil),8
+Asterales (Kittil),Hymenoptera (Kittil),16
+Caryophyllales (Kittil),Hymenoptera (Kittil),7
+Dipsacales (Kittil),Hymenoptera (Kittil),2
+Fabales (Kittil),Hymenoptera (Kittil),48
+Geraniales (Kittil),Hymenoptera (Kittil),14
+Lamiales (Kittil),Hymenoptera (Kittil),1
+Myrtales (Kittil),Hymenoptera (Kittil),14
+Ranunculales (Kittil),Hymenoptera (Kittil),6
+Rosales (Kittil),Hymenoptera (Kittil),3
 Apiales (Kleinziegenfeld),Hymenoptera (Kleinziegenfeld),3
 Asterales (Kleinziegenfeld),Hymenoptera (Kleinziegenfeld),9
 Boraginales (Kleinziegenfeld),Hymenoptera (Kleinziegenfeld),4
@@ -6951,7 +6951,7 @@ Ranunculales (Klobikau),Hymenoptera (Klobikau),2
 Rosales (Klobikau),Hymenoptera (Klobikau),26
 Sapindales (Klobikau),Hymenoptera (Klobikau),4
 Solanales (Klobikau),Hymenoptera (Klobikau),1
-Lamiales (KonÄprusy),Hymenoptera (KonÄprusy),4
+Lamiales (Koněprusy),Hymenoptera (Koněprusy),4
 Asparagales (Kythnos),Hymenoptera (Kythnos),1
 Asterales (Kythnos),Hymenoptera (Kythnos),67
 Boraginales (Kythnos),Hymenoptera (Kythnos),5
@@ -6962,24 +6962,24 @@ Lamiales (Kythnos),Hymenoptera (Kythnos),1627
 Malpighiales (Kythnos),Hymenoptera (Kythnos),3
 Oxalidales (Kythnos),Hymenoptera (Kythnos),9
 Ranunculales (Kythnos),Hymenoptera (Kythnos),13
-Asterales (KÃ¶ttel),Hymenoptera (KÃ¶ttel),13
-Boraginales (KÃ¶ttel),Hymenoptera (KÃ¶ttel),3
-Caryophyllales (KÃ¶ttel),Hymenoptera (KÃ¶ttel),2
-Fabales (KÃ¶ttel),Hymenoptera (KÃ¶ttel),9
-Lamiales (KÃ¶ttel),Hymenoptera (KÃ¶ttel),6
-Saxifragales (KÃ¶ttel),Hymenoptera (KÃ¶ttel),1
-Ranunculales (KÅiÅ¾anov),Hymenoptera (KÅiÅ¾anov),1
-Rosales (KÅiÅ¾anov),Hymenoptera (KÅiÅ¾anov),1
-Apiales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),6
-Asterales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),25
-Boraginales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),18
-Lamiales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),2
-Malpighiales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),3
-Malvales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),1
-Myrtales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),4
-Ranunculales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),2
-Rosales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),9
-Solanales (La LouviÃ¨re),Hymenoptera (La LouviÃ¨re),1
+Asterales (Köttel),Hymenoptera (Köttel),13
+Boraginales (Köttel),Hymenoptera (Köttel),3
+Caryophyllales (Köttel),Hymenoptera (Köttel),2
+Fabales (Köttel),Hymenoptera (Köttel),9
+Lamiales (Köttel),Hymenoptera (Köttel),6
+Saxifragales (Köttel),Hymenoptera (Köttel),1
+Ranunculales (Křižanov),Hymenoptera (Křižanov),1
+Rosales (Křižanov),Hymenoptera (Křižanov),1
+Apiales (La Louvière),Hymenoptera (La Louvière),6
+Asterales (La Louvière),Hymenoptera (La Louvière),25
+Boraginales (La Louvière),Hymenoptera (La Louvière),18
+Lamiales (La Louvière),Hymenoptera (La Louvière),2
+Malpighiales (La Louvière),Hymenoptera (La Louvière),3
+Malvales (La Louvière),Hymenoptera (La Louvière),1
+Myrtales (La Louvière),Hymenoptera (La Louvière),4
+Ranunculales (La Louvière),Hymenoptera (La Louvière),2
+Rosales (La Louvière),Hymenoptera (La Louvière),9
+Solanales (La Louvière),Hymenoptera (La Louvière),1
 Asterales (La_cunya),Hymenoptera (La_cunya),5
 Boraginales (La_cunya),Hymenoptera (La_cunya),3
 Ericales (La_cunya),Hymenoptera (La_cunya),2
@@ -7056,8 +7056,8 @@ Fabales (Livinallongo del Col di Lana),Hymenoptera (Livinallongo del Col di Lana
 Geraniales (Livinallongo del Col di Lana),Hymenoptera (Livinallongo del Col di Lana),3
 Lamiales (Livinallongo del Col di Lana),Hymenoptera (Livinallongo del Col di Lana),64
 Ranunculales (Livinallongo del Col di Lana),Hymenoptera (Livinallongo del Col di Lana),2
-Dipsacales (Louka pod Å obesem),Hymenoptera (Louka pod Å obesem),1
-Fabales (Louka pod Å obesem),Hymenoptera (Louka pod Å obesem),4
+Dipsacales (Louka pod Šobesem),Hymenoptera (Louka pod Šobesem),1
+Fabales (Louka pod Šobesem),Hymenoptera (Louka pod Šobesem),4
 Apiales (Lumea Pierduta),Hymenoptera (Lumea Pierduta),23
 Asterales (Lumea Pierduta),Hymenoptera (Lumea Pierduta),94
 Celastrales (Lumea Pierduta),Hymenoptera (Lumea Pierduta),1
@@ -7099,16 +7099,16 @@ Rosales (Magdeburg),Hymenoptera (Magdeburg),16
 Sapindales (Magdeburg),Hymenoptera (Magdeburg),3
 Saxifragales (Magdeburg),Hymenoptera (Magdeburg),21
 Solanales (Magdeburg),Hymenoptera (Magdeburg),3
-Asterales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),62
-Boraginales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),13
-Brassicales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),12
-Caryophyllales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),1
-Fabales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),2
-Lamiales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),1
-Malpighiales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),4
-Malvales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),5
-Myrtales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),1
-Rosales (MaisiÃ¨res),Hymenoptera (MaisiÃ¨res),1
+Asterales (Maisières),Hymenoptera (Maisières),62
+Boraginales (Maisières),Hymenoptera (Maisières),13
+Brassicales (Maisières),Hymenoptera (Maisières),12
+Caryophyllales (Maisières),Hymenoptera (Maisières),1
+Fabales (Maisières),Hymenoptera (Maisières),2
+Lamiales (Maisières),Hymenoptera (Maisières),1
+Malpighiales (Maisières),Hymenoptera (Maisières),4
+Malvales (Maisières),Hymenoptera (Maisières),5
+Myrtales (Maisières),Hymenoptera (Maisières),1
+Rosales (Maisières),Hymenoptera (Maisières),1
 Apiales (Menorca),Hymenoptera (Menorca),87
 Asparagales (Menorca),Hymenoptera (Menorca),33
 Asterales (Menorca),Hymenoptera (Menorca),278
@@ -7143,10 +7143,10 @@ Fabales (Miladka),Hymenoptera (Miladka),14
 Gentianales (Miladka),Hymenoptera (Miladka),2
 Geraniales (Miladka),Hymenoptera (Miladka),94
 Lamiales (Miladka),Hymenoptera (Miladka),6
-Fabales (MilovickÃ¡ strÃ¡Å),Hymenoptera (MilovickÃ¡ strÃ¡Å),2
-Lamiales (MilovickÃ¡ strÃ¡Å),Hymenoptera (MilovickÃ¡ strÃ¡Å),5
-Sapindales (MilovickÃ¡ strÃ¡Å),Hymenoptera (MilovickÃ¡ strÃ¡Å),1
-Brassicales (MilÃ­kov),Hymenoptera (MilÃ­kov),1
+Fabales (Milovická stráň),Hymenoptera (Milovická stráň),2
+Lamiales (Milovická stráň),Hymenoptera (Milovická stráň),5
+Sapindales (Milovická stráň),Hymenoptera (Milovická stráň),1
+Brassicales (Milíkov),Hymenoptera (Milíkov),1
 Asterales (Mnichov),Hymenoptera (Mnichov),1
 Caryophyllales (Mnichov),Hymenoptera (Mnichov),9
 Dipsacales (Mnichov),Hymenoptera (Mnichov),6
@@ -7198,8 +7198,8 @@ Ericales (Muro),Hymenoptera (Muro),2
 Fabales (Muro),Hymenoptera (Muro),34
 Gentianales (Muro),Hymenoptera (Muro),1
 Malpighiales (Muro),Hymenoptera (Muro),1
-Fabales (NekoÅ),Hymenoptera (NekoÅ),2
-Geraniales (NekoÅ),Hymenoptera (NekoÅ),1
+Fabales (Nekoř),Hymenoptera (Nekoř),2
+Geraniales (Nekoř),Hymenoptera (Nekoř),1
 Apiales (Nervesa della Battaglia),Hymenoptera (Nervesa della Battaglia),12
 Asterales (Nervesa della Battaglia),Hymenoptera (Nervesa della Battaglia),28
 Boraginales (Nervesa della Battaglia),Hymenoptera (Nervesa della Battaglia),2
@@ -7207,17 +7207,17 @@ Dipsacales (Nervesa della Battaglia),Hymenoptera (Nervesa della Battaglia),10
 Fabales (Nervesa della Battaglia),Hymenoptera (Nervesa della Battaglia),18
 Geraniales (Nervesa della Battaglia),Hymenoptera (Nervesa della Battaglia),1
 Lamiales (Nervesa della Battaglia),Hymenoptera (Nervesa della Battaglia),5
-Apiales (NesmÄÅ),Hymenoptera (NesmÄÅ),3
-Fabales (NesmÄÅ),Hymenoptera (NesmÄÅ),7
-Geraniales (NesmÄÅ),Hymenoptera (NesmÄÅ),16
-Asterales (NeubÃ¼rg),Hymenoptera (NeubÃ¼rg),21
-Brassicales (NeubÃ¼rg),Hymenoptera (NeubÃ¼rg),6
-Dipsacales (NeubÃ¼rg),Hymenoptera (NeubÃ¼rg),2
-Fabales (NeubÃ¼rg),Hymenoptera (NeubÃ¼rg),5
-Gentianales (NeubÃ¼rg),Hymenoptera (NeubÃ¼rg),1
-Lamiales (NeubÃ¼rg),Hymenoptera (NeubÃ¼rg),3
-Malpighiales (NeubÃ¼rg),Hymenoptera (NeubÃ¼rg),1
-Saxifragales (NeubÃ¼rg),Hymenoptera (NeubÃ¼rg),2
+Apiales (Nesměř),Hymenoptera (Nesměř),3
+Fabales (Nesměř),Hymenoptera (Nesměř),7
+Geraniales (Nesměř),Hymenoptera (Nesměř),16
+Asterales (Neubürg),Hymenoptera (Neubürg),21
+Brassicales (Neubürg),Hymenoptera (Neubürg),6
+Dipsacales (Neubürg),Hymenoptera (Neubürg),2
+Fabales (Neubürg),Hymenoptera (Neubürg),5
+Gentianales (Neubürg),Hymenoptera (Neubürg),1
+Lamiales (Neubürg),Hymenoptera (Neubürg),3
+Malpighiales (Neubürg),Hymenoptera (Neubürg),1
+Saxifragales (Neubürg),Hymenoptera (Neubürg),2
 Apiales (Niebla),Hymenoptera (Niebla),16
 Asparagales (Niebla),Hymenoptera (Niebla),19
 Asterales (Niebla),Hymenoptera (Niebla),8
@@ -7226,17 +7226,17 @@ Lamiales (Niebla),Hymenoptera (Niebla),40
 Malpighiales (Niebla),Hymenoptera (Niebla),2
 Malvales (Niebla),Hymenoptera (Niebla),10
 Solanales (Niebla),Hymenoptera (Niebla),11
-Apiales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),12
-Asparagales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),2
-Asterales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),97
-Dipsacales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),38
-Ericales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),2
-Fabales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),204
-Gentianales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),19
-Lamiales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),61
-Pinales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),1
-Ranunculales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),43
-Rosales (Noeux-lÃ¨s-Auxi),Hymenoptera (Noeux-lÃ¨s-Auxi),1
+Apiales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),12
+Asparagales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),2
+Asterales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),97
+Dipsacales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),38
+Ericales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),2
+Fabales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),204
+Gentianales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),19
+Lamiales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),61
+Pinales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),1
+Ranunculales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),43
+Rosales (Noeux-lès-Auxi),Hymenoptera (Noeux-lès-Auxi),1
 Apiales (North_Central_Estonia),Hymenoptera (North_Central_Estonia),66
 Asterales (North_Central_Estonia),Hymenoptera (North_Central_Estonia),3373
 Boraginales (North_Central_Estonia),Hymenoptera (North_Central_Estonia),639
@@ -7309,10 +7309,10 @@ Malvales (Oschersleben),Hymenoptera (Oschersleben),11
 Ranunculales (Oschersleben),Hymenoptera (Oschersleben),11
 Rosales (Oschersleben),Hymenoptera (Oschersleben),5
 Solanales (Oschersleben),Hymenoptera (Oschersleben),17
-Asterales (Ostrov nad OhÅÃ­),Hymenoptera (Ostrov nad OhÅÃ­),1
-Fabales (Ostrov nad OhÅÃ­),Hymenoptera (Ostrov nad OhÅÃ­),2
-Ranunculales (Ostrov nad OhÅÃ­),Hymenoptera (Ostrov nad OhÅÃ­),5
-Asterales (OstÅihom),Hymenoptera (OstÅihom),2
+Asterales (Ostrov nad Ohří),Hymenoptera (Ostrov nad Ohří),1
+Fabales (Ostrov nad Ohří),Hymenoptera (Ostrov nad Ohří),2
+Ranunculales (Ostrov nad Ohří),Hymenoptera (Ostrov nad Ohří),5
+Asterales (Ostřihom),Hymenoptera (Ostřihom),2
 Apiales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Hymenoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),13
 Asparagales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Hymenoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),1
 Asterales (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),Hymenoptera (Parco dei Gessi Bolognesi e Calanchi dell'Abbadessa),41
@@ -7349,12 +7349,12 @@ Lamiales (Petre_tii de Jos),Hymenoptera (Petre_tii de Jos),4
 Myrtales (Petre_tii de Jos),Hymenoptera (Petre_tii de Jos),1
 Ranunculales (Petre_tii de Jos),Hymenoptera (Petre_tii de Jos),3
 Rosales (Petre_tii de Jos),Hymenoptera (Petre_tii de Jos),3
-Apiales (PetÅÃ­n),Hymenoptera (PetÅÃ­n),2
-Asterales (PetÅÃ­n),Hymenoptera (PetÅÃ­n),11
-Fabales (PetÅÃ­n),Hymenoptera (PetÅÃ­n),3
-Geraniales (PetÅÃ­n),Hymenoptera (PetÅÃ­n),12
-Lamiales (PetÅÃ­n),Hymenoptera (PetÅÃ­n),6
-Ranunculales (PetÅÃ­n),Hymenoptera (PetÅÃ­n),1
+Apiales (Petřín),Hymenoptera (Petřín),2
+Asterales (Petřín),Hymenoptera (Petřín),11
+Fabales (Petřín),Hymenoptera (Petřín),3
+Geraniales (Petřín),Hymenoptera (Petřín),12
+Lamiales (Petřín),Hymenoptera (Petřín),6
+Ranunculales (Petřín),Hymenoptera (Petřín),1
 Apiales (Piazzola sul Brenta),Hymenoptera (Piazzola sul Brenta),42
 Asterales (Piazzola sul Brenta),Hymenoptera (Piazzola sul Brenta),117621
 Brassicales (Piazzola sul Brenta),Hymenoptera (Piazzola sul Brenta),337
@@ -7378,17 +7378,17 @@ Asparagales (Pino_del_cuervo),Hymenoptera (Pino_del_cuervo),1
 Fabales (Pino_del_cuervo),Hymenoptera (Pino_del_cuervo),18
 Lamiales (Pino_del_cuervo),Hymenoptera (Pino_del_cuervo),258
 Malvales (Pino_del_cuervo),Hymenoptera (Pino_del_cuervo),33
-Apiales (PlakÃ¡nek),Hymenoptera (PlakÃ¡nek),1
-Caryophyllales (PlakÃ¡nek),Hymenoptera (PlakÃ¡nek),4
-Geraniales (PlakÃ¡nek),Hymenoptera (PlakÃ¡nek),44
-Fabales (Popova Å apka),Hymenoptera (Popova Å apka),3
-Malpighiales (Popova Å apka),Hymenoptera (Popova Å apka),1
-Ranunculales (Popova Å apka),Hymenoptera (Popova Å apka),15
+Apiales (Plakánek),Hymenoptera (Plakánek),1
+Caryophyllales (Plakánek),Hymenoptera (Plakánek),4
+Geraniales (Plakánek),Hymenoptera (Plakánek),44
+Fabales (Popova Šapka),Hymenoptera (Popova Šapka),3
+Malpighiales (Popova Šapka),Hymenoptera (Popova Šapka),1
+Ranunculales (Popova Šapka),Hymenoptera (Popova Šapka),15
 Asterales (Pottenstein),Hymenoptera (Pottenstein),11
 Dipsacales (Pottenstein),Hymenoptera (Pottenstein),1
 Fabales (Pottenstein),Hymenoptera (Pottenstein),9
 Lamiales (Pottenstein),Hymenoptera (Pottenstein),6
-Asterales (PouzdÅany),Hymenoptera (PouzdÅany),1
+Asterales (Pouzdřany),Hymenoptera (Pouzdřany),1
 Apiales (Pove del Grappa),Hymenoptera (Pove del Grappa),1
 Caryophyllales (Pove del Grappa),Hymenoptera (Pove del Grappa),2
 Fabales (Pove del Grappa),Hymenoptera (Pove del Grappa),1
@@ -7412,14 +7412,14 @@ Malvales (Pretzien),Hymenoptera (Pretzien),8
 Ranunculales (Pretzien),Hymenoptera (Pretzien),14
 Rosales (Pretzien),Hymenoptera (Pretzien),10
 Solanales (Pretzien),Hymenoptera (Pretzien),28
-Apiales (PudasjÂrvi),Hymenoptera (PudasjÂrvi),3
-Asterales (PudasjÂrvi),Hymenoptera (PudasjÂrvi),23
-Caryophyllales (PudasjÂrvi),Hymenoptera (PudasjÂrvi),2
-Fabales (PudasjÂrvi),Hymenoptera (PudasjÂrvi),63
-Lamiales (PudasjÂrvi),Hymenoptera (PudasjÂrvi),159
-Myrtales (PudasjÂrvi),Hymenoptera (PudasjÂrvi),39
-Ranunculales (PudasjÂrvi),Hymenoptera (PudasjÂrvi),6
-Rosales (PudasjÂrvi),Hymenoptera (PudasjÂrvi),3
+Apiales (Pudasjrvi),Hymenoptera (Pudasjrvi),3
+Asterales (Pudasjrvi),Hymenoptera (Pudasjrvi),23
+Caryophyllales (Pudasjrvi),Hymenoptera (Pudasjrvi),2
+Fabales (Pudasjrvi),Hymenoptera (Pudasjrvi),63
+Lamiales (Pudasjrvi),Hymenoptera (Pudasjrvi),159
+Myrtales (Pudasjrvi),Hymenoptera (Pudasjrvi),39
+Ranunculales (Pudasjrvi),Hymenoptera (Pudasjrvi),6
+Rosales (Pudasjrvi),Hymenoptera (Pudasjrvi),3
 Apiales (Puntiro),Hymenoptera (Puntiro),27
 Asparagales (Puntiro),Hymenoptera (Puntiro),7
 Asterales (Puntiro),Hymenoptera (Puntiro),23
@@ -7427,11 +7427,11 @@ Gentianales (Puntiro),Hymenoptera (Puntiro),2
 Lamiales (Puntiro),Hymenoptera (Puntiro),27
 Liliales (Puntiro),Hymenoptera (Puntiro),6
 Malvales (Puntiro),Hymenoptera (Puntiro),4
-Asterales (PÃ©ruwelz),Hymenoptera (PÃ©ruwelz),14
-Brassicales (PÃ©ruwelz),Hymenoptera (PÃ©ruwelz),1
-Fabales (PÃ©ruwelz),Hymenoptera (PÃ©ruwelz),1
-Geraniales (PÃ©ruwelz),Hymenoptera (PÃ©ruwelz),1
-Ranunculales (PÃ©ruwelz),Hymenoptera (PÃ©ruwelz),10
+Asterales (Péruwelz),Hymenoptera (Péruwelz),14
+Brassicales (Péruwelz),Hymenoptera (Péruwelz),1
+Fabales (Péruwelz),Hymenoptera (Péruwelz),1
+Geraniales (Péruwelz),Hymenoptera (Péruwelz),1
+Ranunculales (Péruwelz),Hymenoptera (Péruwelz),10
 Asterales (Quaregnon),Hymenoptera (Quaregnon),12
 Boraginales (Quaregnon),Hymenoptera (Quaregnon),9
 Brassicales (Quaregnon),Hymenoptera (Quaregnon),9
@@ -7469,7 +7469,7 @@ Gentianales (Rasca),Hymenoptera (Rasca),1
 Lamiales (Rasca),Hymenoptera (Rasca),62
 Malpighiales (Rasca),Hymenoptera (Rasca),2
 Malvales (Rasca),Hymenoptera (Rasca),12
-Lamiales (RejvÃ­z),Hymenoptera (RejvÃ­z),1
+Lamiales (Rejvíz),Hymenoptera (Rejvíz),1
 Asterales (Retzbach),Hymenoptera (Retzbach),13
 Boraginales (Retzbach),Hymenoptera (Retzbach),2
 Brassicales (Retzbach),Hymenoptera (Retzbach),15
@@ -7630,12 +7630,12 @@ Gentianales (Schupfart),Hymenoptera (Schupfart),1
 Lamiales (Schupfart),Hymenoptera (Schupfart),8
 Ranunculales (Schupfart),Hymenoptera (Schupfart),1
 Rosales (Schupfart),Hymenoptera (Schupfart),3
-Asterales (SchÃ¼tzengrÃ¤ben),Hymenoptera (SchÃ¼tzengrÃ¤ben),7
-Fabales (SchÃ¼tzengrÃ¤ben),Hymenoptera (SchÃ¼tzengrÃ¤ben),30
-Lamiales (SchÃ¼tzengrÃ¤ben),Hymenoptera (SchÃ¼tzengrÃ¤ben),4
-Malvales (SchÃ¼tzengrÃ¤ben),Hymenoptera (SchÃ¼tzengrÃ¤ben),1
-Ranunculales (SchÃ¼tzengrÃ¤ben),Hymenoptera (SchÃ¼tzengrÃ¤ben),3
-Solanales (SchÃ¼tzengrÃ¤ben),Hymenoptera (SchÃ¼tzengrÃ¤ben),1
+Asterales (Schützengräben),Hymenoptera (Schützengräben),7
+Fabales (Schützengräben),Hymenoptera (Schützengräben),30
+Lamiales (Schützengräben),Hymenoptera (Schützengräben),4
+Malvales (Schützengräben),Hymenoptera (Schützengräben),1
+Ranunculales (Schützengräben),Hymenoptera (Schützengräben),3
+Solanales (Schützengräben),Hymenoptera (Schützengräben),1
 Apiales (Scurelle),Hymenoptera (Scurelle),9
 Asterales (Scurelle),Hymenoptera (Scurelle),708
 Boraginales (Scurelle),Hymenoptera (Scurelle),3
@@ -7899,8 +7899,8 @@ Asterales (Volpago del Montello),Hymenoptera (Volpago del Montello),50
 Boraginales (Volpago del Montello),Hymenoptera (Volpago del Montello),7
 Fabales (Volpago del Montello),Hymenoptera (Volpago del Montello),22
 Lamiales (Volpago del Montello),Hymenoptera (Volpago del Montello),21
-Asterales (VoznesensÂ´k),Hymenoptera (VoznesensÂ´k),2
-Boraginales (VoznesensÂ´k),Hymenoptera (VoznesensÂ´k),1
+Asterales (Voznesens´k),Hymenoptera (Voznesens´k),2
+Boraginales (Voznesens´k),Hymenoptera (Voznesens´k),1
 Asterales (Wallersberg),Hymenoptera (Wallersberg),8
 Fabales (Wallersberg),Hymenoptera (Wallersberg),3
 Lamiales (Wallersberg),Hymenoptera (Wallersberg),3
@@ -7994,12 +7994,12 @@ Ranunculales (Zoldo Alto),Hymenoptera (Zoldo Alto),1
 Rosales (Zoldo Alto),Hymenoptera (Zoldo Alto),1
 Asterales (hory nad Pryvitne),Hymenoptera (hory nad Pryvitne),3
 Lamiales (hory nad Pryvitne),Hymenoptera (hory nad Pryvitne),1
-Lamiales (jezÃ­rko u Vesele),Hymenoptera (jezÃ­rko u Vesele),2
+Lamiales (jezírko u Vesele),Hymenoptera (jezírko u Vesele),2
 Asterales (kemp),Hymenoptera (kemp),1
 Fabales (kemp),Hymenoptera (kemp),3
 Asterales (kopec u Cheremysivka),Hymenoptera (kopec u Cheremysivka),6
-Caryophyllales (motÃ½lÃ­ rezervace),Hymenoptera (motÃ½lÃ­ rezervace),2
-Lamiales (motÃ½lÃ­ rezervace),Hymenoptera (motÃ½lÃ­ rezervace),1
+Caryophyllales (motýlí rezervace),Hymenoptera (motýlí rezervace),2
+Lamiales (motýlí rezervace),Hymenoptera (motýlí rezervace),1
 Apiales (sHeretat),Hymenoptera (sHeretat),17
 Asparagales (sHeretat),Hymenoptera (sHeretat),35
 Asterales (sHeretat),Hymenoptera (sHeretat),54
@@ -8012,14 +8012,14 @@ Oxalidales (sHeretat),Hymenoptera (sHeretat),7
 Ranunculales (sHeretat),Hymenoptera (sHeretat),3
 Apiales (step u Antonivka),Hymenoptera (step u Antonivka),1
 Asterales (step u Antonivka),Hymenoptera (step u Antonivka),1
-Lamiales (ÅÃ­Äany),Hymenoptera (ÅÃ­Äany),5
-Caryophyllales (Å obes),Hymenoptera (Å obes),1
-Fabales (Å obes),Hymenoptera (Å obes),8
-Lamiales (Å obes),Hymenoptera (Å obes),1
-Malpighiales (Å obes),Hymenoptera (Å obes),6
-Saxifragales (Å obes),Hymenoptera (Å obes),3
-Asterales (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),Lepidoptera (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),3
-Lamiales (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),Lepidoptera (AleÅ¡ovskÃ© pÃ­sky (OleÅ¡skÃ© pÃ­sky)),1
+Lamiales (Říčany),Hymenoptera (Říčany),5
+Caryophyllales (Šobes),Hymenoptera (Šobes),1
+Fabales (Šobes),Hymenoptera (Šobes),8
+Lamiales (Šobes),Hymenoptera (Šobes),1
+Malpighiales (Šobes),Hymenoptera (Šobes),6
+Saxifragales (Šobes),Hymenoptera (Šobes),3
+Asterales (Alešovské písky (Olešské písky)),Lepidoptera (Alešovské písky (Olešské písky)),3
+Lamiales (Alešovské písky (Olešské písky)),Lepidoptera (Alešovské písky (Olešské písky)),1
 Apiales (Allika),Lepidoptera (Allika),3
 Asparagales (Allika),Lepidoptera (Allika),3
 Asterales (Allika),Lepidoptera (Allika),59
@@ -8087,8 +8087,8 @@ Lamiales (Borsa-Catun),Lepidoptera (Borsa-Catun),1
 Asterales (Bosco Chiesanuova),Lepidoptera (Bosco Chiesanuova),6
 Boraginales (Bosco Chiesanuova),Lepidoptera (Bosco Chiesanuova),1
 Dipsacales (Bosco Chiesanuova),Lepidoptera (Bosco Chiesanuova),3
-Caryophyllales (BÄstvina),Lepidoptera (BÄstvina),1
-Fabales (BÄstvina),Lepidoptera (BÄstvina),1
+Caryophyllales (Běstvina),Lepidoptera (Běstvina),1
+Fabales (Běstvina),Lepidoptera (Běstvina),1
 Asparagales (Cabrera),Lepidoptera (Cabrera),7
 Boraginales (Cabrera),Lepidoptera (Cabrera),5
 Brassicales (Cabrera),Lepidoptera (Cabrera),1
@@ -8163,13 +8163,13 @@ Fabales (Costabissara),Lepidoptera (Costabissara),7
 Geraniales (Costabissara),Lepidoptera (Costabissara),1
 Lamiales (Costabissara),Lepidoptera (Costabissara),45
 Fabales (Cotito_de_santa_teresa),Lepidoptera (Cotito_de_santa_teresa),9
-Asterales (CÃ´te d'or),Lepidoptera (CÃ´te d'or),5
-Brassicales (CÃ´te d'or),Lepidoptera (CÃ´te d'or),2
-Caryophyllales (CÃ´te d'or),Lepidoptera (CÃ´te d'or),27
-Fabales (CÃ´te d'or),Lepidoptera (CÃ´te d'or),6
-Ranunculales (CÃ´te d'or),Lepidoptera (CÃ´te d'or),2
-Rosales (CÃ´te d'or),Lepidoptera (CÃ´te d'or),1
-Solanales (CÃ´te d'or),Lepidoptera (CÃ´te d'or),1
+Asterales (Côte d'or),Lepidoptera (Côte d'or),5
+Brassicales (Côte d'or),Lepidoptera (Côte d'or),2
+Caryophyllales (Côte d'or),Lepidoptera (Côte d'or),27
+Fabales (Côte d'or),Lepidoptera (Côte d'or),6
+Ranunculales (Côte d'or),Lepidoptera (Côte d'or),2
+Rosales (Côte d'or),Lepidoptera (Côte d'or),1
+Solanales (Côte d'or),Lepidoptera (Côte d'or),1
 Apiales (Dzier_ys_aw),Lepidoptera (Dzier_ys_aw),1
 Asterales (Dzier_ys_aw),Lepidoptera (Dzier_ys_aw),219
 Caryophyllales (Dzier_ys_aw),Lepidoptera (Dzier_ys_aw),2
@@ -8230,8 +8230,8 @@ Ericales (Grigno),Lepidoptera (Grigno),1
 Lamiales (Grigno),Lepidoptera (Grigno),3
 Dipsacales (Hanila),Lepidoptera (Hanila),1
 Fabales (Hanila),Lepidoptera (Hanila),3
-Fabales (HavranickÃ© vÅesoviÅ¡tÄ),Lepidoptera (HavranickÃ© vÅesoviÅ¡tÄ),1
-Lamiales (HavranickÃ© vÅesoviÅ¡tÄ),Lepidoptera (HavranickÃ© vÅesoviÅ¡tÄ),2
+Fabales (Havranické vřesoviště),Lepidoptera (Havranické vřesoviště),1
+Lamiales (Havranické vřesoviště),Lepidoptera (Havranické vřesoviště),2
 Asterales (Hermanovice),Lepidoptera (Hermanovice),1
 Caryophyllales (Hermanovice),Lepidoptera (Hermanovice),1
 Dipsacales (Hermanovice),Lepidoptera (Hermanovice),4
@@ -8248,7 +8248,7 @@ Dipsacales (Horni Grunt),Lepidoptera (Horni Grunt),14
 Fabales (Horni Grunt),Lepidoptera (Horni Grunt),8
 Malpighiales (Horni Grunt),Lepidoptera (Horni Grunt),4
 Ranunculales (Horni Grunt),Lepidoptera (Horni Grunt),1
-Asterales (HornÃ­ BeÄva),Lepidoptera (HornÃ­ BeÄva),10
+Asterales (Horní Bečva),Lepidoptera (Horní Bečva),10
 Asparagales (Hruba_Vrbka),Lepidoptera (Hruba_Vrbka),2
 Asterales (Hruba_Vrbka),Lepidoptera (Hruba_Vrbka),82
 Boraginales (Hruba_Vrbka),Lepidoptera (Hruba_Vrbka),2
@@ -8284,9 +8284,9 @@ Asterales (Kea),Lepidoptera (Kea),12
 Caryophyllales (Kea),Lepidoptera (Kea),1
 Fabales (Kea),Lepidoptera (Kea),1
 Lamiales (Kea),Lepidoptera (Kea),75
-Geraniales (KittilÂ),Lepidoptera (KittilÂ),2
-Fabales (KonÄprusy),Lepidoptera (KonÄprusy),1
-Lamiales (KonÄprusy),Lepidoptera (KonÄprusy),1
+Geraniales (Kittil),Lepidoptera (Kittil),2
+Fabales (Koněprusy),Lepidoptera (Koněprusy),1
+Lamiales (Koněprusy),Lepidoptera (Koněprusy),1
 Lamiales (Kythnos),Lepidoptera (Kythnos),28
 Lamiales (La_cunya),Lepidoptera (La_cunya),1
 Malvales (La_cunya),Lepidoptera (La_cunya),3
@@ -8310,8 +8310,8 @@ Caryophyllales (Lesvos),Lepidoptera (Lesvos),1
 Lamiales (Lesvos),Lepidoptera (Lesvos),12
 Asterales (Livinallongo del Col di Lana),Lepidoptera (Livinallongo del Col di Lana),19
 Rosales (Livinallongo del Col di Lana),Lepidoptera (Livinallongo del Col di Lana),3
-Caryophyllales (Louka pod Å obesem),Lepidoptera (Louka pod Å obesem),1
-Fabales (Louka pod Å obesem),Lepidoptera (Louka pod Å obesem),1
+Caryophyllales (Louka pod Šobesem),Lepidoptera (Louka pod Šobesem),1
+Fabales (Louka pod Šobesem),Lepidoptera (Louka pod Šobesem),1
 Dipsacales (Lumea Pierduta),Lepidoptera (Lumea Pierduta),4
 Asterales (Luna de Jos),Lepidoptera (Luna de Jos),2
 Caryophyllales (Luna de Jos),Lepidoptera (Luna de Jos),2
@@ -8345,7 +8345,7 @@ Fabales (Miladka),Lepidoptera (Miladka),2
 Gentianales (Miladka),Lepidoptera (Miladka),2
 Geraniales (Miladka),Lepidoptera (Miladka),6
 Lamiales (Miladka),Lepidoptera (Miladka),6
-Ranunculales (MilÃ­kov),Lepidoptera (MilÃ­kov),1
+Ranunculales (Milíkov),Lepidoptera (Milíkov),1
 Asterales (Mnichov),Lepidoptera (Mnichov),6
 Caryophyllales (Mnichov),Lepidoptera (Mnichov),62
 Dipsacales (Mnichov),Lepidoptera (Mnichov),72
@@ -8366,11 +8366,11 @@ Asparagales (Muro),Lepidoptera (Muro),3
 Asterales (Muro),Lepidoptera (Muro),3
 Fabales (Muro),Lepidoptera (Muro),2
 Lamiales (Muro),Lepidoptera (Muro),1
-Fabales (NekoÅ),Lepidoptera (NekoÅ),1
+Fabales (Nekoř),Lepidoptera (Nekoř),1
 Dipsacales (Nervesa della Battaglia),Lepidoptera (Nervesa della Battaglia),5
 Fabales (Nervesa della Battaglia),Lepidoptera (Nervesa della Battaglia),1
-Asterales (NesmÄÅ),Lepidoptera (NesmÄÅ),1
-Fabales (NesmÄÅ),Lepidoptera (NesmÄÅ),1
+Asterales (Nesměř),Lepidoptera (Nesměř),1
+Fabales (Nesměř),Lepidoptera (Nesměř),1
 Asterales (Ocoale),Lepidoptera (Ocoale),7
 Dipsacales (Ocoale),Lepidoptera (Ocoale),1
 Asterales (Orozko),Lepidoptera (Orozko),3
@@ -8380,7 +8380,7 @@ Fabales (Orozko),Lepidoptera (Orozko),4
 Gentianales (Orozko),Lepidoptera (Orozko),1
 Geraniales (Orozko),Lepidoptera (Orozko),2
 Lamiales (Orozko),Lepidoptera (Orozko),5
-Fabales (Ostrov nad OhÅÃ­),Lepidoptera (Ostrov nad OhÅÃ­),1
+Fabales (Ostrov nad Ohří),Lepidoptera (Ostrov nad Ohří),1
 Apiales (Pergine Valsugana),Lepidoptera (Pergine Valsugana),1
 Asterales (Pergine Valsugana),Lepidoptera (Pergine Valsugana),13
 Boraginales (Pergine Valsugana),Lepidoptera (Pergine Valsugana),2
@@ -8395,17 +8395,17 @@ Asterales (Petre_tii de Jos),Lepidoptera (Petre_tii de Jos),26
 Ericales (Petre_tii de Jos),Lepidoptera (Petre_tii de Jos),1
 Fabales (Petre_tii de Jos),Lepidoptera (Petre_tii de Jos),6
 Ranunculales (Petre_tii de Jos),Lepidoptera (Petre_tii de Jos),1
-Asterales (PetÅÃ­n),Lepidoptera (PetÅÃ­n),6
-Apiales (PlakÃ¡nek),Lepidoptera (PlakÃ¡nek),3
-Geraniales (PlakÃ¡nek),Lepidoptera (PlakÃ¡nek),2
-Rosales (PlakÃ¡nek),Lepidoptera (PlakÃ¡nek),1
-Fabales (PouzdÅany),Lepidoptera (PouzdÅany),1
+Asterales (Petřín),Lepidoptera (Petřín),6
+Apiales (Plakánek),Lepidoptera (Plakánek),3
+Geraniales (Plakánek),Lepidoptera (Plakánek),2
+Rosales (Plakánek),Lepidoptera (Plakánek),1
+Fabales (Pouzdřany),Lepidoptera (Pouzdřany),1
 Dipsacales (Pove del Grappa),Lepidoptera (Pove del Grappa),1
 Fabales (Pove del Grappa),Lepidoptera (Pove del Grappa),5
 Geraniales (Pove del Grappa),Lepidoptera (Pove del Grappa),1
-Asterales (PudasjÂrvi),Lepidoptera (PudasjÂrvi),6
-Lamiales (PudasjÂrvi),Lepidoptera (PudasjÂrvi),6
-Ranunculales (PudasjÂrvi),Lepidoptera (PudasjÂrvi),1
+Asterales (Pudasjrvi),Lepidoptera (Pudasjrvi),6
+Lamiales (Pudasjrvi),Lepidoptera (Pudasjrvi),6
+Ranunculales (Pudasjrvi),Lepidoptera (Pudasjrvi),1
 Asparagales (Puntiro),Lepidoptera (Puntiro),1
 Lamiales (Puntiro),Lepidoptera (Puntiro),1
 Liliales (Puntiro),Lepidoptera (Puntiro),1
@@ -8533,7 +8533,7 @@ Asterales (Volpago del Montello),Lepidoptera (Volpago del Montello),1
 Dipsacales (Volpago del Montello),Lepidoptera (Volpago del Montello),3
 Fabales (Volpago del Montello),Lepidoptera (Volpago del Montello),1
 Ranunculales (Volpago del Montello),Lepidoptera (Volpago del Montello),2
-Lamiales (VoznesensÂ´k),Lepidoptera (VoznesensÂ´k),1
+Lamiales (Voznesens´k),Lepidoptera (Voznesens´k),1
 Asparagales (Zoldo Alto),Lepidoptera (Zoldo Alto),1
 Asterales (Zoldo Alto),Lepidoptera (Zoldo Alto),25
 Dipsacales (Zoldo Alto),Lepidoptera (Zoldo Alto),1
@@ -8541,17 +8541,17 @@ Fabales (Zoldo Alto),Lepidoptera (Zoldo Alto),1
 Gentianales (Zoldo Alto),Lepidoptera (Zoldo Alto),1
 Myrtales (Zoldo Alto),Lepidoptera (Zoldo Alto),2
 Asterales (hory nad Pryvitne),Lepidoptera (hory nad Pryvitne),1
-Lamiales (jezÃ­rko u Vesele),Lepidoptera (jezÃ­rko u Vesele),2
+Lamiales (jezírko u Vesele),Lepidoptera (jezírko u Vesele),2
 Asterales (sHeretat),Lepidoptera (sHeretat),4
 Dipsacales (sHeretat),Lepidoptera (sHeretat),3
 Oxalidales (sHeretat),Lepidoptera (sHeretat),1
 Asterales (sad u Velyka Derazhnya),Lepidoptera (sad u Velyka Derazhnya),1
-Asterales (Ãbarok),Lepidoptera (Ãbarok),1
-Fabales (Ãbarok),Lepidoptera (Ãbarok),1
-Caryophyllales (Å obes),Lepidoptera (Å obes),11
-Saxifragales (Å obes),Lepidoptera (Å obes),2
-Apiales (CÃ´te d'or),Neuroptera (CÃ´te d'or),2
-Asterales (CÃ´te d'or),Neuroptera (CÃ´te d'or),5
+Asterales (Óbarok),Lepidoptera (Óbarok),1
+Fabales (Óbarok),Lepidoptera (Óbarok),1
+Caryophyllales (Šobes),Lepidoptera (Šobes),11
+Saxifragales (Šobes),Lepidoptera (Šobes),2
+Apiales (Côte d'or),Neuroptera (Côte d'or),2
+Asterales (Côte d'or),Neuroptera (Côte d'or),5
 Lamiales (Lesvos),Neuroptera (Lesvos),2
 Ephedrales (Menorca),Odonata (Menorca),4
 Rosales (Coimbra),Orthoptera (Coimbra),4

@@ -34,15 +34,15 @@ def do_taxonomy(plant, pollinator, level, df):
     # edges.rename(columns={'Plant_accepted_name': 'Target', 'Pollinator_accepted_name': 'Source'}, inplace=True)
 
     print("Saving edges to CSV")
-    edges.to_csv('Edges_data_'+level+'.csv', index=False)
+    edges.to_csv('Edges_data_'+level+'.csv', index=False, encoding='ISO-8859-1')
 
-    plants = df[['Plant_accepted_name', 'Country', 'Locality', 'Bioregion']].copy()
+    plants = df[['Plant_accepted_name', 'Country', 'Locality', 'Bioregion', 'Latitude', 'Longitude']].copy()
     plants.drop_duplicates(inplace=True)
 
     plants.rename(columns={'Plant_accepted_name': 'Id'}, inplace=True)
     plants['Type'] = 'Plant'
 
-    pollinators = df[['Pollinator_accepted_name', 'Country', 'Locality', 'Bioregion']].copy()
+    pollinators = df[['Pollinator_accepted_name', 'Country', 'Locality', 'Bioregion', 'Latitude', 'Longitude']].copy()
     pollinators.drop_duplicates(inplace=True)
 
     pollinators.rename(columns={'Pollinator_accepted_name': 'Id'}, inplace=True)
@@ -50,7 +50,7 @@ def do_taxonomy(plant, pollinator, level, df):
 
     nodes = pd.concat([plants, pollinators], ignore_index=True)
     print("Saving nodes to CSV"+level)
-    nodes.to_csv('Nodes_data_'+level+'.csv', index=False)
+    nodes.to_csv('Nodes_data_'+level+'.csv', index=False, encoding='ISO-8859-1')
 
     print("Nodes and edges dataframes created in CSV files "+level+".")
 
