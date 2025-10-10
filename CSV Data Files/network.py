@@ -43,7 +43,7 @@ ax.add_feature(cfeature.COASTLINE)
 ax.add_feature(cfeature.BORDERS, linestyle=":")
 
 
-pos = nx.spring_layout(G,k=0.01, scale=1,pos=pos_geo, iterations=5, fixed=pos_geo.keys())
+pos = nx.spring_layout(G,k=0.01, scale=1,pos=pos_geo, iterations=5, fixed=pos_geo.keys(), weight='weight')
 print("Positions calculated")
 
 component_positions = {}
@@ -71,12 +71,13 @@ for node in G:
 ax.plot()
 
 print("Drawing edges...")
-for u, v in G.edges():
+for u, v, data in G.edges(data=True):
+    weight = data['weight']
     lon1, lat1 = pos[u][0], pos[u][1]
     lon2, lat2 = pos[v][0], pos[v][1]
 
     ax.plot([lon1, lon2], [lat1, lat2], color="gray", linewidth=0.5,
-            transform=ccrs.PlateCarree(), alpha=0.5)
+            transform=ccrs.PlateCarree(), alpha=min(0.1 + weight * 0.2, 1))
     edge_count += 1
 
 print("Adding labels...")
