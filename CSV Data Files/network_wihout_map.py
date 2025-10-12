@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import unicodedata
 
-
-edges = pd.read_csv('Edges_data_genus_level.csv')
-nodes = pd.read_csv('Nodes_data_genus_level.csv')
+csv_dir = 'nodes_and_edges/'
+edges = pd.read_csv(f'{csv_dir}/Edges_data_genus_level.csv')
+nodes = pd.read_csv(f'{csv_dir}/Nodes_data_genus_level.csv')
 
 # edges = edges[edges['Source'].str.contains(r'\(Coimbra\)', regex=True) | edges['Source'].str.contains(r'\(Anafi\)', regex=True)]
 # nodes = nodes[nodes['Locality'].isin(['Coimbra', 'Anafi'])]

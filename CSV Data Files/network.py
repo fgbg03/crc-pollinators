@@ -6,12 +6,12 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import unicodedata
 
+csv_dir = 'nodes_and_edges/'
+edges = pd.read_csv(f'{csv_dir}/Edges_data_genus_level.csv')
+nodes = pd.read_csv(f'{csv_dir}/Nodes_data_genus_level.csv')
 
-edges = pd.read_csv('Edges_data_genus_level.csv')
-nodes = pd.read_csv('Nodes_data_genus_level.csv')
-
-# edges = edges[edges['Source'].str.contains(r'\(Coimbra\)', regex=True) | edges['Source'].str.contains(r'\(Anafi\)', regex=True)]
-# nodes = nodes[nodes['Locality'].isin(['Coimbra', 'Anafi'])]
+edges = edges[edges['Source'].str.contains(r'\(Piazzola sul Brenta\)', regex=True) | edges['Source'].str.contains(r'\(Camisano Vicentino\)', regex=True)]
+nodes = nodes[nodes['Locality'].isin(['Piazzola sul Brenta', 'Camisano Vicentino'])]
 
 G = nx.Graph()
 

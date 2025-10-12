@@ -1,5 +1,7 @@
 import pandas as pd
 
+csv_dir = 'nodes_and_edges/'
+
 df = pd.read_csv('Interaction_data.csv', encoding='ISO-8859-1')
 
 df = df[df['Plant_rank'] == 'SPECIES']
@@ -37,7 +39,7 @@ edges = pd.concat([edges1, edges2], ignore_index=True)
 # edges.rename(columns={'Plant_accepted_name': 'Target', 'Pollinator_accepted_name': 'Source'}, inplace=True)
 
 print("Saving edges to CSV")
-edges.to_csv('Edges_data.csv', index=False)
+edges.to_csv(f'{csv_dir}/Edges_data.csv', index=False)
 
 plants = df[['Plant_accepted_name', 'Plant_order', 'Plant_family', 'Plant_genus', 'Country', 'Locality', 'Bioregion']].copy()
 plants.drop_duplicates(inplace=True)
@@ -53,6 +55,6 @@ pollinators['Type'] = 'Pollinator'
 
 nodes = pd.concat([plants, pollinators], ignore_index=True)
 print("Saving nodes to CSV")
-nodes.to_csv('Nodes_data.csv', index=False)
+nodes.to_csv(f'{csv_dir}/Nodes_data.csv', index=False)
 
 print("Nodes and edges dataframes created in CSV files.")
