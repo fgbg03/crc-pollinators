@@ -244,6 +244,7 @@ print("-------------------------------------------------------------------------
 
 robusteness_locality_metrics = {}
 for locality, data in sorted_localities[:desired_localities]:
+    total_weight = data['weight'] // 2
     G = nx.Graph()
     edges_locality = edges[edges['Source'].isin(nodes[nodes['Locality'] == locality]['Id'])]
     nodes_locality = nodes[nodes['Locality'] == locality]
@@ -255,19 +256,24 @@ for locality, data in sorted_localities[:desired_localities]:
         'size_of_largest_component' : [initial_locality_nodes[locality]['largest_component_size']],
         'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))]
         }
+    total_edges = G.number_of_edges()
     n_removed = 0
-    while n_removed < initial_locality_nodes[locality]['num_edges']:
+    weight_removed = 0
+    while n_removed < total_edges and weight_removed < abs(total_weight):
         centrality = nx.edge_betweenness_centrality(G, weight='weight', normalized=True)
         centrality_sorted = sorted(centrality.items(), key=lambda x: x[1], reverse=True)
         # Remove the edge with the highest betweenness centrality
         edge_to_remove = centrality_sorted[0][0]
-        G.edges[edge_to_remove]['weight'] -= 1
-        if G.edges[edge_to_remove]['weight'] <= 0:
+        G.edges[edge_to_remove]['weight'] += 1
+        weight_removed += 1
+        if(total_weight % weight_removed == 0):
+            print(f"Locality: {locality}, Weight removed: {weight_removed}, Total weight to remove: {total_weight}, Percentage: {weight_removed/total_weight*100:.2f}%")
+        if G.edges[edge_to_remove]['weight'] >= 0:
             G.remove_edge(*edge_to_remove)
             n_removed += 1
-        strongly_connected_components = list(nx.connected_components(G))
-        robusteness_locality_metrics[locality]['size_of_largest_component'].append(max(len(comp) for comp in strongly_connected_components) if strongly_connected_components else 0)
-        robusteness_locality_metrics[locality]['number_of_strongly_connected_components'].append(len(strongly_connected_components))
+            strongly_connected_components = list(nx.connected_components(G))
+            robusteness_locality_metrics[locality]['size_of_largest_component'].append(max(len(comp) for comp in strongly_connected_components) if strongly_connected_components else 0)
+            robusteness_locality_metrics[locality]['number_of_strongly_connected_components'].append(len(strongly_connected_components))
 
 for locality in robusteness_locality_metrics:
     print(f"Robustness metrics for {locality}:")
@@ -306,10 +312,11 @@ for locality, data in sorted_localities[:desired_localities]:
         'size_of_largest_component' : [initial_locality_nodes[locality]['largest_component_size']],
         'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))]
         }
+    total_edges = G.number_of_edges()
     centrality = nx.edge_betweenness_centrality(G, weight='weight', normalized=True)
     centrality_sorted = sorted(centrality.items(), key=lambda x: x[1], reverse=True)
     n_removed = 0
-    while n_removed < initial_locality_nodes[locality]['num_edges']:
+    while n_removed < total_edges:
         # Remove the edge with the highest betweenness centrality
         edge_to_remove = centrality_sorted[n_removed][0]
         G.remove_edge(*edge_to_remove)
