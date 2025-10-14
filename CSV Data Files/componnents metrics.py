@@ -5,6 +5,7 @@ import unicodedata
 
 csv_metrics_dir = 'metrics'
 desired_localities = 3
+alpha_weight = 0.2                #must not be 0, fraction of the average edge weight to remove in each iteration of edge removal
 
 edges = pd.read_csv('nodes_and_edges/Edges_data_genus_level.csv')
 nodes = pd.read_csv('nodes_and_edges/Nodes_data_genus_level.csv')
@@ -15,11 +16,12 @@ max_weight = 0
 max_edges = 0
 max_avg_weight = 0
 max_avg_degree = 0
+network_weight = 0
 for index, row in edges.iterrows():
     locality = row['Source']
     weight = row['Weight']
     source = row['Source']
-        
+    network_weight += weight
         # Extract locality name from the format "Name (Locality)"
         # Example: "Apis mellifera (Berchtesgaden National Park)" -> "Berchtesgaden National Park"
     
@@ -51,6 +53,8 @@ for locality, data in localities.items():
         max_avg_weight = weight / edges_number
     if max_avg_degree < average_degree:
         max_avg_degree = average_degree
+
+average_edge_weight = network_weight / len(edges)
 
 sorted_localities = sorted(localities.items(), key=lambda x: (x[1]['edges'] / max_edges) + (x[1]['weight'] / max_weight) + (x[1]['weight']/x[1]['edges'] / max_avg_weight) + (x[1]['average_degree'] / max_avg_degree) if x[1]['edges'] > 0 else 0, reverse=True)
 
@@ -98,10 +102,15 @@ for locality, data in sorted_localities[:desired_localities]:
     for index, row in nodes_locality.iterrows():
         G.add_node(row['Id'], label=row['Id'], group=row['Locality'], lon=row['Longitude'], lat=row['Latitude'], type=row['Type'])
     for index, row in edges_locality.iterrows():
-        G.add_edge(row['Source'], row['Target'], weight=row['Weight'] * (-1))
+        G.add_edge(row['Source'], row['Target'], weight=max_weight - row['Weight'] )
+    strongly_connected_components = list(nx.connected_components(G))
+    largest_strongly_connected_component = max(strongly_connected_components, key=len)
+    G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
     robusteness_locality_metrics[locality] = {
         'size_of_largest_component' : [initial_locality_nodes[locality]['largest_component_size']],
-        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))]
+        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))],
+        'largest_strongly_connected_component_size': [len(largest_strongly_connected_component)],
+        'largest_strongly_connected_component_average_path_length': [nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight')] if nx.is_connected(G_largest_strongly_connected) else [float('inf')]
         }
     n_removed = 0
     while n_removed < initial_locality_nodes[locality]['num_nodes']:
@@ -111,8 +120,13 @@ for locality, data in sorted_localities[:desired_localities]:
         n_removed += 1
         centrality[locality] = nx.betweenness_centrality(G, weight='weight', normalized=True)
         strongly_connected_components = list(nx.connected_components(G))
+        largest_strongly_connected_component = max(strongly_connected_components, key=len) if strongly_connected_components else set()
+        G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
         robusteness_locality_metrics[locality]['size_of_largest_component'].append(max(len(comp) for comp in strongly_connected_components) if strongly_connected_components else 0)
         robusteness_locality_metrics[locality]['number_of_strongly_connected_components'].append(len(strongly_connected_components))
+        robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'].append(len(largest_strongly_connected_component))
+        robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'].append(nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight') if G_largest_strongly_connected.number_of_nodes() > 0 and nx.is_connected(G_largest_strongly_connected) else float('inf'))
+
 
 for locality in robusteness_locality_metrics:
     print(f"Robustness metrics for {locality}:")
@@ -123,7 +137,7 @@ for locality in robusteness_locality_metrics:
 for locality_key, locality_metrics in robusteness_locality_metrics.items():
     parsed_metrics = {}
     for key, values in locality_metrics.items():
-        col_name = f"{locality_key}_{key}"
+        col_name = f"{key}"
         parsed_metrics[col_name] = values
     df = pd.DataFrame(parsed_metrics)
     df.to_csv(f'{csv_metrics_dir}/node_removal_recalculated_betweenness_{locality_key}.csv', index=True, index_label='nodes_removed')
@@ -146,11 +160,16 @@ for locality, data in sorted_localities[:desired_localities]:
     for index, row in nodes_locality.iterrows():
         G.add_node(row['Id'], label=row['Id'], group=row['Locality'], lon=row['Longitude'], lat=row['Latitude'], type=row['Type'])
     for index, row in edges_locality.iterrows():
-        G.add_edge(row['Source'], row['Target'], weight=row['Weight'] * (-1))
+        G.add_edge(row['Source'], row['Target'], weight=max_weight - row['Weight'] )
+    strongly_connected_components = list(nx.connected_components(G))
+    largest_strongly_connected_component = max(strongly_connected_components, key=len)
+    G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
     robusteness_locality_metrics[locality] = {
         'size_of_largest_component' : [initial_locality_nodes[locality]['largest_component_size']],
-        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))]
-        }
+        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))],
+        'largest_strongly_connected_component_size': [len(largest_strongly_connected_component)],
+        'largest_strongly_connected_component_average_path_length': [nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight')] if nx.is_connected(G_largest_strongly_connected) else [float('inf')]
+    }
     n_removed = 0
     centrality = nx.betweenness_centrality(G, weight='weight', normalized=True)
     centrality_sorted = sorted(centrality.items(), key=lambda x: x[1], reverse=True)
@@ -158,10 +177,14 @@ for locality, data in sorted_localities[:desired_localities]:
         # Remove the node with the highest betweenness centrality
         node_to_remove = centrality_sorted[n_removed][0]
         G.remove_node(node_to_remove)
-        n_removed += 1
+        n_removed += 1 
         strongly_connected_components = list(nx.connected_components(G))
+        largest_strongly_connected_component = max(strongly_connected_components, key=len) if strongly_connected_components else set()
+        G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
         robusteness_locality_metrics[locality]['size_of_largest_component'].append(max(len(comp) for comp in strongly_connected_components) if strongly_connected_components else 0)
         robusteness_locality_metrics[locality]['number_of_strongly_connected_components'].append(len(strongly_connected_components))
+        robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'].append(len(largest_strongly_connected_component))
+        robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'].append(nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight') if G_largest_strongly_connected.number_of_nodes() > 0 and nx.is_connected(G_largest_strongly_connected) else float('inf'))
 
 for locality in robusteness_locality_metrics:
     print(f"Robustness metrics for {locality}:")
@@ -172,7 +195,7 @@ for locality in robusteness_locality_metrics:
 for locality_key, locality_metrics in robusteness_locality_metrics.items():
     parsed_metrics = {}
     for key, values in locality_metrics.items():
-        col_name = f"{locality_key}_{key}"
+        col_name = f"{key}"
         parsed_metrics[col_name] = values
     df = pd.DataFrame(parsed_metrics)
     df.to_csv(f'{csv_metrics_dir}/node_removal_initial_betweenness_{locality_key}.csv', index=True, index_label='nodes_removed')
@@ -192,7 +215,9 @@ seed_range = 20
 for locality, data in sorted_localities[:desired_localities]:
     robusteness_locality_metrics[locality] = {
         'size_of_largest_component' : [initial_locality_nodes[locality]['largest_component_size']] +  ([0]*initial_locality_nodes[locality]['num_nodes']),
-        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))] +  ([0]*initial_locality_nodes[locality]['num_nodes']),
+        'number_of_strongly_connected_components': [0] +  ([0]*initial_locality_nodes[locality]['num_nodes']),
+        'largest_strongly_connected_component_size': [0] +  ([0]*initial_locality_nodes[locality]['num_nodes']),
+        'largest_strongly_connected_component_average_path_length': [0] +  ([0]*initial_locality_nodes[locality]['num_nodes']),
         }
 
     for seed in range(seed_range):
@@ -202,7 +227,15 @@ for locality, data in sorted_localities[:desired_localities]:
         for index, row in nodes_locality.iterrows():
             G.add_node(row['Id'], label=row['Id'], group=row['Locality'], lon=row['Longitude'], lat=row['Latitude'], type=row['Type'])
         for index, row in edges_locality.iterrows():
-            G.add_edge(row['Source'], row['Target'], weight=row['Weight'] * (-1))
+            G.add_edge(row['Source'], row['Target'], weight=max_weight - row['Weight'] )
+        if(seed == 0):
+            strongly_connected_components = list(nx.connected_components(G))
+            largest_strongly_connected_component = max(strongly_connected_components, key=len)
+            G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
+            robusteness_locality_metrics[locality]['number_of_strongly_connected_components'][0] = len(list(nx.connected_components(G)))
+            robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'][0] = G_largest_strongly_connected.number_of_nodes()
+            robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'][0] = nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight') if G_largest_strongly_connected.number_of_nodes() > 0 and G_largest_strongly_connected.number_of_nodes() > 0 else 0
+
         n_removed = 0
         node_list = list(G.nodes())
         np.random.seed(seed)
@@ -213,10 +246,14 @@ for locality, data in sorted_localities[:desired_localities]:
             G.remove_node(node_to_remove)
             n_removed += 1
             strongly_connected_components = list(nx.connected_components(G))
+            largest_strongly_connected_component = max(strongly_connected_components, key=len) if strongly_connected_components else set()
+            G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
             robusteness_locality_metrics[locality]['size_of_largest_component'][n_removed] += (max(len(comp) for comp in strongly_connected_components) if strongly_connected_components else 0)
             robusteness_locality_metrics[locality]['number_of_strongly_connected_components'][n_removed] += (len(strongly_connected_components))
     robusteness_locality_metrics[locality]['size_of_largest_component'] = [robusteness_locality_metrics[locality]['size_of_largest_component'][0]] + [x / seed_range for x in robusteness_locality_metrics[locality]['size_of_largest_component'][1:]]
     robusteness_locality_metrics[locality]['number_of_strongly_connected_components'] = [robusteness_locality_metrics[locality]['number_of_strongly_connected_components'][0]] +  [x / seed_range for x in robusteness_locality_metrics[locality]['number_of_strongly_connected_components'][1:]]
+    robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'] = [robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'][0]] + [x / seed_range for x in robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'][1:]]
+    robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'] = [robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'][0]] + [x / seed_range for x in robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'][1:]]
 
 for locality in robusteness_locality_metrics:
     print(f"Robustness metrics for {locality}:")
@@ -227,7 +264,7 @@ for locality in robusteness_locality_metrics:
 for locality_key, locality_metrics in robusteness_locality_metrics.items():
     parsed_metrics = {}
     for key, values in locality_metrics.items():
-        col_name = f"{locality_key}_{key}"
+        col_name = f"{key}"
         parsed_metrics[col_name] = values
     df = pd.DataFrame(parsed_metrics)
     df.to_csv(f'{csv_metrics_dir}/node_removal_random_{locality_key}.csv', index=True, index_label='nodes_removed')
@@ -251,29 +288,31 @@ for locality, data in sorted_localities[:desired_localities]:
     for index, row in nodes_locality.iterrows():
         G.add_node(row['Id'], label=row['Id'], group=row['Locality'], lon=row['Longitude'], lat=row['Latitude'], type=row['Type'])
     for index, row in edges_locality.iterrows():
-        G.add_edge(row['Source'], row['Target'], weight=row['Weight'] * (-1))
+        G.add_edge(row['Source'], row['Target'], weight=max_weight - row['Weight'] )
+    strongly_connected_components = list(nx.connected_components(G))
+    largest_strongly_connected_component = max(strongly_connected_components, key=len)
+    G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
     robusteness_locality_metrics[locality] = {
         'size_of_largest_component' : [initial_locality_nodes[locality]['largest_component_size']],
-        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))]
+        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))],
+        'largest_strongly_connected_component_size': [G_largest_strongly_connected.number_of_nodes()],
+        'largest_strongly_connected_component_average_path_length': [nx.average_shortest_path_length(G_largest_strongly_connected)] if G_largest_strongly_connected.number_of_nodes() > 0 else [0],
         }
-    total_edges = G.number_of_edges()
-    n_removed = 0
-    weight_removed = 0
-    while n_removed < total_edges and weight_removed < abs(total_weight):
+    while G.number_of_edges() > 0:
         centrality = nx.edge_betweenness_centrality(G, weight='weight', normalized=True)
         centrality_sorted = sorted(centrality.items(), key=lambda x: x[1], reverse=True)
         # Remove the edge with the highest betweenness centrality
         edge_to_remove = centrality_sorted[0][0]
-        G.edges[edge_to_remove]['weight'] += 1
-        weight_removed += 1
-        if(total_weight % weight_removed == 0):
-            print(f"Locality: {locality}, Weight removed: {weight_removed}, Total weight to remove: {total_weight}, Percentage: {weight_removed/total_weight*100:.2f}%")
-        if G.edges[edge_to_remove]['weight'] >= 0:
+        G.edges[edge_to_remove]['weight'] -= average_edge_weight // alpha_weight
+        if G.edges[edge_to_remove]['weight'] <= 0:
             G.remove_edge(*edge_to_remove)
-            n_removed += 1
             strongly_connected_components = list(nx.connected_components(G))
+            largest_strongly_connected_component = max(strongly_connected_components, key=len) if strongly_connected_components else set()
+            G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
             robusteness_locality_metrics[locality]['size_of_largest_component'].append(max(len(comp) for comp in strongly_connected_components) if strongly_connected_components else 0)
             robusteness_locality_metrics[locality]['number_of_strongly_connected_components'].append(len(strongly_connected_components))
+            robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'].append(len(largest_strongly_connected_component))
+            robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'].append(nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight') if G_largest_strongly_connected.number_of_nodes() > 0 and nx.is_connected(G_largest_strongly_connected) else float('inf'))
 
 for locality in robusteness_locality_metrics:
     print(f"Robustness metrics for {locality}:")
@@ -284,7 +323,7 @@ for locality in robusteness_locality_metrics:
 for locality_key, locality_metrics in robusteness_locality_metrics.items():
     parsed_metrics = {}
     for key, values in locality_metrics.items():
-        col_name = f"{locality_key}_{key}"
+        col_name = f"{key}"
         parsed_metrics[col_name] = values
     df = pd.DataFrame(parsed_metrics)
     df.to_csv(f'{csv_metrics_dir}/edge_removal_recalculated_betweenness_{locality_key}.csv', index=True, index_label='edges_removed')
@@ -307,23 +346,31 @@ for locality, data in sorted_localities[:desired_localities]:
     for index, row in nodes_locality.iterrows():
         G.add_node(row['Id'], label=row['Id'], group=row['Locality'], lon=row['Longitude'], lat=row['Latitude'], type=row['Type'])
     for index, row in edges_locality.iterrows():
-        G.add_edge(row['Source'], row['Target'], weight=row['Weight'] * (-1))
+        G.add_edge(row['Source'], row['Target'], weight=max_weight - row['Weight'] )
+    strongly_connected_components = list(nx.connected_components(G))
+    largest_strongly_connected_component = max(strongly_connected_components, key=len)
+    G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
     robusteness_locality_metrics[locality] = {
         'size_of_largest_component' : [initial_locality_nodes[locality]['largest_component_size']],
-        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))]
-        }
-    total_edges = G.number_of_edges()
+        'number_of_strongly_connected_components': [len(list(nx.connected_components(G)))],
+        'largest_strongly_connected_component_size': [len(largest_strongly_connected_component)],
+        'largest_strongly_connected_component_average_path_length': [nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight')] if nx.is_connected(G_largest_strongly_connected) else [float('inf')]
+}
     centrality = nx.edge_betweenness_centrality(G, weight='weight', normalized=True)
     centrality_sorted = sorted(centrality.items(), key=lambda x: x[1], reverse=True)
     n_removed = 0
-    while n_removed < total_edges:
+    while G.number_of_edges() > 0:
         # Remove the edge with the highest betweenness centrality
         edge_to_remove = centrality_sorted[n_removed][0]
         G.remove_edge(*edge_to_remove)
         n_removed += 1
         strongly_connected_components = list(nx.connected_components(G))
+        largest_strongly_connected_component = max(strongly_connected_components, key=len) if strongly_connected_components else set()
+        G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
         robusteness_locality_metrics[locality]['size_of_largest_component'].append(max(len(comp) for comp in strongly_connected_components) if strongly_connected_components else 0)
         robusteness_locality_metrics[locality]['number_of_strongly_connected_components'].append(len(strongly_connected_components))
+        robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'].append(len(largest_strongly_connected_component))
+        robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'].append(nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight') if G_largest_strongly_connected.number_of_nodes() > 0 and nx.is_connected(G_largest_strongly_connected) else float('inf'))
 
 for locality in robusteness_locality_metrics:
     print(f"Robustness metrics for {locality}:")
@@ -334,7 +381,7 @@ for locality in robusteness_locality_metrics:
 for locality_key, locality_metrics in robusteness_locality_metrics.items():
     parsed_metrics = {}
     for key, values in locality_metrics.items():
-        col_name = f"{locality_key}_{key}"
+        col_name = f"{key}"
         parsed_metrics[col_name] = values
     df = pd.DataFrame(parsed_metrics)
     df.to_csv(f'{csv_metrics_dir}/edge_removal_initial_betweenness_{locality_key}.csv', index=True, index_label='edges_removed')
@@ -356,6 +403,8 @@ for locality, data in sorted_localities[:desired_localities]:
     robusteness_locality_metrics[locality] = {
         'size_of_largest_component' : [initial_locality_nodes[locality]['largest_component_size']] +  ([0]*(data['edges'] // 2)),
         'number_of_strongly_connected_components': [0] +  ([0]*(data['edges'] // 2)),
+        'largest_strongly_connected_component_size': [0] +  ([0]*(data['edges'] // 2)),
+        'largest_strongly_connected_component_average_path_length': [0] +  ([0]*(data['edges'] // 2)),
         }
 
     for seed in range(seed_range):
@@ -365,19 +414,24 @@ for locality, data in sorted_localities[:desired_localities]:
         for index, row in nodes_locality.iterrows():
             G.add_node(row['Id'], label=row['Id'], group=row['Locality'], lon=row['Longitude'], lat=row['Latitude'], type=row['Type'])
         for index, row in edges_locality.iterrows():
-            G.add_edge(row['Source'], row['Target'], weight=row['Weight'] * (-1))
-        robusteness_locality_metrics[locality]['number_of_strongly_connected_components'][0] = len(list(nx.connected_components(G)))
-        weight_removed = 0
+            G.add_edge(row['Source'], row['Target'], weight=max_weight - row['Weight'] )
+        if(seed == 0):
+            strongly_connected_components = list(nx.connected_components(G))
+            largest_strongly_connected_component = max(strongly_connected_components, key=len)
+            G_largest_strongly_connected = G.subgraph(largest_strongly_connected_component).copy() if largest_strongly_connected_component else nx.Graph()
+            robusteness_locality_metrics[locality]['number_of_strongly_connected_components'][0] = len(list(nx.connected_components(G)))
+            robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'][0] = G_largest_strongly_connected.number_of_nodes()
+            robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'][0] = nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight') if G_largest_strongly_connected.number_of_nodes() > 0 and G_largest_strongly_connected.number_of_nodes() > 0 else 0
+
         n_removed = 0
         np.random.seed(seed)
         edges_weights = 0
-        while weight_removed < abs(total_weight) and G.number_of_edges() > 0:
+        while G.number_of_edges() > 0:
             edge_list = list(G.edges())
             np.random.shuffle(edge_list)
             edge_to_remove = edge_list[0]
-            G.edges[edge_to_remove]['weight'] += 1
-            weight_removed += 1
-            if G.edges[edge_to_remove]['weight'] >= 0:
+            G.edges[edge_to_remove]['weight'] -= average_edge_weight // alpha_weight
+            if G.edges[edge_to_remove]['weight'] <= 0:
                 G.remove_edge(*edge_to_remove)
                 n_removed += 1
                 strongly_connected_components = list(nx.connected_components(G))
@@ -395,7 +449,7 @@ for locality in robusteness_locality_metrics:
 for locality_key, locality_metrics in robusteness_locality_metrics.items():
     parsed_metrics = {}
     for key, values in locality_metrics.items():
-        col_name = f"{locality_key}_{key}"
+        col_name = f"{key}"
         parsed_metrics[col_name] = values
     df = pd.DataFrame(parsed_metrics)
     df.to_csv(f'{csv_metrics_dir}/edge_removal_random_{locality_key}.csv', index=True, index_label='edges_removed')
