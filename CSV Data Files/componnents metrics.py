@@ -5,7 +5,7 @@ import unicodedata
 
 csv_metrics_dir = 'metrics'
 desired_localities = 3
-alpha_weight = 0.2                #must not be 0, fraction of the average edge weight to remove in each iteration of edge removal
+alpha_weight = 5              #must not be 0, fraction of the average edge weight to remove in each iteration of edge removal
 
 edges = pd.read_csv('nodes_and_edges/Edges_data_genus_level.csv')
 nodes = pd.read_csv('nodes_and_edges/Nodes_data_genus_level.csv')
@@ -54,7 +54,8 @@ for locality, data in localities.items():
     if max_avg_degree < average_degree:
         max_avg_degree = average_degree
 
-average_edge_weight = network_weight / len(edges)
+average_edge_weight = (max_weight * len(edges) - network_weight )/ len(edges)
+print(f"Average edge weight: {average_edge_weight}")
 
 sorted_localities = sorted(localities.items(), key=lambda x: (x[1]['edges'] / max_edges) + (x[1]['weight'] / max_weight) + (x[1]['weight']/x[1]['edges'] / max_avg_weight) + (x[1]['average_degree'] / max_avg_degree) if x[1]['edges'] > 0 else 0, reverse=True)
 
