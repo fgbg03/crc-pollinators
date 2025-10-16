@@ -505,6 +505,10 @@ for locality, data in sorted_localities[:desired_localities]:
             robusteness_locality_metrics[locality]['number_of_strongly_connected_components'][0] = len(list(nx.connected_components(G)))
             robusteness_locality_metrics[locality]['largest_strongly_connected_component_size'][0] = G_largest_strongly_connected.number_of_nodes()
             robusteness_locality_metrics[locality]['largest_strongly_connected_component_average_path_length'][0] = nx.average_shortest_path_length(G_largest_strongly_connected, weight='weight') if G_largest_strongly_connected.number_of_nodes() > 0 and G_largest_strongly_connected.number_of_nodes() > 0 else 0
+            robusteness_locality_metrics[locality]['average_degree'][0] = sum(dict(G.degree()).values()) / G.number_of_nodes() if G.number_of_nodes() != 0 else 0
+            robusteness_locality_metrics[locality]['average_weighted_degree'][0] = sum(dict(G.degree(weight="interactions")).values()) / G.number_of_nodes() if G.number_of_nodes() != 0 else 0
+            robusteness_locality_metrics[locality]['degree_distribution'][0] = dict(Counter(dict(G.degree()).values()))
+            robusteness_locality_metrics[locality]['weighted_degree_distribution'][0] = dict(Counter(dict(G.degree(weight="interactions")).values()))
 
         n_removed = 0
         np.random.seed(seed)
