@@ -35,8 +35,6 @@ network_metrics = {
 df = pd.DataFrame(network_metrics, index=[0])
 df.to_csv(f'{csv_metrics_dir}/whole_network_degree_distributions.csv', index=False)
 
-exit()
-
 # locality stuff
 
 localities = {}
