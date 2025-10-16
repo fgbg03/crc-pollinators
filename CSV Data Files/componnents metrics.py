@@ -16,6 +16,29 @@ alpha_weight = 5                # must not be 0, fraction of the average edge we
 edges = pd.read_csv('nodes_and_edges/Edges_data_genus_level.csv')
 nodes = pd.read_csv('nodes_and_edges/Nodes_data_genus_level.csv')
 
+# whole network metrics
+
+G = nx.Graph()
+for index, row in nodes.iterrows():
+    G.add_node(row['Id'], label=row['Id'], group=row['Locality'], lon=row['Longitude'], lat=row['Latitude'], type=row['Type'])
+for index, row in edges.iterrows():
+    G.add_edge(row['Source'], row['Target'], weight= 1/row['Weight'], interactions=row['Weight'])
+
+network_metrics = {
+    "n_nodes": G.number_of_nodes(),
+    "average_degree": sum(dict(G.degree()).values()) / G.number_of_nodes() if G.number_of_nodes() != 0 else 0,
+    "average_weighted_degree": sum(dict(G.degree(weight="interactions")).values()) / G.number_of_nodes() if G.number_of_nodes() != 0 else 0,
+    "degree_distribution": str(dict(Counter(dict(G.degree()).values()))),
+    "weighted_degree_distribution": str(dict(Counter(dict(G.degree(weight="interactions")).values())))
+}
+
+df = pd.DataFrame(network_metrics, index=[0])
+df.to_csv(f'{csv_metrics_dir}/whole_network_degree_distributions.csv', index=False)
+
+exit()
+
+# locality stuff
+
 localities = {}
 
 max_weight = 0
