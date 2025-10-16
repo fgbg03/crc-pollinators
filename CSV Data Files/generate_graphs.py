@@ -6,16 +6,16 @@ metrics_folder = "metrics"
 images_folder = "images"
 
 def size_of_largest_component_graph(df, removal_target, removal_strategy, locality, shortform):
-    
     removed = df[f'{removal_target}s_removed']
     size = df['largest_strongly_connected_component_size']
+    n_removals = removed[len(removed)-1]
 
-    removed = removed.apply(lambda x: 100*x / removed[len(removed)-1])
+    removed = removed.apply(lambda x: 100*x / n_removals)
     size = size.apply(lambda x: 100*x / size[0])
 
     auc = 0
     for i in size:
-        auc += i
+        auc += i / n_removals / 100 # give these values in 0.0-1.0 range
 
     plt.figure()
     plt.plot(removed, size, marker='o', linestyle='-')
@@ -37,6 +37,27 @@ def size_of_largest_component_graph(df, removal_target, removal_strategy, locali
 
     plt.savefig(f"{images_folder}/size_of_largest_component_{shortform}.png")
 
+def number_of_components_graph(df, removal_target, removal_strategy, locality, shortform):
+    n_nodes = df['largest_strongly_connected_component_size'][0]
+    removed = df[f'{removal_target}s_removed']
+    components = df['number_of_strongly_connected_components']
+    n_removals = removed[len(removed)-1]
+
+    removed = removed.apply(lambda x: 100*x / n_removals)
+    components = components.apply(lambda x: x/n_nodes)
+
+    plt.figure()
+    plt.plot(removed, components, marker='o', linestyle='-')
+
+    # Add labels and title
+    plt.xlabel(f'%{removal_target.capitalize()}s Removed')
+    plt.ylabel('#Connected components/node')
+    plt.title(f'Number of connected components per node in {locality}')
+    plt.suptitle(f'{removal_strategy} {removal_target} removal'.capitalize())
+    plt.grid(True)
+
+    plt.savefig(f"{images_folder}/number_of_connected_components_{shortform}.png")
+
 def generate_graphs(df, removal_target, removal_strategy, locality):
     print(f"Drawing graphs for: {metrics_folder}/{filename}")
 
@@ -47,6 +68,7 @@ def generate_graphs(df, removal_target, removal_strategy, locality):
 
     # generate graphs # TODO uncomment these functions, for now commented so identical graphs aren't regenerated
     size_of_largest_component_graph(df, removal_target, removal_strategy, locality, shortfrom)
+    number_of_components_graph(df, removal_target, removal_strategy, locality, shortfrom)
 
 for filename in listdir(metrics_folder):
     # take information from file name assumes format <target>_removal_<strategy>_<locality>.csv
