@@ -36,6 +36,7 @@ def size_of_largest_component_graph(df, removal_target, removal_strategy, locali
     )
 
     plt.savefig(f"{images_folder}/size_of_largest_component_{shortform}.png")
+    plt.close()
 
 def number_of_components_graph(df, removal_target, removal_strategy, locality, shortform):
     n_nodes = df['largest_strongly_connected_component_size'][0]
@@ -47,16 +48,38 @@ def number_of_components_graph(df, removal_target, removal_strategy, locality, s
     components = components.apply(lambda x: x/n_nodes)
 
     plt.figure()
-    plt.plot(removed, components, marker='o', linestyle='-')
+    plt.plot(removed, components, marker='o', linestyle='-', color="magenta")
 
     # Add labels and title
     plt.xlabel(f'%{removal_target.capitalize()}s Removed')
-    plt.ylabel('#Connected components/node')
-    plt.title(f'Number of connected components per node in {locality}')
+    plt.ylabel('#Connected components/Node in initial GCC')
+    plt.title(f'Number of connected components in {locality}')
     plt.suptitle(f'{removal_strategy} {removal_target} removal'.capitalize())
     plt.grid(True)
 
     plt.savefig(f"{images_folder}/number_of_connected_components_{shortform}.png")
+    plt.close()
+
+def average_path_length_graph(df, removal_target, removal_strategy, locality, shortform):
+    n_nodes = df['largest_strongly_connected_component_size'][0]
+    removed = df[f'{removal_target}s_removed']
+    apl = df['largest_strongly_connected_component_average_path_length']
+    n_removals = removed[len(removed)-1]
+
+    removed = removed.apply(lambda x: 100*x / n_removals)
+
+    plt.figure()
+    plt.plot(removed, apl, marker='o', linestyle='-', color="orange")
+
+    # Add labels and title
+    plt.xlabel(f'%{removal_target.capitalize()}s Removed')
+    plt.ylabel('APL in the largest connected component')
+    plt.title(f'Average Path Length in {locality}')
+    plt.suptitle(f'{removal_strategy} {removal_target} removal'.capitalize())
+    plt.grid(True)
+
+    plt.savefig(f"{images_folder}/average_path_length_{shortform}.png")
+    plt.close()
 
 def generate_graphs(df, removal_target, removal_strategy, locality):
     print(f"Drawing graphs for: {metrics_folder}/{filename}")
@@ -64,11 +87,12 @@ def generate_graphs(df, removal_target, removal_strategy, locality):
     # let's not make every filename too long
     targ = removal_target[0]
     strat = removal_strategy[0].upper()+"Btn" if "betweenness" in removal_strategy else removal_strategy[0].upper()+removal_strategy[1:4]
-    shortfrom = targ+strat+"_"+locality
+    shortform = targ+strat+"_"+locality
 
-    # generate graphs # TODO uncomment these functions, for now commented so identical graphs aren't regenerated
-    size_of_largest_component_graph(df, removal_target, removal_strategy, locality, shortfrom)
-    number_of_components_graph(df, removal_target, removal_strategy, locality, shortfrom)
+    # generate graphs
+    size_of_largest_component_graph(df, removal_target, removal_strategy, locality, shortform)
+    number_of_components_graph(df, removal_target, removal_strategy, locality, shortform)
+    average_path_length_graph(df, removal_target, removal_strategy, locality, shortform)
 
 for filename in listdir(metrics_folder):
     # take information from file name assumes format <target>_removal_<strategy>_<locality>.csv
