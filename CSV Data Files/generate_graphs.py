@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
+from scipy.stats import linregress
 from os import listdir
 
 metrics_folder = "metrics"
@@ -138,10 +140,27 @@ def generate_degree_distribution_graphs(df, locality):
     deg_counts = list(degree_distribution.values())
     deg_counts = [x/n_nodes for x in deg_counts]
 
+    degrees = np.array(degrees)
+    deg_counts = np.array(deg_counts)
+
+    mask = (degrees > 0) & (deg_counts > 0)
+    log_k = np.log(degrees[mask])
+    log_pk = np.log(deg_counts[mask])
+
+    slope, intercept, r_value, p_value, std_err = linregress(log_k, log_pk)
+    alpha = -slope
+
+    x_fit = np.linspace(min(degrees[mask]), max(degrees[mask]), 100)
+    y_fit = np.exp(intercept) * x_fit**slope
+
+
     fig,axes = plt.subplots(1,2,figsize=(12,5))
     axes[0].plot(degrees, deg_counts, marker="o", linestyle="", color="goldenrod")
     axes[1].plot(degrees, deg_counts, marker="o", linestyle="", color="darkgoldenrod")
-    
+    axes[1].plot(x_fit, y_fit, color="red", linestyle="--", label=f"Power law (α={alpha:.2f})")
+    axes[1].legend()
+
+
     # Add labels and title
     axes[0].set_xlabel(f'k')
     axes[0].set_ylabel('P(k)')
@@ -173,9 +192,24 @@ def generate_degree_distribution_graphs(df, locality):
     interaction_counts = list(weighted_degree_distribution.values())
     interaction_counts = [x/n_nodes for x in interaction_counts]
 
+    interactions = np.array(interactions)
+    interaction_counts = np.array(interaction_counts)
+
+    mask = (interactions > 0) & (interaction_counts > 0)
+    log_k = np.log(interactions[mask])
+    log_pk = np.log(interaction_counts[mask])
+
+    slope, intercept, r_value, p_value, std_err = linregress(log_k, log_pk)
+    alpha = -slope
+
+    x_fit = np.linspace(min(interactions[mask]), max(interactions[mask]), 100)
+    y_fit = np.exp(intercept) * x_fit**slope
+
     fig,axes = plt.subplots(1,2,figsize=(12,5))
     axes[0].plot(interactions, interaction_counts, marker="o", linestyle="", color="olive")
     axes[1].plot(interactions, interaction_counts, marker="o", linestyle="", color="olivedrab")
+    axes[1].plot(x_fit, y_fit, color="red", linestyle="--", label=f"Power law (α={alpha:.2f})")
+    axes[1].legend()
     
     # Add labels and title
     axes[0].set_xlabel(f'k')
