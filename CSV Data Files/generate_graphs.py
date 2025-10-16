@@ -13,6 +13,10 @@ def size_of_largest_component_graph(df, removal_target, removal_strategy, locali
     removed = removed.apply(lambda x: 100*x / removed[len(removed)-1])
     size = size.apply(lambda x: 100*x / size[0])
 
+    auc = 0
+    for i in size:
+        auc += i
+
     plt.figure()
     plt.plot(removed, size, marker='o', linestyle='-')
 
@@ -22,6 +26,14 @@ def size_of_largest_component_graph(df, removal_target, removal_strategy, locali
     plt.title(f'Largest component size in {locality}')
     plt.suptitle(f'{removal_strategy} {removal_target} removal'.capitalize())
     plt.grid(True)
+
+    plt.text(
+        85, 90,                                # x, y position (in data coordinates)
+        f"Area Under Curve:\n{auc:,.02f}".replace(","," "),        # text
+        fontsize=10,
+        ha="center",va="center",
+        bbox=dict(facecolor='white', alpha=0.8, edgecolor='black')  # text box style
+    )
 
     plt.savefig(f"{images_folder}/size_of_largest_component_{shortform}.png")
 
@@ -34,7 +46,7 @@ def generate_graphs(df, removal_target, removal_strategy, locality):
     shortfrom = targ+strat+"_"+locality
 
     # generate graphs # TODO uncomment these functions, for now commented so identical graphs aren't regenerated
-    # size_of_largest_component_graph(df, removal_target, removal_strategy, locality, shortfrom)
+    size_of_largest_component_graph(df, removal_target, removal_strategy, locality, shortfrom)
 
 for filename in listdir(metrics_folder):
     # take information from file name assumes format <target>_removal_<strategy>_<locality>.csv
