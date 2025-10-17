@@ -2,18 +2,6 @@
 
 ## Network Analysis on European Pollination Networks
 
-### Required Python libs
-
-The following Python libs are required to execute all the Python scripts we used to process our data. All can be installed with pip.
-
-- matplotlib
-- pandas
-- numpy
-- scipy
-- powerlaw
-- cartopy
-- networkx
-
 ### Processing the Network
 
 To process the data we used the following scripts. None requires argumments. The output files can be used directly in Gephi.
