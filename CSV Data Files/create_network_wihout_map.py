@@ -76,9 +76,9 @@ print("Color map created")
 
 nx.draw(G, pos, with_labels=False, node_size=3, node_color=color_map, edge_color='gray', width=0.2)
 
-print("Adding labels...")
-for label, (x, y) in component_positions.items():
-    plt.text(x, y, label, fontsize=5, ha="center")
+# print("Adding labels...")
+# for label, (x, y) in component_positions.items():
+#     plt.text(x, y, label, fontsize=5, ha="center")
 
 print("Graph drawn successfully.")
 plt.title("Pollination Network at Genus Level", fontsize=20)

@@ -80,12 +80,14 @@ for u, v, data in G.edges(data=True):
             transform=ccrs.PlateCarree(), alpha=min(0.1 + weight * 0.2, 1))
     edge_count += 1
 
-print("Adding labels...")
-for label, (x, y) in component_positions.items():
-    ax.text(x, y, label,
-        fontsize=5, fontweight="bold",
-        ha="center", va="center",
-        transform=ccrs.PlateCarree())
+#Labels not used
+
+# print("Adding labels...")
+# for label, (x, y) in component_positions.items():
+#     ax.text(x, y, label,
+#         fontsize=5, fontweight="bold",
+#         ha="center", va="center",
+#         transform=ccrs.PlateCarree())
     
 plt.title("Pollination Network at Genus Level", fontsize=20)
     
