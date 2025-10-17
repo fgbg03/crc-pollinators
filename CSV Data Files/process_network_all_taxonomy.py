@@ -56,7 +56,7 @@ def do_taxonomy(plant, pollinator, level, df):
     print("Nodes and edges dataframes created in CSV files "+level+".")
 
 
-df = pd.read_csv('Interaction_data.csv', encoding='ISO-8859-1')
+df = pd.read_csv(csv_dir+'Interaction_data.csv', encoding='ISO-8859-1')
 
 df = df[df['Plant_rank'] == 'SPECIES']
 df = df[df['Pollinator_rank'] == 'SPECIES']
