@@ -1,5 +1,9 @@
 # Network Science Project - Group 9
 
+Rodrigo Rento ist199319
+Fábio Gomes ist1103614
+Ömer Gökçe ist1117191
+
 ## Network Analysis on European Pollination Networks
 
 ### CSV Data Files
