@@ -6,7 +6,7 @@ This project explores plant-pollinator interaction networks at the **genus level
 ## How to Run
 1. Make sure you have Python 3.10 or later.
 2. Install dependencies
-3. Place `Edges_data_genus_level.csv` and `Nodes_data_genus_level.csv` in `Motif Analysis/data`
+3. Place `Edges_data_genus_level.csv` and `Nodes_data_genus_level.csv` (product of `CSV Data Files`) in `Motif Analysis/data`
 4. Run scripts in order:
 
 - main.py
