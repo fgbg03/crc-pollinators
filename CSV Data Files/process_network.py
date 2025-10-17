@@ -2,7 +2,7 @@ import pandas as pd
 
 csv_dir = 'nodes_and_edges/'
 
-df = pd.read_csv('Interaction_data.csv', encoding='ISO-8859-1')
+df = pd.read_csv(csv_dir+'Interaction_data.csv', encoding='ISO-8859-1')
 
 df = df[df['Plant_rank'] == 'SPECIES']
 df = df[df['Pollinator_rank'] == 'SPECIES']
