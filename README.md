@@ -20,6 +20,7 @@ The following Python libs are required to execute all the Python scripts we used
 - pandas
 - numpy
 - scipy
+- sklearn
 - powerlaw
 - cartopy
 - networkx
