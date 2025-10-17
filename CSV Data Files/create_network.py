@@ -10,8 +10,8 @@ csv_dir = 'nodes_and_edges/'
 edges = pd.read_csv(f'{csv_dir}/Edges_data_genus_level.csv')
 nodes = pd.read_csv(f'{csv_dir}/Nodes_data_genus_level.csv')
 
-edges = edges[edges['Source'].str.contains(r'\(Piazzola sul Brenta\)', regex=True) | edges['Source'].str.contains(r'\(Camisano Vicentino\)', regex=True)]
-nodes = nodes[nodes['Locality'].isin(['Piazzola sul Brenta', 'Camisano Vicentino'])]
+# edges = edges[edges['Source'].str.contains(r'\(Piazzola sul Brenta\)', regex=True) | edges['Source'].str.contains(r'\(Camisano Vicentino\)', regex=True)]
+# nodes = nodes[nodes['Locality'].isin(['Piazzola sul Brenta', 'Camisano Vicentino'])]
 
 G = nx.Graph()
 
