@@ -11,8 +11,8 @@ This project explores plant-pollinator interaction networks at the **genus level
    ```
 3. Run scripts in order:
 
-1. main.py
-2. analyze_results.py
+- main.py
+-  analyze_results.py
 
 
 
