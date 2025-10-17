@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+import powerlaw
 from scipy.stats import linregress
 from os import listdir
 
@@ -138,26 +139,28 @@ def generate_degree_distribution_graphs(df, locality):
 
     degrees = list(degree_distribution.keys())
     deg_counts = list(degree_distribution.values())
-    deg_counts = [x/n_nodes for x in deg_counts]
+    deg_probabilities = [x/n_nodes for x in deg_counts]
+    degrees_repeated = [k for k, v in degree_distribution.items() for _ in range(int(v))]
 
     degrees = np.array(degrees)
-    deg_counts = np.array(deg_counts)
+    deg_probabilities = np.array(deg_probabilities)
 
-    mask = (degrees > 0) & (deg_counts > 0)
-    log_k = np.log(degrees[mask])
-    log_pk = np.log(deg_counts[mask])
+    fit = powerlaw.Fit(degrees_repeated, discrete=True)
 
-    slope, intercept, r_value, p_value, std_err = linregress(log_k, log_pk)
-    alpha = -slope
+    x_fit = np.linspace(fit.xmin, max(degrees), 100)
+    y_fit = x_fit ** (-fit.alpha)
+    y_fit = y_fit / y_fit[0] * deg_probabilities[degrees >= fit.xmin][0]  # scale roughly to match
 
-    x_fit = np.linspace(min(degrees[mask]), max(degrees[mask]), 100)
-    y_fit = np.exp(intercept) * x_fit**slope
+    y_min = deg_probabilities.min()
+    mask = y_fit >= y_min
+    x_fit = x_fit[mask]
+    y_fit = y_fit[mask]
 
 
     fig,axes = plt.subplots(1,2,figsize=(12,5))
-    axes[0].plot(degrees, deg_counts, marker="o", linestyle="", color="goldenrod")
-    axes[1].plot(degrees, deg_counts, marker="o", linestyle="", color="darkgoldenrod")
-    axes[1].plot(x_fit, y_fit, color="red", linestyle="--", label=f"Power law (α={alpha:.2f})")
+    axes[0].plot(degrees, deg_probabilities, marker="o", linestyle="", color="goldenrod")
+    axes[1].plot(degrees, deg_probabilities, marker="o", linestyle="", color="darkgoldenrod")
+    axes[1].plot(x_fit, y_fit, linestyle='--', color='b', label=f'Power law fit\nα={fit.power_law.alpha:,.02f}'.replace(","," "))
     axes[1].legend()
 
 
@@ -190,25 +193,29 @@ def generate_degree_distribution_graphs(df, locality):
 
     interactions = list(weighted_degree_distribution.keys())
     interaction_counts = list(weighted_degree_distribution.values())
-    interaction_counts = [x/n_nodes for x in interaction_counts]
+    interaction_probabilities = [x/n_nodes for x in interaction_counts]
+    interactions_repeated = [k for k, v in weighted_degree_distribution.items() for _ in range(int(v))]
 
     interactions = np.array(interactions)
-    interaction_counts = np.array(interaction_counts)
+    interaction_probabilities = np.array(interaction_probabilities)
 
-    mask = (interactions > 0) & (interaction_counts > 0)
-    log_k = np.log(interactions[mask])
-    log_pk = np.log(interaction_counts[mask])
+    fit = powerlaw.Fit(interactions_repeated, discrete=True)
 
-    slope, intercept, r_value, p_value, std_err = linregress(log_k, log_pk)
-    alpha = -slope
+    x_fit = np.linspace(fit.xmin, max(interactions), 100)
+    y_fit = x_fit ** (-fit.alpha)
+    y_fit = y_fit / y_fit[0] * interaction_probabilities[interactions >= fit.xmin][0]  # scale roughly to match
 
-    x_fit = np.linspace(min(interactions[mask]), max(interactions[mask]), 100)
-    y_fit = np.exp(intercept) * x_fit**slope
+    y_min = interaction_probabilities.min()
+    mask = y_fit >= y_min
+    x_fit = x_fit[mask]
+    y_fit = y_fit[mask]
+
+
 
     fig,axes = plt.subplots(1,2,figsize=(12,5))
-    axes[0].plot(interactions, interaction_counts, marker="o", linestyle="", color="olive")
-    axes[1].plot(interactions, interaction_counts, marker="o", linestyle="", color="olivedrab")
-    axes[1].plot(x_fit, y_fit, color="red", linestyle="--", label=f"Power law (α={alpha:.2f})")
+    axes[0].plot(interactions, interaction_probabilities, marker="o", linestyle="", color="olive")
+    axes[1].plot(interactions, interaction_probabilities, marker="o", linestyle="", color="olivedrab")
+    axes[1].plot(x_fit, y_fit, linestyle='--', color='b', label=f'Power law fit\nα={fit.power_law.alpha:,.02f}'.replace(","," "))
     axes[1].legend()
     
     # Add labels and title
